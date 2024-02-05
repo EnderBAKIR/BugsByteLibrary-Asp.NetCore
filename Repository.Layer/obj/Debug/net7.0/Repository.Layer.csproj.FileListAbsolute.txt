@@ -1,0 +1,17 @@
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\bin\Debug\net7.0\Repository.Layer.deps.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\bin\Debug\net7.0\Repository.Layer.runtimeconfig.json
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\bin\Debug\net7.0\Repository.Layer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\bin\Debug\net7.0\Repository.Layer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\bin\Debug\net7.0\Core.Layer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\bin\Debug\net7.0\Core.Layer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.csproj.AssemblyReference.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.AssemblyInfoInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.AssemblyInfo.cs
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.csproj.CoreCompileInputs.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.csproj.CopyComplete
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\refint\Repository.Layer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.pdb
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\Repository.Layer.genruntimeconfig.cache
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Repository.Layer\obj\Debug\net7.0\ref\Repository.Layer.dll
