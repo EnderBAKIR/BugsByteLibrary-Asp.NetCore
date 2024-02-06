@@ -9,3 +9,4 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Core.Layer\obj\Deb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Core.Layer\obj\Debug\net7.0\refint\Core.Layer.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Core.Layer\obj\Debug\net7.0\Core.Layer.pdb
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Core.Layer\obj\Debug\net7.0\ref\Core.Layer.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\Core.Layer\obj\Debug\net7.0\Core.Layer.csproj.AssemblyReference.cache

@@ -1,0 +1,56 @@
+﻿@model UserRegisterViewModel
+
+
+
+<div class="tab-pane" id="Registration">
+    <form method="post" asp-controller="Account" asp-action="Register" role="form" class="form-horizontal">
+        <div class="form-group">
+
+
+            <div class="col-sm-12">
+                <input asp-for="UserName" class="form-control" placeholder="Kullanıcı Adınız" type="text">
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <div class="col-sm-12">
+                <input asp-for="Name" class="form-control" placeholder="Adınız" type="text">
+                <span asp-validation-for="Name" class="text-danger" ></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <input asp-for="SurName" class="form-control"  placeholder="Soyadınız" type="text">
+                <span asp-validation-for="SurName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <input asp-for="Email" class="form-control"  placeholder="Mailiniz" type="email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <input asp-for="Password" class="form-control" id="password" placeholder="Şifre" type="password">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-12">
+                <input asp-for="ConfirmPassword" class="form-control" id="password" placeholder="Şifre Tekrar" type="password">
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-light btn-radius btn-brd grd1">Kaydol  </button>
+                   
+               
+                
+            </div>
+        </div>
+
+    </form>
+    
+</div>
+

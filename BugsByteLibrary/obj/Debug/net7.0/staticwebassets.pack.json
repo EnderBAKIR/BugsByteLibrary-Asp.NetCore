@@ -245,6 +245,606 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU.zip",
+      "PackagePath": "staticwebassets\\smartEDU.zip"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\about.html",
+      "PackagePath": "staticwebassets\\smartEDU\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\blog-single.html",
+      "PackagePath": "staticwebassets\\smartEDU\\blog-single.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\blog.html",
+      "PackagePath": "staticwebassets\\smartEDU\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\contact.html",
+      "PackagePath": "staticwebassets\\smartEDU\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\contact.php",
+      "PackagePath": "staticwebassets\\smartEDU\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\course-grid-2.html",
+      "PackagePath": "staticwebassets\\smartEDU\\course-grid-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\course-grid-3.html",
+      "PackagePath": "staticwebassets\\smartEDU\\course-grid-3.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\course-grid-4.html",
+      "PackagePath": "staticwebassets\\smartEDU\\course-grid-4.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\animate.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\bootstrap-touch-slider.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\bootstrap-touch-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\colors.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\colors.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\custom.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\pr_loading.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\pr_loading.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\timeline.min.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\timeline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\css\\versions.css",
+      "PackagePath": "staticwebassets\\smartEDU\\css\\versions.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\smartEDU\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\about_02.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\about_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\about_03.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\about_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\arrow-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\author.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\avatar-02.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\avatar-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\avatar-03.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\avatar-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\bg.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_2.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_3.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_4.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_5.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_6.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\blog_single.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\blog_single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\img-01.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\img-02.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\img-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\img-03.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\img-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\img-04.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\img-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo_01.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo_01.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo_02.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo_02.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo_03.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo_03.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo_04.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo_04.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo_05.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo_05.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\logo_06.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\logo_06.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\parallax_02.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\parallax_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\parallax_02.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\parallax_02.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\parallax_03.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\parallax_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\parallax_04.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\parallax_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\parallax_05.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\parallax_05.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\parallax_17.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\parallax_17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\phonebg.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\phonebg.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_rounded\\contentPattern.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_rounded\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_square\\contentPattern.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_square\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_square\\loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\dark_square\\sprite.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\dark_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\default_thumb.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\default_thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\sprite.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\sprite_next.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\sprite_next.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\sprite_prev.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\sprite_prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\sprite_x.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\sprite_x.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\default\\sprite_y.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\default\\sprite_y.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\btnNext.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternBottom.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternBottom.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternLeft.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternLeft.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternRight.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternRight.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternTop.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\contentPatternTop.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\facebook\\sprite.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\facebook\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_square\\loader.gif",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\prettyPhoto\\light_square\\sprite.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\prettyPhoto\\light_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\slider-01.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\slider-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\slider-02.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\slider-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\slider-03.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\slider-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\team-01.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\team-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\team-02.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\team-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\team-03.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\team-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\team-04.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\team-04.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\testi_01.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\testi_01.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\testi_02.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\testi_02.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\testi_03.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\testi_03.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\version_soon.jpg",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\version_soon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\images\\world-map.png",
+      "PackagePath": "staticwebassets\\smartEDU\\images\\world-map.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\index.html",
+      "PackagePath": "staticwebassets\\smartEDU\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\01-custom-places-example.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\01-custom-places-example.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\all.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\animate.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\animate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\bootstrap-touch-slider.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\bootstrap-touch-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\custom.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\hoverdir.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\hoverdir.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\jquery.vide.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\jquery.vide.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\map.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\mapsed.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\mapsed.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\modernizer.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\portfolio.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\portfolio.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\retina.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\retina.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\scroll.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\scroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\js\\timeline.min.js",
+      "PackagePath": "staticwebassets\\smartEDU\\js\\timeline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\pricing.html",
+      "PackagePath": "staticwebassets\\smartEDU\\pricing.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\style.css",
+      "PackagePath": "staticwebassets\\smartEDU\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\smartEDU\\teachers.html",
+      "PackagePath": "staticwebassets\\smartEDU\\teachers.html"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BugsByteLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
