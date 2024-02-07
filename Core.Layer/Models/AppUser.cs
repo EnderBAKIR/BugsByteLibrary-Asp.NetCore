@@ -14,8 +14,13 @@ namespace Core.Layer.Models
         public string Name { get; set; }
         public string SurName { get; set; }
         public string? ImageUrl { get; set; }
-        [NotMapped]
-        public IFormFile? MyProperty { get; set; }
+        public IFormFile? Image { get; set; }
+
+        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Blog> Blogs { get; set; }
+        public ICollection<EBook> EBooks { get; set; }
+
+
 
 
     }

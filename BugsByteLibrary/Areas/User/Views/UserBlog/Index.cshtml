@@ -1,0 +1,48 @@
+﻿@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<h1>
+
+    <h2>@ViewBag.UserId</h2>
+
+    <table border="1">
+        <tr>
+            <th>Başlık</th>
+            <th>Yazar</th>
+            <th>Status</th>
+            <th>Güncelle</th>
+            <th>Sil</th>
+        </tr>
+      
+        @foreach (var blog in Model)
+        {
+            if (blog.Status == true)
+            {
+                <tr>
+                    <td>@blog.Name</td>
+                    <td>@blog.AppUser.Name</td>
+                    <td>@blog.Status</td>
+                    <td><a href="/User/UserBlog/UpdateBlog/@blog.Id">Güncelle</a></td>
+                    <td><a href="/User/UserBlog/DeleteBlog/@blog.Id">Sil</a></td>
+                </tr>
+            }
+            else
+            {
+             <p>blog yok</p>
+            }
+        }
+    </table>
+
+</h1>
+<h2>
+    <a href="/User/UserBlog/AddBlog">Blog ekle</a>
+</h2>
+
+
+

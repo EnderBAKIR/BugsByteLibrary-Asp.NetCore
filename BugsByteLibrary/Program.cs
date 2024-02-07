@@ -1,11 +1,25 @@
+using Core.Layer.IRepositories;
+using Core.Layer.IService;
+using Core.Layer.IUnitOfWorks;
 using Core.Layer.Models;
 using Microsoft.EntityFrameworkCore;
 using Repository.Layer;
+using Repository.Layer.Repositories;
+using Repository.Layer.UnitOfWorks;
+using Service.Layer.Services;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+builder.Services.AddScoped<IBlogRepository , BlogRepository>();
+builder.Services.AddScoped<IBlogService , BlogService>();
+builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
+
+
+
 
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
@@ -36,8 +50,19 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
+
+
+
+app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+          );
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+
 
 app.Run();

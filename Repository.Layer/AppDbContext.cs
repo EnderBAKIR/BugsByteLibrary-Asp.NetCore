@@ -18,6 +18,11 @@ namespace Repository.Layer
 
         public DbSet<AppUser>AppUsers { get; set; }//veri tabanıyla entityi eşledik
 
+        public DbSet<Blog>Blogs { get; set; }
+
+        public DbSet<Comment>Comments { get; set; }
+        
+        public DbSet<EBook>EBooks { get; set; }
 
 
         //Configuration ile eklenen Assemblileri Efcore a bildirdik
@@ -26,7 +31,7 @@ namespace Repository.Layer
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
 
-   
+        
         }
 
 
