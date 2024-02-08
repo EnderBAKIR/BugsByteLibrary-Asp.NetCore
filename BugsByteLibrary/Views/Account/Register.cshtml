@@ -1,56 +1,60 @@
 ﻿@model UserRegisterViewModel
 
-
-
 <div class="tab-pane" id="Registration">
     <form method="post" asp-controller="Account" asp-action="Register" role="form" class="form-horizontal">
         <div class="form-group">
-
-
-            <div class="col-sm-12">
-                <input asp-for="UserName" class="form-control" placeholder="Kullanıcı Adınız" type="text">
+            <label asp-for="UserName" class="col-sm-2 control-label">Kullanıcı Adınız</label>
+            <div class="col-sm-10">
+                <input asp-for="UserName" class="form-control" placeholder="Kullanıcı Adınız" type="text" required>
                 <span asp-validation-for="UserName" class="text-danger"></span>
             </div>
+        </div>
 
-            <div class="col-sm-12">
-                <input asp-for="Name" class="form-control" placeholder="Adınız" type="text">
-                <span asp-validation-for="Name" class="text-danger" ></span>
+        <div class="form-group">
+            <label asp-for="Name" class="col-sm-2 control-label">Adınız</label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" placeholder="Adınız" type="text" required>
+                <span asp-validation-for="Name" class="text-danger"></span>
             </div>
         </div>
+
         <div class="form-group">
-            <div class="col-sm-12">
-                <input asp-for="SurName" class="form-control"  placeholder="Soyadınız" type="text">
+            <label asp-for="SurName" class="col-sm-2 control-label">Soyadınız</label>
+            <div class="col-sm-10">
+                <input asp-for="SurName" class="form-control" placeholder="Soyadınız" type="text" required>
                 <span asp-validation-for="SurName" class="text-danger"></span>
             </div>
         </div>
+
         <div class="form-group">
-            <div class="col-sm-12">
-                <input asp-for="Email" class="form-control"  placeholder="Mailiniz" type="email">
+            <label asp-for="Email" class="col-sm-2 control-label">Mailiniz</label>
+            <div class="col-sm-10">
+                <input asp-for="Email" class="form-control" placeholder="Mailiniz" type="email" required>
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
         </div>
+
         <div class="form-group">
-            <div class="col-sm-12">
-                <input asp-for="Password" class="form-control" id="password" placeholder="Şifre" type="password">
+            <label asp-for="Password" class="col-sm-2 control-label">Şifre</label>
+            <div class="col-sm-10">
+                <input asp-for="Password" class="form-control" id="password" placeholder="Şifre" type="password" required>
                 <span asp-validation-for="Password" class="text-danger"></span>
+                <small class="form-text text-muted">En az bir büyük harf, bir küçük harf, bir rakam ve bir özel karakter içermelidir.</small>
             </div>
         </div>
+
         <div class="form-group">
-            <div class="col-sm-12">
-                <input asp-for="ConfirmPassword" class="form-control" id="password" placeholder="Şifre Tekrar" type="password">
+            <label asp-for="ConfirmPassword" class="col-sm-2 control-label">Şifre Tekrar</label>
+            <div class="col-sm-10">
+                <input asp-for="ConfirmPassword" class="form-control" id="confirmPassword" placeholder="Şifre Tekrar" type="password" required>
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-10">
-                <button type="submit" class="btn btn-light btn-radius btn-brd grd1">Kaydol  </button>
-                   
-               
-                
+                <button type="submit" class="btn btn-light btn-radius btn-brd grd1">Kaydol</button>
             </div>
         </div>
-
     </form>
-    
 </div>
-
