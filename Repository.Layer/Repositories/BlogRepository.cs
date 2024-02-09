@@ -2,6 +2,7 @@
 using Core.Layer.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace Repository.Layer.Repositories
 
 
 
-        public async Task<List<Blog>> GetAllBlogAsync()
+        public async Task<IEnumerable<Blog>> GetAllBlogAsync()
         {
             return await _blogSet.Include(x => x.AppUser).ToListAsync();
         }
@@ -42,12 +43,15 @@ namespace Repository.Layer.Repositories
 
         public async Task<Blog> GetBlogByIdAsync(int id)
         {
-            return await _blogSet.FindAsync(id);
+            return await _blogSet.Include(x => x.AppUser).Include(x => x.Comments).FirstOrDefaultAsync(x=>x.Id==id);
+            
         }
 
         public void DeleteBlog(Blog blog)
         {
             _blogSet.Remove(blog);
         }
+
+        
     }
 }

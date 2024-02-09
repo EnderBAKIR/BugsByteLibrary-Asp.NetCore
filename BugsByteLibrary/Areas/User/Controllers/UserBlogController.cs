@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BugsByteLibrary.Areas.User.Controllers
 {
-
+    [Authorize]
     [Area("User")]
     public class UserBlogController : Controller
     {
@@ -23,11 +23,18 @@ namespace BugsByteLibrary.Areas.User.Controllers
         public async Task<IActionResult> Index()
         {
             var value = await _blogservice.GetAllBlogAsync();
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
+            if (User.Identity.IsAuthenticated)
+            {
+                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            
+                 ViewBag.UserId = user.Id;
+                 return View(value);
+            }
 
-            ViewBag.UserId = user.Id;
-            return View(value);
+            return View();
+
+            
         }
 
 

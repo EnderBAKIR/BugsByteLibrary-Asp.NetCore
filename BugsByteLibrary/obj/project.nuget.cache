@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VGm7Fbi7sj+QQ9rJBi0nKN9SuVCeNM/HjBfhHCQ4jRRgPOWEFEGpClpihzHOhkE+iESpF2DjDvxdz3J5dRPvyg==",
+  "dgSpecHash": "wzEqfaEex8L3q3wtkE3o+2JDXYHL9s14+E6HpMA+pXm+epxZGoKiqCWCer4qQKgKUdwwoTY601K7Ox/q36Bqww==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\BugsByteLibrary.csproj",
   "expectedPackageFiles": [
@@ -86,6 +86,7 @@
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.15\\microsoft.entityframeworkcore.design.7.0.15.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.15\\microsoft.entityframeworkcore.relational.7.0.15.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.15\\microsoft.entityframeworkcore.sqlserver.7.0.15.nupkg.sha512",
+    "C:\\Users\\Ender\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.15\\microsoft.entityframeworkcore.tools.7.0.15.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

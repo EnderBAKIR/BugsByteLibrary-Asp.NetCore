@@ -42,7 +42,7 @@ namespace Service.Layer.Services
             await _unitOfWork.CommitAsync();
         }
 
-        public async Task<List<Blog>> GetAllBlogAsync()
+        public async Task<IEnumerable<Blog>> GetAllBlogAsync()
         {
            return await _blogRepository.GetAllBlogAsync();
         }

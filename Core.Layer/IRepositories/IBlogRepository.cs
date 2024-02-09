@@ -9,7 +9,7 @@ namespace Core.Layer.IRepositories
 {
     public interface IBlogRepository
     {
-        Task<List<Blog>> GetAllBlogAsync();
+        Task<IEnumerable<Blog>> GetAllBlogAsync();
 
         Task<Blog> AddBlogAsnyc(Blog blog);
 

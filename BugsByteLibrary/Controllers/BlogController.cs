@@ -17,5 +17,15 @@ namespace BugsByteLibrary.Controllers
             var value = await _blogService.GetAllBlogAsync();
             return View(value);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetBlogDetails(int id)
+        {
+
+            var value = await _blogService.GetBlogByIdAsync(id);
+
+
+            return View(value);
+        }
     }
 }

@@ -9,6 +9,7 @@
       "BugsByteLibrary/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.15",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11",
           "Service.Layer": "1.0.0"
         },
@@ -1244,6 +1245,11 @@
             "assemblyVersion": "7.0.15.0",
             "fileVersion": "7.0.1523.57109"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.15": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.15"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -3166,6 +3172,13 @@
       "sha512": "sha512-FFJDo55Xgf3K3iDQbxVeYANi/43ghahMuudDzYmkDOHmQXNZDCj7ov97+FLlVIftbSUAJzBS250+hQqII389YA==",
       "path": "microsoft.entityframeworkcore.sqlserver/7.0.15",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.15.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7/gt7XfvQ1Sb7+kk6HkU8s6MlCkXRoEHKcJ0fXjGhLgDPq6e1G9/WJZvCxuLJzOFjxn4MIJMiEbdN8KVrIQ9CA==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.15",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.15.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",

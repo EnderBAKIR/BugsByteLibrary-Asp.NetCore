@@ -9,7 +9,7 @@ namespace Core.Layer.IService
 {
     public interface IBlogService
     {
-        Task<List<Blog>> GetAllBlogAsync();
+        Task<IEnumerable<Blog>> GetAllBlogAsync();
 
         Task<Blog> AddBlogAsnyc(Blog blog);
 
