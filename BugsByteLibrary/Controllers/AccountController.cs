@@ -21,7 +21,11 @@ namespace BugsByteLibrary.Controllers
             _signInManager = signInManager;
         }
 
-
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> Register(UserRegisterViewModel v)
         {
@@ -72,47 +76,35 @@ namespace BugsByteLibrary.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Login(UserLoginViewModel l)
+        public async Task<IActionResult> Login(UserLoginViewModel model)
         {
-            if (ModelState.IsValid)
+            // ViewModel'in ModelState'i geçerli değilse, hata mesajlarıyla birlikte geri dön
+            if (!ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(l.UserName, l.Password, false, false);
-
-                if (result.Succeeded)
-                {
-                    
-                    return RedirectToAction("Index", "Default");
-                }
-                
-                if (result.IsNotAllowed) 
-                {
-                    
-                ModelState.AddModelError("", "Kullanıcı Adı Veya Şifreniz Yanlış");
-                    return View(l);
-                
-                }
-                    
-                    
-
-                    
-                    
-                
+                return View(model);
             }
 
-            // ModelState.IsValid false ise, yani model doğrulama hatası varsa, aynı view sayfasını tekrar göster.
-            ModelState.AddModelError("", "Kullanıcı Adı Veya Şifreniz Yanlış");
-            return View(l);
+            // Kullanıcı adı ve şifreyi kullanarak giriş işlemini gerçekleştir
+            var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, isPersistent: true, lockoutOnFailure: false);
+
+            // Giriş başarılı ise ana sayfaya yönlendir
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index", "Default");
+            }
+
+            
+            if(result.IsNotAllowed)
+            {
+                ModelState.AddModelError(string.Empty, "Hesabınız henüz onaylanmamış veya geçersiz. Lütfen bilgi almak için yönetici ile iletişime geçin.");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Kullanıcı adı veya şifre hatalı. Lütfen tekrar deneyin.");
+            }
+
+            return View(model);
         }
-
-
-
-
-
-
-
-
-
-
 
 
 

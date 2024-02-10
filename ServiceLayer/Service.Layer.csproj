@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Repository.Layer\Repository.Layer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FluentValidations\" />
   </ItemGroup>
 
 </Project>

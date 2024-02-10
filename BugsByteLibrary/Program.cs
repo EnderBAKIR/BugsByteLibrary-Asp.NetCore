@@ -13,14 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-
+builder.Services.AddScoped<ICommentRepository , CommentRepository>();
+builder.Services.AddScoped<ICommentService, CommentService>();
 builder.Services.AddScoped<IBlogRepository , BlogRepository>();
 builder.Services.AddScoped<IBlogService , BlogService>();
 builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
 
 
 
-
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddDbContext<AppDbContext>(x =>

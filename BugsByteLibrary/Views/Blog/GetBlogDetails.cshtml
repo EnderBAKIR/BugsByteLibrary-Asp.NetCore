@@ -4,6 +4,141 @@
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
-<h1>GetBlogDetails</h1>
-<h2>@Model.Name</h2>
-<h3>@Model.Description</h3>
+
+<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+    <div id="breadcrumb" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <p>@Model.AppUser.Name Yazısı</p>
+        <!-- ################################################################################################ -->
+    </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+    <main class="hoc container clear">
+
+        <div class="content three_quarter first">
+
+            <h1>@Model.Name ||oluşturulma tarihi : @Model.CreatedDate</h1>
+            <p>@Model.Description</p>
+            <h1>Table(s)</h1>
+            <div class="scrollable">
+                @*  //buraya varsa resim bilgisi gelicek *@
+            </div>
+            <div id="comments">
+                <h2>Comments</h2>
+                <ul>
+                    @* Yorumlar buraya *@
+                    @foreach (var item in Model.Comments)
+                    {
+                        <li>
+                            <article>
+                                <header>
+                                    <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
+                                    <address>
+                                        By <a href="#">@item.Appuser.UserName</a>
+                                    </address>
+                                    <time datetime="">@item.CreateDate </time>
+                                </header>
+                                <div class="comcont">
+                                    <p>@item.CommentContent</p>
+                                </div>
+                            </article>
+                        </li>
+                    }
+                   
+
+                </ul>
+                @if (User.Identity.IsAuthenticated)
+                {
+                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager  
+
+                  @* Giriş yapan kullanıcıyı bulmak için razor sayfamıza UserManagerı inejct ettik *@
+
+                    <h2>Bir Yorum Bırakın(Yorum yaparken etik kurallara uyunuz)</h2>
+                    <form method="post" asp-controller="Blog" asp-action="AddComment">
+                        <input type="text" name="BlogId" value="@Model.Id" />
+                        <input type="text" name="AppUserId" value="@UserManager.GetUserId(User)" />
+                        <div class="block clear">
+                            <label for="comment">Yorumunuz</label>
+                            <textarea name="CommentContent" id="comment" cols="25" rows="10"></textarea>
+                        </div>
+                        <button class="btn btn-outline-primary">Yorumu Kaydet</button>
+                        <div>
+                            
+                            <input type="reset" name="reset" value="Yazıyı Sil">
+                        </div>
+                    </form>
+                }
+                else
+                {
+                    <h2>Yorum Yapabilmek İçin Lütfen <a href="/Account/Login">Giriş</a>Yapınız</h2>
+                }
+            </div>
+            <!-- ################################################################################################ -->
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="sidebar one_quarter">
+            <!-- ################################################################################################ -->
+            <h6>Lorem ipsum dolor</h6>
+            <nav class="sdb_holder">
+                <ul>
+                    <li><a href="#">Navigation - Level 1</a></li>
+                    <li>
+                        <a href="#">Navigation - Level 1</a>
+                        <ul>
+                            <li><a href="#">Navigation - Level 2</a></li>
+                            <li><a href="#">Navigation - Level 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Navigation - Level 1</a>
+                        <ul>
+                            <li><a href="#">Navigation - Level 2</a></li>
+                            <li>
+                                <a href="#">Navigation - Level 2</a>
+                                <ul>
+                                    <li><a href="#">Navigation - Level 3</a></li>
+                                    <li><a href="#">Navigation - Level 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Navigation - Level 1</a></li>
+                </ul>
+            </nav>
+            <div class="sdb_holder">
+                <h6>Lorem ipsum dolor</h6>
+                <address>
+                    Full Name<br>
+                    Address Line 1<br>
+                    Address Line 2<br>
+                    Town/City<br>
+                    Postcode/Zip<br>
+                    <br>
+                    Tel: xxxx xxxx xxxxxx<br>
+                    Email: <a href="#">contact@domain.com</a>
+                </address>
+            </div>
+            <div class="sdb_holder">
+                <article>
+                    <h6>Lorem ipsum dolor</h6>
+                    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit</a></li>
+                        <li>Etiam vel sapien et</li>
+                        <li><a href="#">Etiam vel sapien et</a></li>
+                    </ul>
+                    <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
+                    <p class="more"><a href="#">Continue Reading &raquo;</a></p>
+                </article>
+            </div>
+            <!-- ################################################################################################ -->
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- / main body -->
+        <div class="clear"></div>
+    </main>
+</div>

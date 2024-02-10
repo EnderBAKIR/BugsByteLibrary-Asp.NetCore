@@ -4,9 +4,9 @@ namespace BugsByteLibrary.Models
 {
     public class UserLoginViewModel
     {
-        [Required(ErrorMessage ="İsim veya kullanıcı adınız yanlış")]
+        [Required(ErrorMessage ="kullanıcı adı boş geçilemez")]
         public string UserName { get; set; }
-        [Required(ErrorMessage = "İsim veya kullanıcı adınız yanlış")]
+        [Required(ErrorMessage = "Şifre Boş Geçilemez")]
         public string Password { get; set; }
     }
 }

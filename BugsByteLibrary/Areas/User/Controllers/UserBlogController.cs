@@ -99,11 +99,6 @@ namespace BugsByteLibrary.Areas.User.Controllers
         }
 
 
-
-
-
-
-
         public async Task<IActionResult> DeleteBlog(int id)
         {
 

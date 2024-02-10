@@ -263,3 +263,7 @@ C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bi
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\obj\Debug\net7.0\BugsByteLibrary.MvcApplicationPartsAssemblyInfo.cs

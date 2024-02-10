@@ -5,8 +5,36 @@
       "PackagePath": "staticwebassets\\BugsByteLibrary.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\README.markdown",
+      "PackagePath": "staticwebassets\\LoginPage\\README.markdown"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\index.html",
+      "PackagePath": "staticwebassets\\LoginPage\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\style.css",
+      "PackagePath": "staticwebassets\\LoginPage\\dist\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\license.txt",
+      "PackagePath": "staticwebassets\\LoginPage\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\index.html",
+      "PackagePath": "staticwebassets\\LoginPage\\src\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\style.css",
+      "PackagePath": "staticwebassets\\LoginPage\\src\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\errors.png",
+      "PackagePath": "staticwebassets\\errors.png"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\favicon.ico",
