@@ -16,6 +16,8 @@ namespace Core.Layer.Models
         public string? ImageUrl { get; set; }
         public IFormFile? Image { get; set; }
 
+        public int ConfirmCode { get; set; }
+
         public ICollection<Comment> Comments { get; set; }
         public ICollection<Blog> Blogs { get; set; }
         public ICollection<EBook> EBooks { get; set; }

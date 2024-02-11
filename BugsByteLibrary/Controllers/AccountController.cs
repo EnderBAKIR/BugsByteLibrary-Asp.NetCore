@@ -1,9 +1,11 @@
 ﻿using BugsByteLibrary.Models;
 using Core.Layer.Models;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
+using MimeKit;
 
 namespace BugsByteLibrary.Controllers
 {
@@ -31,20 +33,45 @@ namespace BugsByteLibrary.Controllers
         {
             if (ModelState.IsValid)
             {
-                AppUser appUser = new AppUser()
+                Random random = new Random();
+                int mailConfirmCode = random.Next(100000, 1000000);
+                var appUser = new AppUser()
                 {
                     Name = v.Name,
                     SurName = v.SurName,
                     Email = v.Email,
-                    UserName = v.UserName
+                    UserName = v.UserName,
+                    ConfirmCode = mailConfirmCode
                 };
 
                 if (v.Password == v.ConfirmPassword)
                 {
                     var result = await _userManager.CreateAsync(appUser, v.Password);
+
                     if (result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Default");
+                        MimeMessage mimeMessage = new MimeMessage();
+
+                        MailboxAddress mailboxAddressFrom = new MailboxAddress("BugsByteLibrary'den", "ender.bkrr@gmail.com");
+                        MailboxAddress mailboxAddressTo = new MailboxAddress("User", appUser.Email);
+                        mimeMessage.From.Add(mailboxAddressFrom);
+                        mimeMessage.To.Add(mailboxAddressTo);
+
+                        var bodyBuilder = new BodyBuilder();
+                        bodyBuilder.TextBody = "Kayıt işlmini gerçekleştirmek için onay kodunuz:" + mailConfirmCode;
+                        mimeMessage.Body = bodyBuilder.ToMessageBody();
+
+                        mimeMessage.Subject = "BugsBytes demeniz bir kod uzakda , mail doğrulama işlemi için kodunuz";
+        
+                        SmtpClient client = new SmtpClient();
+                        client.Connect("smtp.gmail.com", 587, false);
+                        client.Authenticate("ender.bkrr@gmail.com", "hlah hbdm uekk nuas");
+                        client.Send(mimeMessage);
+                        client.Disconnect(true);
+
+
+
+                return RedirectToAction("Index", "Default");
                     }
                     else
                     {
@@ -61,14 +88,14 @@ namespace BugsByteLibrary.Controllers
                 }
             }
 
-            
             return View(v);
         }
 
 
 
+
         [HttpGet]
-        public  IActionResult Login()
+        public IActionResult Login()
         {
             return View();
         }
@@ -93,8 +120,8 @@ namespace BugsByteLibrary.Controllers
                 return RedirectToAction("Index", "Default");
             }
 
-            
-            if(result.IsNotAllowed)
+
+            if (result.IsNotAllowed)
             {
                 ModelState.AddModelError(string.Empty, "Hesabınız henüz onaylanmamış veya geçersiz. Lütfen bilgi almak için yönetici ile iletişime geçin.");
             }

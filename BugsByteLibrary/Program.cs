@@ -2,6 +2,7 @@ using Core.Layer.IRepositories;
 using Core.Layer.IService;
 using Core.Layer.IUnitOfWorks;
 using Core.Layer.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Repository.Layer;
 using Repository.Layer.Repositories;
@@ -22,7 +23,12 @@ builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
 
 
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+builder.Services.Configure<IdentityOptions>(opt =>
+{
+    opt.SignIn.RequireConfirmedEmail = true;
+});
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {

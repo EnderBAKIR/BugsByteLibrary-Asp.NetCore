@@ -18,7 +18,7 @@ namespace Core.Layer.Models
         public string ImageUrl { get; set; }
         public IFormFile Image { get; set; }
 
-        public int AppUserId { get; set; }
+        public int? AppUserId { get; set; }
 
         public AppUser? AppUser { get; set; }
 

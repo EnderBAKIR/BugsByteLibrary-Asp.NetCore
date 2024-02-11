@@ -21,8 +21,8 @@ namespace Core.Layer.Models
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
 
-        public int AppUserId { get; set; }
-        public AppUser Appuser { get; set; }
+        public int? AppUserId { get; set; }
+        public AppUser? Appuser { get; set; }
 
 
 
