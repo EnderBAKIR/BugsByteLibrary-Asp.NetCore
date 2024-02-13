@@ -17,7 +17,8 @@ namespace Repository.Layer.Configrutaions
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Ignore(x => x.Image);
-            builder.HasMany(x => x.Comments).WithOne(x => x.Blog).HasForeignKey(x => x.BlogId).OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(x => x.Comments).WithOne(x => x.Blog).HasForeignKey(x => x.BlogId).OnDelete(DeleteBehavior.NoAction);//kullanıcıların yorumlardan gelen
+                                                                                                                                 //ödüllerinin gitmemesi için bloglar silinse bile yorumların silinmesi engellendi
 
         }
     }

@@ -23,12 +23,13 @@ builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
 
 
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
-builder.Services.Configure<IdentityOptions>(opt =>
-{
-    opt.SignIn.RequireConfirmedEmail = true;
-});
+//builder.Services.Configure<IdentityOptions>(opt => //eðer identity serverýn kendi email doðrulama sistemini kullanmak istiyorsak bu kod bloðunu kullanmalýyýz
+                                                        //Ama biz kendimiz bir mail doðrulama iþlemi gerçekleþtiricez kendi senaryomuz ve gereksinimlerimize göre yapýcaðýz
+//{
+//    opt.SignIn.RequireConfirmedEmail = true;
+//});
 
 builder.Services.AddDbContext<AppDbContext>(x =>
 {

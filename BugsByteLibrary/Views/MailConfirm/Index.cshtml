@@ -1,15 +1,41 @@
-﻿
+﻿@model MailConfirmViewModel
 @{
     Layout = null;
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-</body>
-</html>
+@if (User.Identity.IsAuthenticated)
+{
+ @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+
+    var user = await UserManager.GetUserAsync(User);
+    if(user.Id==null)
+    {
+        <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Account/Login">Giriş Yap</a>|<a href="/Account/Register">Kaydol</a> </h2>
+    }
+    if (user.EmailConfirmed == true)
+    {
+        <h2>Mail doğrulama işleminiz tamamlandı. <a href="/Default/Index">Ana Sayfaya Dön</a> </h2>
+    }
+    else
+    {
+        <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <div class="container">
+            <br />
+            <br />
+            <h2>@user.Email</h2>
+            <form method="post">
+                <label>Mailinize Gelen Doğrulama Kodunu Giriniz</label>
+                <input type="text" class="form-control" asp-for="ConfirmCode" />
+                <br />
+                <button class="btn btn-primary">Hesap Aktivasyonunu Tamamla</button>
+            </form>
+        </div>
+    }
+}
+else
+{
+    <h2>Kullanıcı girişi yapmadan bu sayfaya erişemezsiniz. <a href="/Account/Login">Giriş Yap</a>|<a href="/Account/Register">Kaydol</a> </h2>
+}
+
+

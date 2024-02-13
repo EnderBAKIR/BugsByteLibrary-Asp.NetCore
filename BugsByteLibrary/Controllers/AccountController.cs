@@ -62,16 +62,16 @@ namespace BugsByteLibrary.Controllers
                         mimeMessage.Body = bodyBuilder.ToMessageBody();
 
                         mimeMessage.Subject = "BugsBytes demeniz bir kod uzakda , mail doğrulama işlemi için kodunuz";
-        
+
                         SmtpClient client = new SmtpClient();
                         client.Connect("smtp.gmail.com", 587, false);
                         client.Authenticate("ender.bkrr@gmail.com", "hlah hbdm uekk nuas");
                         client.Send(mimeMessage);
                         client.Disconnect(true);
 
+                        
 
-
-                return RedirectToAction("Index", "Default");
+                        return RedirectToAction("Login", "Account");
                     }
                     else
                     {
@@ -105,19 +105,31 @@ namespace BugsByteLibrary.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(UserLoginViewModel model)
         {
-            // ViewModel'in ModelState'i geçerli değilse, hata mesajlarıyla birlikte geri dön
-            if (!ModelState.IsValid)
+
+            if (!ModelState.IsValid)//girilen model bilgileri hatalıysa , hata bilgilerini döndürmek için.
             {
                 return View(model);
             }
 
-            // Kullanıcı adı ve şifreyi kullanarak giriş işlemini gerçekleştir
-            var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, isPersistent: true, lockoutOnFailure: false);
 
-            // Giriş başarılı ise ana sayfaya yönlendir
+            var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, isPersistent:false, lockoutOnFailure: false);
+
+
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Default");
+                if (User.Identity.IsAuthenticated)
+                {
+                    var user = await _userManager.FindByNameAsync(User.Identity.Name);
+                    if (user.EmailConfirmed == false)
+                    {
+                        return RedirectToAction("Index", "MailConfirm");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Default");
+                    }
+                }
+
             }
 
 

@@ -1,4 +1,4 @@
-﻿using Core.Layer.IService;
+﻿ using Core.Layer.IService;
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -52,6 +52,19 @@ namespace BugsByteLibrary.Areas.User.Controllers
         public async Task<IActionResult> AddBlog(Blog blog)
         {
 
+
+            if (blog.Image != null)
+
+            {
+                var resource = Directory.GetCurrentDirectory();
+                var extension = Path.GetExtension(blog.Image.FileName);
+                var imagename = Guid.NewGuid() + extension;
+                var savelocation = resource + "/wwwroot/blogsimages/" + imagename;
+                var stream = new FileStream(savelocation, FileMode.Create);
+                await blog.Image.CopyToAsync(stream);
+                blog.ImageUrl = imagename;
+            }
+       
 
 
             blog.CreatedDate = DateTime.Now;

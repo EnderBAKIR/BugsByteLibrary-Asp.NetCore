@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\LoginPage\\src\\style.css"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -435,6 +439,10 @@
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogimage.jpg",
+      "PackagePath": "staticwebassets\\mainblogimage\\mainblogimage.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BugsByteLibrary.Microsoft.AspNetCore.StaticWebAssets.props",

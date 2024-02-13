@@ -3,6 +3,7 @@ using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Org.BouncyCastle.Bcpg;
 
 namespace BugsByteLibrary.Controllers
 {
@@ -39,11 +40,11 @@ namespace BugsByteLibrary.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddComment(Comment comment , int blogId)
+        public async Task<IActionResult> AddComment(int blogId, Comment comment)
         {
 
             await _commentService.AddCommentAsync(comment);
-           return RedirectToAction("GetBlogDetails", "Blog", new { id = blogId  });
+            return RedirectToAction("GetBlogDetails", "Blog", new { id = blogId });
         }
     }
 }
