@@ -13,11 +13,13 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         private readonly IBlogService _blogservice;
         private readonly UserManager<AppUser> _userManager;
+        private readonly ICategoryService _categoryService;
 
-        public UserBlogController(IBlogService blogservice, UserManager<AppUser> userManager)
+        public UserBlogController(IBlogService blogservice, UserManager<AppUser> userManager, ICategoryService categoryService)
         {
             _blogservice = blogservice;
             _userManager = userManager;
+            _categoryService = categoryService;
         }
 
         public async Task<IActionResult> Index()
@@ -41,15 +43,16 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpGet]
         public async Task<IActionResult> AddBlog()
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
 
 
-            ViewBag.UserId = user.Id;
+
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBlog(Blog blog)
+        public async Task<IActionResult> AddBlog(Blog blog , List<int> SelectedCategoryIds)
         {
 
 
@@ -64,11 +67,21 @@ namespace BugsByteLibrary.Areas.User.Controllers
                 await blog.Image.CopyToAsync(stream);
                 blog.ImageUrl = imagename;
             }
-       
 
 
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            blog.AppUserId = user.Id;
             blog.CreatedDate = DateTime.Now;
             blog.Status = true;
+
+
+            blog.BlogCategories = SelectedCategoryIds.Select(categoryId => new BlogCategory
+            {
+                CategoryId = categoryId
+            }).ToList();
+
+
+
             await _blogservice.AddBlogAsnyc(blog);
             return RedirectToAction(nameof(Index));
 

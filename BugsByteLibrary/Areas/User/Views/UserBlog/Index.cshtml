@@ -15,6 +15,7 @@
             <th>Başlık</th>
             <th>Yazar</th>
             <th>Status</th>
+            <th>Categorileri</th>
             <th>Güncelle</th>
             <th>Sil</th>
         </tr>
@@ -27,6 +28,11 @@
                     <td>@blog.Name</td>
                     <td>@blog.AppUser.Name</td>
                     <td>@blog.Status</td>
+                    <td>@foreach (var item in blog.BlogCategories)
+                        {
+                            @item.Category.Name
+                        }
+                    </td>
                     <td><a href="/User/UserBlog/UpdateBlog/@blog.Id">Güncelle</a></td>
                     <td><a href="/User/UserBlog/DeleteBlog/@blog.Id">Sil</a></td>
                 </tr>

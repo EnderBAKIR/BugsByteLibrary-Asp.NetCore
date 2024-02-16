@@ -112,7 +112,7 @@ namespace BugsByteLibrary.Controllers
             }
 
 
-            var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, isPersistent:false, lockoutOnFailure: false);
+            var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, isPersistent:true, lockoutOnFailure: false);
 
 
             if (result.Succeeded)

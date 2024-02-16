@@ -26,7 +26,7 @@ namespace Repository.Layer.Repositories
 
         public async Task<IEnumerable<Blog>> GetAllBlogAsync()
         {
-            return await _blogSet.Include(x => x.AppUser).ToListAsync();
+            return await _blogSet.Include(x => x.AppUser).Include(x=>x.BlogCategories).ThenInclude(x=>x.Category).ToListAsync();
         }
 
         public async Task<Blog> AddBlogAsnyc(Blog blog)

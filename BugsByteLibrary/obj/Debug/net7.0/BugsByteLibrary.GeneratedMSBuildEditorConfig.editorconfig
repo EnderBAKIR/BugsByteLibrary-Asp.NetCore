@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xBZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xFZGl0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserBlog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQmxvZ1xBZGRCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

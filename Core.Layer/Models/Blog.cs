@@ -29,5 +29,7 @@ namespace Core.Layer.Models
         public bool Status { get; set; }
 
         public ICollection<Comment> Comments { get; set; }
+
+        public ICollection<BlogCategory> BlogCategories { get; set; }
     }
 }

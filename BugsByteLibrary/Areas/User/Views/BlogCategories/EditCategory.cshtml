@@ -1,0 +1,14 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "EditCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategoriyi Güncelle</h1>
+<form method="post" asp-controller="BlogCategories">
+    <div class="form-group">
+        <input type="text" asp-for="Name"  class="form-control" />
+    </div>
+    <button class="btn btn-primary">Ekle</button>
+</form>
+

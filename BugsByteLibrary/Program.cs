@@ -19,6 +19,8 @@ builder.Services.AddScoped<ICommentService, CommentService>();
 builder.Services.AddScoped<IBlogRepository , BlogRepository>();
 builder.Services.AddScoped<IBlogService , BlogService>();
 builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
+builder.Services.AddScoped<ICategoryRepository , CategoryRepository>();
+builder.Services.AddScoped<ICategoryService , CategoryService>();
 
 
 

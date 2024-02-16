@@ -24,6 +24,9 @@ namespace Repository.Layer
         
         public DbSet<EBook>EBooks { get; set; }
 
+        public DbSet<Category>Categories { get; set; }
+
+        public DbSet<BlogCategory> BlogsCategories { get; set; }//bu bizim çoka çok ilişkimizi sağlıycak modelimiz.
 
         //Configuration ile eklenen Assemblileri Efcore a bildirdik
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -8,17 +8,27 @@
 
 <form method="post" asp-action="AddBlog" asp-controller="UserBlog" enctype="multipart/form-data">
     <div class="form-group">
-        <input type="text" asp-for="Name" placeholder="Başlık" />
+        <label for="Name">Başlık:</label>
+        <input type="text" asp-for="Name" />
     </div>
     <div class="form-group">
-        <input type="text" asp-for="Description" placeholder="Açıklama" />
+        <label for="Description">Açıklama:</label>
+        <input type="text" asp-for="Description" />
     </div>
     <div class="form-group">
-        <input type="file" asp-for="Image" placeholder="Resim" />@* blog modelinden gelen IFormFile propertysi *@
+        <label for="Image">Resim:</label>
+        <input type="file" asp-for="Image" />
     </div>
     <div class="form-group">
-        <input type="text" asp-for="AppUserId" value="@ViewBag.UserId" placeholder="UserId" />
+        <label>Kategoriler:</label>
+        <br />
+        @foreach (var category in ViewBag.Categories)
+        {
+            <input type="checkbox" name="SelectedCategoryIds" value="@category.Id" />
+            <label>@category.Name</label>
+            <br />
+        }
+        <!-- Categories için bir ViewBag kullanarak kategorilerinizi kontrolere iletebilirsiniz -->
     </div>
     <button class="btn btn-primary">Ekle</button>
 </form>
-    

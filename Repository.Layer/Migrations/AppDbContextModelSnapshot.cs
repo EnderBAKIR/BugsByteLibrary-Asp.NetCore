@@ -173,6 +173,38 @@ namespace Repository.Layer.Migrations
                     b.ToTable("Blogs");
                 });
 
+            modelBuilder.Entity("Core.Layer.Models.BlogCategory", b =>
+                {
+                    b.Property<int?>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BlogId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("BlogsCategories");
+                });
+
+            modelBuilder.Entity("Core.Layer.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("Core.Layer.Models.Comment", b =>
                 {
                     b.Property<int>("Id")
@@ -357,6 +389,25 @@ namespace Repository.Layer.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("Core.Layer.Models.BlogCategory", b =>
+                {
+                    b.HasOne("Core.Layer.Models.Blog", "Blog")
+                        .WithMany("BlogCategories")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Core.Layer.Models.Category", "Category")
+                        .WithMany("BlogCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("Core.Layer.Models.Comment", b =>
                 {
                     b.HasOne("Core.Layer.Models.AppUser", "Appuser")
@@ -447,7 +498,14 @@ namespace Repository.Layer.Migrations
 
             modelBuilder.Entity("Core.Layer.Models.Blog", b =>
                 {
+                    b.Navigation("BlogCategories");
+
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("Core.Layer.Models.Category", b =>
+                {
+                    b.Navigation("BlogCategories");
                 });
 #pragma warning restore 612, 618
         }
