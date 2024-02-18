@@ -18,6 +18,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/AddRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxFZGl0Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/GiveRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxHaXZlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xBZGRDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

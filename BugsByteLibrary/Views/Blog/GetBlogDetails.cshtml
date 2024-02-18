@@ -32,7 +32,15 @@
                                 <header>
                                     <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
                                     <address>
-                                        By <a href="#">@item.Appuser.UserName</a>
+                                        @if (item.Appuser!=null)
+                                        {
+                                           <p>By</p>  <a href="#">@item.Appuser.UserName</a> 
+                                        }
+                                        else
+                                        {
+                                           <p>Kimlik bulunamadı</p>    
+                                        }
+                                       
                                     </address>
                                     <time datetime="">@item.CreateDate </time>
                                 </header>
