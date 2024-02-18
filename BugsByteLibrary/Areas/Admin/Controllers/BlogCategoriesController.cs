@@ -1,11 +1,13 @@
 ﻿using Core.Layer.IService;
 using Core.Layer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography.X509Certificates;
 
-namespace BugsByteLibrary.Areas.User.Controllers
+namespace BugsByteLibrary.Areas.Admin.Controllers
 {
-    [Area("User")]
+    [Authorize(Roles ="Admin")]
+    [Area("Admin")]
     public class BlogCategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -19,7 +21,7 @@ namespace BugsByteLibrary.Areas.User.Controllers
         public async Task<IActionResult> Index()
         {
 
-           var category = await _categoryService.GetAllCategoryAsync();
+            var category = await _categoryService.GetAllCategoryAsync();
 
             return View(category);
         }
@@ -28,18 +30,18 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpGet]
         public IActionResult AddCategory()
         {
-            return View(); 
+            return View();
         }
         [HttpPost]
         public async Task<IActionResult> AddCategory(Category category)
         {
 
-          await _categoryService.AddCategoryAsync(category);
+            await _categoryService.AddCategoryAsync(category);
             return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
-        public async  Task<IActionResult> EditCategory(int id , Category category)
+        public async Task<IActionResult> EditCategory(int id, Category category)
         {
 
             category = await _categoryService.GetByCategoryIdAsync(id);
@@ -54,14 +56,14 @@ namespace BugsByteLibrary.Areas.User.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> DeleteCategory(Category category , int id)
+        public async Task<IActionResult> DeleteCategory(Category category, int id)
         {
             category = await _categoryService.GetByCategoryIdAsync(id);
 
             await _categoryService.DeleteCategoryAsync(category);
 
             return RedirectToAction(nameof(Index));
-            
+
         }
     }
 }

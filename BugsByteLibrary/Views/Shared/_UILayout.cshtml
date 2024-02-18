@@ -16,29 +16,18 @@
     <!-- ################################################################################################ -->
     @RenderBody()
    
-    @*  Footer *@
-
-    @await Html.PartialAsync("~/Views/LayoutPartial/_FooterPartial.cshtml")
-    @*   footer *@
+    
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
     <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
     <!-- JAVASCRIPTS -->
-    @await Html.PartialAsync("~/Views/LayoutPartial/_ScriptPartial.cshtml")
+   
     <!DOCTYPE html>
+    <html>
+        <body>
+   
 
-    <html lang="">
-    @* HeadPartial *@
-    @await Html.PartialAsync("~/Views/LayoutPartial/_HeadPartial.cshtml")
-
-    @* HeadPartial *@
-    <body id="top">
-
-        @* Navbar *@
-        @await Html.PartialAsync("~/Views/LayoutPartial/_NavBarPartial.cshtml")
-
-        @* Navbar *@
         <!-- ################################################################################################ -->
         @*    Index *@
         <!-- ################################################################################################ -->
@@ -58,4 +47,4 @@
         </body>
     </html>
     </body>
-    </html>
+    

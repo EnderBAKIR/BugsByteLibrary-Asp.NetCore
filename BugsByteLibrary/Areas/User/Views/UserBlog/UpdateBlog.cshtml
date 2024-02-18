@@ -5,8 +5,9 @@
 }
 
 <h1>UpdateBlog</h1>
-<form method="post"  asp-controller="UserBlog">
+<form method="post" asp-controller="UserBlog" asp-action="UpdateBlog">
     <div class="form-group">
+        
         <input type="text" asp-for="Name" placeholder="Başlık" class="form-control" />
     </div>
     <div class="form-group">
@@ -18,5 +19,22 @@
     <div class="form-group">
         <input type="text" asp-for="AppUserId" value="@ViewBag.UserId" placeholder="UserId" class="form-control" />
     </div>
-    <button class="btn btn-primary">Ekle</button>
+    <div class="form-group">
+        <label>Kategoriler:</label>
+        <br />
+        @if (ViewBag.Categories != null)
+        {
+            List<int> selectedCategoryIds = Model.BlogCategories?.Select(c => c.CategoryId ?? 0).ToList() ?? new List<int>();
+
+            foreach (var category in ViewBag.Categories)
+            {
+                <input type="checkbox" name="SelectedCategoryIds" value="@category.Id"
+                @(selectedCategoryIds.Contains(category.Id) ? "checked" : "") />
+                <label>@category.Name</label>
+                <br />
+            }
+        }
+       
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
 </form>

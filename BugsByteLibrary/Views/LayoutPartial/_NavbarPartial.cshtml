@@ -29,11 +29,11 @@
         </div>
         <nav id="mainav" class="fl_right">
             <ul class="clear">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a asp-controller="Default" asp-action="Index">Ana Sayfa</a></li>
                 <li>
-                    <a class="drop" href="#">Pages</a>
+                    <a class="drop" href="#">Sayfalar</a>
                     <ul>
-                        <li><a href="/Jeren/pages/gallery.html">Gallery</a></li>
+                        <li><a asp-controller="Blog" asp-action="Index">Bloglar</a></li>
                         <li><a href="/Jeren/pages/full-width.html">Full Width</a></li>
                         <li><a href="/Jeren/pages/sidebar-left.html">Sidebar Left</a></li>
                         <li><a href="/Jeren/pages/sidebar-right.html">Sidebar Right</a></li>
@@ -55,8 +55,16 @@
                         <li><a href="#">Level 2</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Link Text</a></li>
-                <li><a href="#">Link Text</a></li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li><a href="#">Çıkış Yap</a></li>
+                }
+                else
+                {
+                    <li><a  asp-controller="Account" asp-action="Login">Giriş Yap</a></li>
+                    <li><a  asp-controller="Account" asp-action="Register">Kaydol</a></li>
+                }
+                
             </ul>
         </nav>
         <!-- ################################################################################################ -->

@@ -1,8 +1,7 @@
-﻿@model List<Category>
+﻿@model List<Blog>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "GetAllBlogs";
     Layout = "~/Views/Shared/_UILayout.cshtml";
-
 }
 
 <div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
@@ -10,7 +9,7 @@
         <!-- ################################################################################################ -->
         <ul>
             <li>Bugları çözmek bir tık uzağınızda</li>
-            <li><a href="/Blog/GetAllBlogs">Tüm Blogları Görmek İçin Tıklayın</a></li>
+            <li><a href="/Blog/Index">Kategorileri Görmek İçin Tıklayın</a></li>
 
         </ul>
         <!-- ################################################################################################ -->
@@ -29,11 +28,11 @@
                 <figure>
 
                     <ul class="nospace clear">
-                       
+
                         @foreach (var item in Model)
                         {
 
-                            <li class="one_quarter"><a href="/Blog/GetBlogsByCategory/@item.Id"><img src="/mainblogimage/mainblogimage.jpg" alt=""></a>@item.Name</li>
+                            <li class="one_quarter"><a href="/Blog/GetBlogDetails/@item.Id"><img src="/mainblogimage/mainblogimage.jpg" alt=""></a>@item.Name</li>
                         }
 
 
@@ -45,3 +44,4 @@
         <div class="clear"></div>
     </main>
 </div>
+

@@ -18,5 +18,10 @@ namespace Core.Layer.IRepositories
         Task<Blog> GetBlogByIdAsync(int id);
 
         void DeleteBlog(Blog blog);
+
+        Task UpdateBlogCategoriesAsync(Blog blog);
+        Task DeleteBlogCategoriesAsync(Blog blog);
+
+        
     }
 }

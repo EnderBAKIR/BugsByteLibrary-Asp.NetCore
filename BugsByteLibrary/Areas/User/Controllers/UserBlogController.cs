@@ -1,4 +1,4 @@
-﻿ using Core.Layer.IService;
+﻿using Core.Layer.IService;
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -29,14 +29,14 @@ namespace BugsByteLibrary.Areas.User.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
-            
-                 ViewBag.UserId = user.Id;
-                 return View(value);
+
+                ViewBag.UserId = user.Id;
+                return View(value);
             }
 
             return View();
 
-            
+
         }
 
 
@@ -52,7 +52,7 @@ namespace BugsByteLibrary.Areas.User.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBlog(Blog blog , List<int> SelectedCategoryIds)
+        public async Task<IActionResult> AddBlog(Blog blog, List<int> SelectedCategoryIds)
         {
 
 
@@ -97,7 +97,7 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
             var blog = await _blogservice.GetBlogByIdAsync(id);
 
-
+            ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
@@ -108,19 +108,23 @@ namespace BugsByteLibrary.Areas.User.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> UpdateBlog(Blog blog)
+        public async Task<IActionResult> UpdateBlog(Blog blog, List<int> SelectedCategoryIds)
         {
-
-
 
             blog.UpdateDate = DateTime.Now;
             blog.Status = true;
+
+            await _blogservice.DeleteBlogCategoriesAsync(blog);//önce seçili kategorileri silmek için bu metodu kullanıyoruz eğer silmezsek güncellerken hata alırız
+
+            blog.BlogCategories = SelectedCategoryIds.Select(categoryId => new BlogCategory
+            {
+                CategoryId = categoryId
+            }).ToList();
+
+            await _blogservice.UpdateBlogCategoriesAsync(blog);//sonra seçili kategorileri güncelle
+
             await _blogservice.UpdateBlog(blog);
             return RedirectToAction(nameof(Index));
-
-
-
-
 
         }
 

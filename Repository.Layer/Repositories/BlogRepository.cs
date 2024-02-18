@@ -29,6 +29,12 @@ namespace Repository.Layer.Repositories
             return await _blogSet.Include(x => x.AppUser).Include(x=>x.BlogCategories).ThenInclude(x=>x.Category).ToListAsync();
         }
 
+
+       
+
+
+
+
         public async Task<Blog> AddBlogAsnyc(Blog blog)
         {
             await _blogSet.AddAsync(blog);
@@ -47,11 +53,37 @@ namespace Repository.Layer.Repositories
             
         }
 
+
         public void DeleteBlog(Blog blog)
         {
             _blogSet.Remove(blog);
         }
 
-        
+
+
+
+        public async Task DeleteBlogCategoriesAsync(Blog blog)
+        {
+            // BlogCategories tablosundan belirli bir bloga ait kategorileri sil
+            var blogCategories = await _appDbContext.BlogsCategories.Where(x => x.BlogId == blog.Id).ToListAsync();
+                
+               
+
+            _appDbContext.BlogsCategories.RemoveRange(blogCategories);
+           
+        }
+
+        public async Task UpdateBlogCategoriesAsync(Blog blog)
+        {
+            var blogCategories = await _appDbContext.BlogsCategories.Where(x => x.BlogId == blog.Id).ToListAsync();
+
+
+
+            _appDbContext.BlogsCategories.UpdateRange(blogCategories);
+
+        }
+
+     
+       
     }
 }

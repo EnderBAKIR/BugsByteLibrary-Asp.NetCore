@@ -23,7 +23,7 @@ namespace Repository.Layer.Repositories
 
         public async Task<IEnumerable<Category>> GetAllCategoryAsync()
         {
-            return await _categorySet.Include(x=>x.BlogCategories).ToListAsync();
+            return await _categorySet.Include(x=>x.BlogCategories).ThenInclude(x=>x.Blog).ToListAsync();
         }
 
         public async Task<Category> AddCategoryAsync(Category category) 
@@ -36,7 +36,7 @@ namespace Repository.Layer.Repositories
 
         public async Task<Category> GetByCategoryIdAsync(int id)
         {
-            return await _categorySet.Include(x=>x.BlogCategories).Where(x=>x.Id==id).FirstOrDefaultAsync();
+            return await _categorySet.Include(x=>x.BlogCategories).ThenInclude(x=>x.Blog).Where(x=>x.Id==id).FirstOrDefaultAsync();
         }
 
         public void UpdateCategory(Category category)

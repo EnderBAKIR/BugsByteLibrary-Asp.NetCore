@@ -42,10 +42,19 @@ namespace Service.Layer.Services
             await _unitOfWork.CommitAsync();
         }
 
+        public async Task DeleteBlogCategoriesAsync(Blog blog)
+        {
+          await   _blogRepository.DeleteBlogCategoriesAsync(blog);
+            await _unitOfWork.CommitAsync();
+            
+        }
+
         public async Task<IEnumerable<Blog>> GetAllBlogAsync()
         {
            return await _blogRepository.GetAllBlogAsync();
         }
+
+       
 
         public async Task<Blog> GetBlogByIdAsync(int id)
         {
@@ -55,6 +64,12 @@ namespace Service.Layer.Services
         public async Task UpdateBlog(Blog blog)
         {
            _blogRepository.UpdateBlog(blog);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task UpdateBlogCategoriesAsync(Blog blog)
+        {
+            await _blogRepository.UpdateBlogCategoriesAsync(blog);
             await _unitOfWork.CommitAsync();
         }
     }

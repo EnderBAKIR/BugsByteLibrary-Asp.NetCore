@@ -19,5 +19,8 @@ namespace Core.Layer.IRepositories
 
         void DeleteCategory(Category category);
 
+
+        
+
     }
 }

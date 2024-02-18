@@ -19,5 +19,9 @@ namespace Core.Layer.IService
 
         Task DeleteBlog(Blog blog);
 
+        Task UpdateBlogCategoriesAsync(Blog blog);
+        Task DeleteBlogCategoriesAsync(Blog blog);
+
+        
     }
 }

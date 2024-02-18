@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/BlogCategories/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3JpZXNcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/BlogCategories/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3JpZXNcRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/BlogCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/AddRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,18 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/AddCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xBZGRDYXRlZ29yeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/EditCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xFZGl0Q2F0ZWdvcnkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/BlogCategories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xCbG9nQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserBlog/AddBlog.cshtml]
@@ -86,8 +86,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetAllBlogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRBbGxCbG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetBlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRCbG9nRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetBlogsByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRCbG9nc0J5Q2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/Index.cshtml]

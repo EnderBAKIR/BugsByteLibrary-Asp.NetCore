@@ -11,22 +11,42 @@ namespace BugsByteLibrary.Controllers
     {
         private readonly IBlogService _blogService;
 
+        private readonly ICategoryService _categoryService;
+
         private readonly UserManager<AppUser> _userManager;
 
         private readonly ICommentService _commentService;
 
-        public BlogController(IBlogService blogService, UserManager<AppUser> userManager, ICommentService commentService)
+        public BlogController(IBlogService blogService, ICategoryService categoryService, UserManager<AppUser> userManager, ICommentService commentService)
         {
             _blogService = blogService;
+            _categoryService = categoryService;
             _userManager = userManager;
             _commentService = commentService;
         }
-
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var value = await _blogService.GetAllBlogAsync();
+            var value = await _categoryService.GetAllCategoryAsync();
             return View(value);
         }
+
+        //Bloglar Categorilere göre listelenecek
+        [HttpGet]
+        public async Task<IActionResult> GetBlogsByCategory(int id)
+        {
+            var value = await _categoryService.GetByCategoryIdAsync(id);
+
+            return View(value);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllBlogs()
+        {
+           return View(await _blogService.GetAllBlogAsync());
+        }
+
+
 
         [HttpGet]
         public async Task<IActionResult> GetBlogDetails(int id)
@@ -37,6 +57,10 @@ namespace BugsByteLibrary.Controllers
 
             return View(value);
         }
+
+        
+
+
 
         [Authorize]
         [HttpPost]
