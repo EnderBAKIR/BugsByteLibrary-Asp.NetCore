@@ -13,6 +13,7 @@
     <table border="1">
         <tr>
             <th>Başlık</th>
+            <th>Açıklama</th>
             <th>Yazar</th>
             <th>Status</th>
             <th>Categorileri</th>
@@ -26,6 +27,7 @@
             {
                 <tr>
                     <td>@blog.Name</td>
+                    <td>@blog.Title</td>
                     <td>@blog.AppUser.Name</td>
                     <td>@blog.Status</td>
                     <td>@foreach (var item in blog.BlogCategories)

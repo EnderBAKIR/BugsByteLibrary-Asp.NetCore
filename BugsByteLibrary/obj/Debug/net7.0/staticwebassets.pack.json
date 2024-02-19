@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif",
+      "PackagePath": "staticwebassets\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg",
+      "PackagePath": "staticwebassets\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg"
     },
@@ -65,10 +73,6 @@
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\avatar.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\01.png",
-      "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\01.png"
-    },
-    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\02.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\02.png"
     },
@@ -87,6 +91,10 @@
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\index.html",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\site.png",
+      "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\site.png"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\01.png",
@@ -449,8 +457,12 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogimage.jpg",
-      "PackagePath": "staticwebassets\\mainblogimage\\mainblogimage.jpg"
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\booksbyte.jpg",
+      "PackagePath": "staticwebassets\\mainblogimage\\booksbyte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
+      "PackagePath": "staticwebassets\\mainblogimage\\mainblogesimage.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BugsByteLibrary.Microsoft.AspNetCore.StaticWebAssets.props",

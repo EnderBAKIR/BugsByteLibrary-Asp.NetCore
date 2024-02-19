@@ -20,7 +20,7 @@ namespace Core.Layer.Models
 
         public ICollection<Comment> Comments { get; set; }
         public ICollection<Blog> Blogs { get; set; }
-        public ICollection<EBook> EBooks { get; set; }
+       
 
 
 

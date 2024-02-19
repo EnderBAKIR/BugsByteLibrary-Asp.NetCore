@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@await Html.PartialAsync("/Views/UserLayoutPartial/_UserHeadPartial.cshtml")
+<body>
+    @await Html.PartialAsync("/Views/UserLayoutPartial/_UserNavbarPartial.cshtml")
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Sidebar -->
+            @await Html.PartialAsync("/Views/UserLayoutPartial/_UserLeftbarPartial.cshtml")
+            
+            <!-- Main Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    @await Html.PartialAsync("/Views/UserLayoutPartial/_UserFooterPartial.cshtml")
+   
+    @await Html.PartialAsync("/Views/UserLayoutPartial/_UserScriptPartial.cshtml")
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+

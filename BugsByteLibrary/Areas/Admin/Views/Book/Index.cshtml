@@ -1,0 +1,64 @@
+﻿@model List<EBook>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div cite="col-md-12">
+        <div class="card">
+            <div class="card-body">
+
+                <a asp-controller="Book" asp-action="AddBook" class="btn btn-primary mb-3">Kitap Ekle</a>
+                <h5 class="card-title">Kitaplar</h5>
+                @if (Model.Any())
+                {
+                    <table class="table talbe-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Kitap Adı</th>
+                                <th>Kaç Yorum</th>
+                                <th>Oluşturulma Tarihi</th>
+                                <th>İşlemler</th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    
+                                    <td>@item.Name</td>
+                                    <td>@item.Price</td>
+                                    <td>@item.CreatedDate.ToString("dd,mm,yyyy")</td>
+                                    
+                                    <td>
+                                        <a asp-controller="Courses" asp-action="Update" asp-route-id="@item.Id" class="btn btn-success btn-sm">Güncelle</a>
+                                        <a asp-controller="Courses" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Sil</a>
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+
+                    </table>
+                }
+
+                else
+                {
+                    <div class="alert aler-info">
+                        Kayıtlı Kitap Bulunamadı
+                    </div>
+                }
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+

@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
-<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+<div class="bgded overlay" style="background-image:url('/jeren/images/demo/backgrounds/02.png');">
     <div id="breadcrumb" class="hoc clear">
         <!-- ################################################################################################ -->
         <ul>
@@ -32,7 +32,19 @@
                         @foreach (var item in Model)
                         {
 
-                            <li class="one_quarter"><a href="/Blog/GetBlogDetails/@item.Id"><img src="/mainblogimage/mainblogimage.jpg" alt=""></a>@item.Name</li>
+                            <li class="one_quarter">
+                                
+                                
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="/mainblogimage/mainblogesimage.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@item.Name</h5>
+                                            <p class="card-text">@item.Title</p>
+                                            <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Id" class="btn btn-primary">Bakalım Neler Var</a>
+                                        </div>
+                                    </div>
+                                
+                            </li>
                         }
 
 

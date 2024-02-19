@@ -1,0 +1,86 @@
+﻿@model List<EBook>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+
+  
+    
+}
+
+
+<div class="bgded overlay" style="background-image:url('/jeren/images/demo/backgrounds/02.png');">
+    <div id="breadcrumb" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <ul>
+            <li>BURADAN YORUM SINIRININ YETTİĞİ KİTAPLARI İNDİRİP OKUYABİLİRSİN</li>
+            <li><a href="/Blog/Index">BLOGLARA GİTMEK İÇİN TIKLAYINIZ</a></li>
+
+        </ul>
+        <!-- ################################################################################################ -->
+    </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="content">
+            <!-- ################################################################################################ -->
+            <div id="gallery">
+                <figure>
+
+                    <ul class="nospace clear">
+
+                        @foreach (var item in Model)
+                        {
+
+                            <li class="one_quarter">
+
+
+                                <div class="card" style="width: 18rem;">
+                                    <img src="/mainblogimage/booksbyte.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Name</h5>
+                                        <p class="card-text">@item.Description</p>
+
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+
+
+
+                                            if (ViewBag.CommentCount > item.Price)
+                                                {
+                                                    <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Id" class="btn btn-primary">Bakalım Neler Var</a>
+                                                }
+
+                                            else
+                                            {
+                                                <a class="btn btn-primary">Malesef bu kitabı indirmek için yeterli yorumunuz yok</a>
+                                            }
+                                            
+
+
+                                        }
+                                        else
+                                        {
+                                            <p><a  asp-action="Login" asp-controller="Account">Lütfen Önce Giriş Yapınız</a></p>
+                                        }
+
+                                        
+                                    </div>
+                                </div>
+
+                            </li>
+                        }
+
+
+                    </ul>
+
+                </figure>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </main>
+</div>

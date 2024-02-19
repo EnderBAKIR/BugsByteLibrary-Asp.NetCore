@@ -6,23 +6,33 @@
 
 <div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
     <div id="breadcrumb" class="hoc clear">
-        <p>@Model.AppUser.Name Yazısı</p>
+        <p>@Model.AppUser.Name Yazısı</p><h1>@Model.Name || Oluşturulma Tarihi : @Model.CreatedDate.ToString("dd/MM/yyyy")</h1>
     </div>
 </div>
 
 <div class="wrapper row3">
     <main class="hoc container clear">
         <div class="content three_quarter first">
-            <h1>@Model.Name || Oluşturulma Tarihi : @Model.CreatedDate</h1>
-            <p>@Model.Description</p>
+            
 
-            <h1>Table(s)</h1>
+
+
+            <p> @Html.Raw(Model.Description)</p>
+
+            
             <div class="scrollable">
-                <!-- Buraya varsa resim bilgisi gelecek -->
+                @if (Model.ImageUrl!=null)
+                {
+                    <img src="/blogsimages/@Model.ImageUrl" />
+                }
+                else
+                {
+                  
+                }
             </div>
-
+            <br />
             <div id="comments">
-                <h2>Comments</h2>
+                <h2>Yorumlar</h2>
                 <ul>
                     <!-- Yorumlar buraya -->
                     @foreach (var item in Model.Comments)
@@ -34,7 +44,7 @@
                                     <address>
                                         @if (item.Appuser!=null)
                                         {
-                                           <p>By</p>  <a href="#">@item.Appuser.UserName</a> 
+                                           <p>Tarafından</p>  <a href="#">@item.Appuser.UserName</a> 
                                         }
                                         else
                                         {
@@ -61,8 +71,8 @@
                     {
                         <h2>Bir Yorum Bırakın (Yorum yaparken etik kurallara uyunuz)</h2>
                         <form method="post" asp-controller="Blog" asp-action="AddComment">
-                            <input type="text" name="BlogId" value="@Model.Id" />
-                            <input type="text" name="AppUserId" value="@UserManager.GetUserId(User)" />
+                            <input type="hidden" name="BlogId" value="@Model.Id" />
+                            <input type="hidden" name="AppUserId" value="@UserManager.GetUserId(User)" />
                             <div class="block clear">
                                 <label for="comment">Yorumunuz</label>
                                 <textarea name="CommentContent" id="comment" cols="25" rows="10"></textarea>

@@ -10,10 +10,14 @@
         <div class="fl_right">
             <ul class="nospace">
                 <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#">Hakkında</a></li>
+                <li><a href="#">İletişim</a></li>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <li><a href="#">Login</a></li>
                 <li><a href="#">Register</a></li>
+                }
+                
             </ul>
         </div>
 
@@ -25,7 +29,7 @@
     <header id="header" class="hoc clear">
 
         <div id="logo" class="fl_left">
-            <h1><a href="/Jeren/index.html">Jeren</a></h1>
+            <h1><a asp-controller="Default" asp-action="Index">BugsByteLibrary</a></h1>
         </div>
         <nav id="mainav" class="fl_right">
             <ul class="clear">
@@ -34,7 +38,7 @@
                     <a class="drop" href="#">Sayfalar</a>
                     <ul>
                         <li><a asp-controller="Blog" asp-action="Index">Bloglar</a></li>
-                        <li><a href="/Jeren/pages/full-width.html">Full Width</a></li>
+                        <li><a asp-controller="Bookses" asp-action="Index">Kitaplar</a></li>
                         <li><a href="/Jeren/pages/sidebar-left.html">Sidebar Left</a></li>
                         <li><a href="/Jeren/pages/sidebar-right.html">Sidebar Right</a></li>
                         <li><a href="/Jeren/pages/basic-grid.html">Basic Grid</a></li>

@@ -54,6 +54,11 @@ namespace BugsByteLibrary.Controllers
 
             var value = await _blogService.GetBlogByIdAsync(id);
 
+            if (value == null)
+            {
+                return NotFound();
+            }
+
 
             return View(value);
         }

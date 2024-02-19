@@ -28,11 +28,23 @@
 
                     <ul class="nospace clear">
 
-                        @foreach (var category in Model.BlogCategories)
+                        @foreach (var item in Model.BlogCategories)
                         {
-                            
-                            
-                                <li class="one_quarter"><a href="/Blog/GetBlogDetails/@category.BlogId"><img src="/mainblogimage/mainblogimage.jpg" alt=""></a>@category.Blog.Name</li>
+
+
+                            <li class="one_quarter">
+
+
+                                <div class="card" style="width: 18rem;">
+                                    <img src="/mainblogimage/mainblogesimage.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Blog.Name</h5>
+                                        <p class="card-text">@item.Blog.Title</p>
+                                        <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Blog.Id" class="btn btn-primary">Bakalım Neler Var</a>
+                                    </div>
+                                </div>
+
+                            </li>
                             
 
                             

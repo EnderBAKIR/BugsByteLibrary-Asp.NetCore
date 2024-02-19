@@ -4,13 +4,28 @@
     Layout = "~/Views/Shared/_UILayout.cshtml";
 
 }
+<style>
+    .category-box {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+    }
 
-<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+    .category-image img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+</style>
+<div class="bgded overlay" style="background-image:url('/jeren/images/demo/backgrounds/01.png');">
     <div id="breadcrumb" class="hoc clear">
         <!-- ################################################################################################ -->
         <ul>
-            <li>Bugları çözmek bir tık uzağınızda</li>
-            <li><a href="/Blog/GetAllBlogs">Tüm Blogları Görmek İçin Tıklayın</a></li>
+            <li>Bugları çözmek BİR tık uzağınızda , KATEGORİLERDEN BİRİNİ SEÇİP DEVAM EDEBİLİRSİNİZ</li>
+            <br />
+            <li><a href="/Blog/GetAllBlogs"> Yada Tüm Blogları Görmek İÇİN Tıklayın</a></li>
 
         </ul>
         <!-- ################################################################################################ -->
@@ -29,14 +44,18 @@
                 <figure>
 
                     <ul class="nospace clear">
-                       
                         @foreach (var item in Model)
                         {
-
-                            <li class="one_quarter"><a href="/Blog/GetBlogsByCategory/@item.Id"><img src="/mainblogimage/mainblogimage.jpg" alt=""></a>@item.Name</li>
+                            <li class="one_quarter category-box">
+                                <a href="/Blog/GetBlogsByCategory/@item.Id">
+                                    <div class="category-image">
+                                        <!-- İsterseniz buraya kategoriye özel bir resim ekleyebilirsiniz -->
+                                        <!-- <img src="/mainblogimage/category.jpg" alt=""> -->
+                                    </div>
+                                    <div class="category-name">@item.Name</div>
+                                </a>
+                            </li>
                         }
-
-
                     </ul>
 
                 </figure>

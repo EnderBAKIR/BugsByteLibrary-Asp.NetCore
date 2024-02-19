@@ -20,7 +20,7 @@ namespace Repository.Layer.Configrutaions
             builder.Ignore(x => x.Image);
 
             builder.HasMany(x => x.Blogs).WithOne(x => x.AppUser).HasForeignKey(x => x.AppUserId).OnDelete(DeleteBehavior.NoAction);//User silinsin ama ona ait bloglar silinmesin(sitenin veri bütünlüğün üsağlamak adına böyle bir karar alındı.)
-            builder.HasMany(x => x.EBooks).WithOne(x => x.AppUser).HasForeignKey(x => x.AppUserId).OnDelete(DeleteBehavior.Cascade);//User silinsin ve ona ait olan e kitaplarda silinsin
+           
 
 
 

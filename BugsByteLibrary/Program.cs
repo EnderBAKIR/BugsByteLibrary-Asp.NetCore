@@ -21,6 +21,10 @@ builder.Services.AddScoped<IBlogService , BlogService>();
 builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
 builder.Services.AddScoped<ICategoryRepository , CategoryRepository>();
 builder.Services.AddScoped<ICategoryService , CategoryService>();
+builder.Services.AddScoped<IBookRepository , BookRepository>();
+builder.Services.AddScoped<IBookService , BookService>();
+
+
 
 
 

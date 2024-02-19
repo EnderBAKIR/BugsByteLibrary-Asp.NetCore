@@ -163,6 +163,10 @@ namespace Repository.Layer.Migrations
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");
 
@@ -249,9 +253,6 @@ namespace Repository.Layer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AppUserId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -270,8 +271,6 @@ namespace Repository.Layer.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AppUserId");
 
                     b.ToTable("EBooks");
                 });
@@ -425,17 +424,6 @@ namespace Repository.Layer.Migrations
                     b.Navigation("Blog");
                 });
 
-            modelBuilder.Entity("Core.Layer.Models.EBook", b =>
-                {
-                    b.HasOne("Core.Layer.Models.AppUser", "AppUser")
-                        .WithMany("EBooks")
-                        .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.HasOne("Core.Layer.Models.AppRole", null)
@@ -492,8 +480,6 @@ namespace Repository.Layer.Migrations
                     b.Navigation("Blogs");
 
                     b.Navigation("Comments");
-
-                    b.Navigation("EBooks");
                 });
 
             modelBuilder.Entity("Core.Layer.Models.Blog", b =>

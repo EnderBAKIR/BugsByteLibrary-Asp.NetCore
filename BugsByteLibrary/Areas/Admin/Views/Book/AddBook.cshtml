@@ -1,0 +1,35 @@
+﻿@model EBook
+@{
+    ViewData["Title"] = "AddBook";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-offset-md-5">
+
+
+        <div class="card-body">
+
+
+            <form method="post"  asp-action="AddBook" asp-controller="Book" enctype="multipart/form-data">
+                
+                <div class="form-group">
+                    <label for="Name"> Kitap Adı:</label>
+                    <input type="text" asp-for="Name" />
+                </div>
+                <div>
+                    <label for="Name"> Kitabın Kısa Açıklaması:</label>
+                    <input type="text" asp-for="Description" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="Title"> Kitaba Erişmek İçin Yorum Sınırı</label>
+                    <input type="number" asp-for="Price" />
+                </div>
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
