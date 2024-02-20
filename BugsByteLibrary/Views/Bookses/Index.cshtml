@@ -3,8 +3,8 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 
-  
-    
+
+
 }
 
 
@@ -48,27 +48,31 @@
                                         @if (User.Identity.IsAuthenticated)
                                         {
 
-
-
+                                            if (ViewBag.CommentCount != null)
+                                            {
                                             if (ViewBag.CommentCount > item.Price)
+                                            {
+                                                <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Id" class="btn btn-primary">Bakalım Neler Var</a>
+                                            }
+
+                                                else
                                                 {
-                                                    <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Id" class="btn btn-primary">Bakalım Neler Var</a>
+                                                    <a class="btn btn-primary">Malesef bu kitabı indirmek için yeterli yorumunuz yok</a>
                                                 }
 
-                                            else
-                                            {
-                                                <a class="btn btn-primary">Malesef bu kitabı indirmek için yeterli yorumunuz yok</a>
                                             }
                                             
 
 
                                         }
-                                        else
-                                        {
-                                            <p><a  asp-action="Login" asp-controller="Account">Lütfen Önce Giriş Yapınız</a></p>
-                                        }
 
                                         
+                                        else
+                                        {
+                                        <p><a asp-action="Login" asp-controller="Account">Lütfen Önce Giriş Yapınız</a></p>
+                                        }
+
+
                                     </div>
                                 </div>
 

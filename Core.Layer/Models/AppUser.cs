@@ -18,7 +18,7 @@ namespace Core.Layer.Models
 
         public int ConfirmCode { get; set; }
 
-        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Comment> Comments { get; set; } 
         public ICollection<Blog> Blogs { get; set; }
        
 
