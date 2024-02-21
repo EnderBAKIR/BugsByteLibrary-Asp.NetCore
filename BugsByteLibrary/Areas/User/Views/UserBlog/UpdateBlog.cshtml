@@ -4,8 +4,16 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>UpdateBlog</h1>
-<form method="post" asp-controller="UserBlog" asp-action="UpdateBlog">
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Blog Güncelleme</h1>
+            </div>
+
+
+<form method="post" asp-controller="AdminInformationBlog" asp-action="UpdateBlog">
     <div class="form-group">
         
         <input type="text" asp-for="Name" placeholder="Başlık" class="form-control" />

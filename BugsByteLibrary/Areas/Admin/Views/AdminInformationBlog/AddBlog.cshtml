@@ -1,0 +1,63 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "AddBlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Blog İşlemleri</h1>
+            </div>
+
+            <form method="post" asp-action="AddBlog" asp-controller="AdminInformationBlog" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Başlık:</label>
+                    <input type="text" asp-for="Name" class="form-control col-4" />
+                </div>
+                <hr />
+                <div class="mb-3">
+                    <label for="Content" class="form-label">Blog İçeriği:</label>
+                    <textarea asp-for="Content" class="form-control"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Description" class="form-label">Kısa Açıklama:</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Image" class="form-label">Resim:</label>
+                    <input type="file" asp-for="Image" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Kategoriler:</label>
+                    <div>
+                        @foreach (var category in ViewBag.Categories)
+                        {
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" class="form-check-input" name="SelectedCategoryIds" value="@category.Id" />
+                                <label class="form-check-label">@category.Name</label>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#Content'
+        });
+    </script>
+
+}

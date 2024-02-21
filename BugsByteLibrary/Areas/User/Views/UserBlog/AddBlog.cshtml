@@ -12,12 +12,12 @@
         <input type="text" asp-for="Name" />
     </div>
     <div class="form-group">
-        <label for="Title"> Kısa Açıklama:</label>
-        <input type="text" asp-for="Description" />
+        <label for="Title"> Blog İçeriği:</label>
+        <input type="text" asp-for="Content" />
     </div>
     <div>
-    <label asp-for="Content" class="form-label"></label>
-    <textarea asp-for="Content" class="form-control"></textarea>
+    <label asp-for="Description" class="form-label">Kısa Açıklama</label>
+    <textarea asp-for="Description" class="form-control"></textarea>
     </div>
     <div class="form-group">
         <label for="Image">Resim:</label>
@@ -40,7 +40,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/tinymce.min.js"></script>
     <script>
         tinymce.init({
-            selector: '#Description'
+            selector: '#Content'
         });
     </script>
 

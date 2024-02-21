@@ -23,8 +23,8 @@
       
         @foreach (var blog in Model)
         {
-            if (blog.Status == true)
-            {
+            if (blog.InformationBlog == false)
+        {
                 <tr>
                     <td>@blog.Name</td>
                     <td>@blog.Description</td>

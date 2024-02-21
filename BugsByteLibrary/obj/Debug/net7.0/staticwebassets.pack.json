@@ -1,743 +1,743 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BugsByteLibrary.bundle.scp.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BugsByteLibrary.bundle.scp.css",
       "PackagePath": "staticwebassets\\BugsByteLibrary.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\README.markdown",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\README.markdown",
       "PackagePath": "staticwebassets\\LoginPage\\README.markdown"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\index.html",
       "PackagePath": "staticwebassets\\LoginPage\\dist\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\style.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\style.css",
       "PackagePath": "staticwebassets\\LoginPage\\dist\\style.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\license.txt",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\license.txt",
       "PackagePath": "staticwebassets\\LoginPage\\license.txt"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\index.html",
       "PackagePath": "staticwebassets\\LoginPage\\src\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\style.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\style.css",
       "PackagePath": "staticwebassets\\LoginPage\\src\\style.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\.gitignore",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\.gitignore",
       "PackagePath": "staticwebassets\\admin\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\LICENSE.md",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\LICENSE.md",
       "PackagePath": "staticwebassets\\admin\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\README.md",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\README.md",
       "PackagePath": "staticwebassets\\admin\\README.md"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\TEMPLATE.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\TEMPLATE.html",
       "PackagePath": "staticwebassets\\admin\\TEMPLATE.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\composer.json",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\composer.json",
       "PackagePath": "staticwebassets\\admin\\composer.json"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-social.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-social.css",
       "PackagePath": "staticwebassets\\admin\\css\\bootstrap-social.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\admin\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\admin\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.bootstrap.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.bootstrap.css",
       "PackagePath": "staticwebassets\\admin\\css\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.responsive.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.responsive.css",
       "PackagePath": "staticwebassets\\admin\\css\\dataTables\\dataTables.responsive.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\admin\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\metisMenu.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\metisMenu.min.css",
       "PackagePath": "staticwebassets\\admin\\css\\metisMenu.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\morris.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\morris.css",
       "PackagePath": "staticwebassets\\admin\\css\\morris.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\startmin.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\startmin.css",
       "PackagePath": "staticwebassets\\admin\\css\\startmin.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\timeline.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\timeline.css",
       "PackagePath": "staticwebassets\\admin\\css\\timeline.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\admin\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\admin\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\admin\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\admin\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\admin\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\admin\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\admin\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\index.html",
       "PackagePath": "staticwebassets\\admin\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\dataTables.bootstrap.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\dataTables.bootstrap.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\dataTables\\dataTables.bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\dataTables\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot-data.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot-data.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot-data.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\excanvas.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\excanvas.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\excanvas.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.colorhelpers.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.colorhelpers.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.colorhelpers.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.canvas.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.canvas.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.canvas.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.categories.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.categories.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.categories.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.crosshair.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.crosshair.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.crosshair.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.errorbars.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.errorbars.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.errorbars.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.fillbetween.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.fillbetween.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.fillbetween.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.image.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.image.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.image.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.navigate.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.navigate.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.navigate.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.pie.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.pie.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.pie.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.resize.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.resize.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.resize.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.selection.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.selection.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.selection.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.stack.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.stack.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.stack.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.symbol.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.symbol.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.symbol.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.threshold.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.threshold.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.threshold.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.time.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.time.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.time.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.tooltip.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.tooltip.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\flot\\jquery.flot.tooltip.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\jquery.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\metisMenu.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\metisMenu.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\metisMenu.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\morris-data.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\morris-data.js",
       "PackagePath": "staticwebassets\\admin\\js\\morris-data.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\morris.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\morris.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\morris.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\raphael.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\raphael.min.js",
       "PackagePath": "staticwebassets\\admin\\js\\raphael.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\startmin.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\startmin.js",
       "PackagePath": "staticwebassets\\admin\\js\\startmin.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\package.json",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\package.json",
       "PackagePath": "staticwebassets\\admin\\package.json"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\blank.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\blank.html",
       "PackagePath": "staticwebassets\\admin\\pages\\blank.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\buttons.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\buttons.html",
       "PackagePath": "staticwebassets\\admin\\pages\\buttons.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\flot.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\flot.html",
       "PackagePath": "staticwebassets\\admin\\pages\\flot.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\forms.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\forms.html",
       "PackagePath": "staticwebassets\\admin\\pages\\forms.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\grid.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\grid.html",
       "PackagePath": "staticwebassets\\admin\\pages\\grid.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\icons.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\icons.html",
       "PackagePath": "staticwebassets\\admin\\pages\\icons.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\index.html",
       "PackagePath": "staticwebassets\\admin\\pages\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\login.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\login.html",
       "PackagePath": "staticwebassets\\admin\\pages\\login.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\morris.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\morris.html",
       "PackagePath": "staticwebassets\\admin\\pages\\morris.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\notifications.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\notifications.html",
       "PackagePath": "staticwebassets\\admin\\pages\\notifications.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\panels-wells.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\panels-wells.html",
       "PackagePath": "staticwebassets\\admin\\pages\\panels-wells.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\tables.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\tables.html",
       "PackagePath": "staticwebassets\\admin\\pages\\tables.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\typography.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\typography.html",
       "PackagePath": "staticwebassets\\admin\\pages\\typography.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif",
       "PackagePath": "staticwebassets\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg",
       "PackagePath": "staticwebassets\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\errors.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\errors.png",
       "PackagePath": "staticwebassets\\errors.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\222x100.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\222x100.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\222x100.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\320x220.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\320x220.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\320x220.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\avatar.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\avatar.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\avatar.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\02.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\02.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\02.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\03.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\03.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\03.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\04.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\04.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\04.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\05.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\05.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\05.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\index.html",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\site.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\site.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\backgrounds\\site.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\01.png",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\01.png",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\gallery\\01.png"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\index.html",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\gallery\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgl.gif",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgl.gif",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\imgl.gif"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgr.gif",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgr.gif",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\imgr.gif"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\index.html",
       "PackagePath": "staticwebassets\\jeren\\images\\demo\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\index.html",
       "PackagePath": "staticwebassets\\jeren\\images\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\index.html",
       "PackagePath": "staticwebassets\\jeren\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\index.html",
       "PackagePath": "staticwebassets\\jeren\\layout\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\index.html",
       "PackagePath": "staticwebassets\\jeren\\layout\\scripts\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.backtotop.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.backtotop.js",
       "PackagePath": "staticwebassets\\jeren\\layout\\scripts\\jquery.backtotop.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.flexslider-min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.flexslider-min.js",
       "PackagePath": "staticwebassets\\jeren\\layout\\scripts\\jquery.flexslider-min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.min.js",
       "PackagePath": "staticwebassets\\jeren\\layout\\scripts\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.mobilemenu.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.mobilemenu.js",
       "PackagePath": "staticwebassets\\jeren\\layout\\scripts\\jquery.mobilemenu.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\custom.flexslider.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\custom.flexslider.css",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\custom.flexslider.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\font-awesome.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\index.html",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\fonts\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\framework.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\framework.css",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\framework.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\index.html",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\layout.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\layout.css",
       "PackagePath": "staticwebassets\\jeren\\layout\\styles\\layout.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\licence.txt",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\licence.txt",
       "PackagePath": "staticwebassets\\jeren\\licence.txt"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\basic-grid.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\basic-grid.html",
       "PackagePath": "staticwebassets\\jeren\\pages\\basic-grid.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\full-width.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\full-width.html",
       "PackagePath": "staticwebassets\\jeren\\pages\\full-width.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\gallery.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\gallery.html",
       "PackagePath": "staticwebassets\\jeren\\pages\\gallery.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\index.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\index.html",
       "PackagePath": "staticwebassets\\jeren\\pages\\index.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-left.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-left.html",
       "PackagePath": "staticwebassets\\jeren\\pages\\sidebar-left.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-right.html",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-right.html",
       "PackagePath": "staticwebassets\\jeren\\pages\\sidebar-right.html"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\mainblogimage\\booksbyte.jpg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\booksbyte.jpg",
       "PackagePath": "staticwebassets\\mainblogimage\\booksbyte.jpg"
     },
     {
-      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
       "PackagePath": "staticwebassets\\mainblogimage\\mainblogesimage.jpg"
     },
     {

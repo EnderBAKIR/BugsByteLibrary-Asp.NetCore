@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yelawIu4VbZPFCGNUZ8syC9yFaTvkmqSAVF1pBR0qZg=",
+  "Hash": "P3KFBOsnrq4Nvi/bhM/n3TFvzYUFdBM4As6Ye9FTsfk=",
   "Source": "BugsByteLibrary",
   "BasePath": "_content/BugsByteLibrary",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BugsByteLibrary\\wwwroot",
       "Source": "BugsByteLibrary",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BugsByteLibrary.styles.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BugsByteLibrary.styles.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "BugsByteLibrary.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BugsByteLibrary.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BugsByteLibrary.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BugsByteLibrary.bundle.scp.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BugsByteLibrary.bundle.scp.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "BugsByteLibrary.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BugsByteLibrary.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BugsByteLibrary.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\.gitignore",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\.gitignore",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/.gitignore",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\.gitignore"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\composer.json",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\composer.json",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/composer.json",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\composer.json"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-social.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-social.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/bootstrap-social.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\bootstrap-social.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-theme.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\bootstrap-theme.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/bootstrap-theme.min.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\bootstrap-theme.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.bootstrap.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.bootstrap.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/dataTables/dataTables.bootstrap.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\dataTables\\dataTables.bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.responsive.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\dataTables\\dataTables.responsive.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/dataTables/dataTables.responsive.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\dataTables\\dataTables.responsive.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\font-awesome.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\metisMenu.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\metisMenu.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/metisMenu.min.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\metisMenu.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\morris.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\morris.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/morris.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\morris.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\startmin.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\startmin.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/startmin.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\startmin.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\css\\timeline.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\css\\timeline.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/css/timeline.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\css\\timeline.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\FontAwesome.otf",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.eot",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.svg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff2",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff2",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/fonts/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/index.html",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\bootstrap.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\dataTables.bootstrap.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\dataTables.bootstrap.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/dataTables/dataTables.bootstrap.min.js",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\dataTables\\dataTables.bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\jquery.dataTables.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\dataTables\\jquery.dataTables.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/dataTables/jquery.dataTables.min.js",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\dataTables\\jquery.dataTables.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\excanvas.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\excanvas.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/excanvas.min.js",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\excanvas.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.colorhelpers.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.colorhelpers.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.colorhelpers.js",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.colorhelpers.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.canvas.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.canvas.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.canvas.js",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.canvas.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.categories.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.categories.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.categories.js",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.categories.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.crosshair.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.crosshair.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.crosshair.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.crosshair.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.errorbars.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.errorbars.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.errorbars.js",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.errorbars.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.fillbetween.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.fillbetween.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.fillbetween.js",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.fillbetween.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.image.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.image.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.image.js",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.image.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.navigate.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.navigate.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.navigate.js",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.navigate.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.pie.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.pie.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.pie.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.pie.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.resize.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.resize.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.resize.js",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.resize.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.selection.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.selection.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.selection.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.selection.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.stack.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.stack.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.stack.js",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.stack.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.symbol.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.symbol.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.symbol.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.symbol.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.threshold.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.threshold.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.threshold.js",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.threshold.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.time.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.time.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.time.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.time.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.tooltip.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot\\jquery.flot.tooltip.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot/jquery.flot.tooltip.min.js",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot\\jquery.flot.tooltip.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\flot-data.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\flot-data.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/flot-data.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\flot-data.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\jquery.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/jquery.min.js",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\metisMenu.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\metisMenu.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/metisMenu.min.js",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\metisMenu.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\morris.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\morris.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/morris.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\morris.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\morris-data.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\morris-data.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/morris-data.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\morris-data.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\raphael.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\raphael.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/raphael.min.js",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\raphael.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\js\\startmin.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\js\\startmin.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/js/startmin.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\js\\startmin.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\LICENSE.md",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\LICENSE.md",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/LICENSE.md",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\package.json",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\package.json",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/package.json",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\package.json"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\blank.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\blank.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/blank.html",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\blank.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\buttons.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\buttons.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/buttons.html",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\buttons.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\flot.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\flot.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/flot.html",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\flot.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\forms.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\forms.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/forms.html",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\forms.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\grid.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\grid.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/grid.html",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\grid.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\icons.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\icons.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/icons.html",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\icons.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/index.html",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\login.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\login.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/login.html",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\login.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\morris.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\morris.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/morris.html",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\morris.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\notifications.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\notifications.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/notifications.html",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\notifications.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\panels-wells.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\panels-wells.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/panels-wells.html",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\panels-wells.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\tables.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\tables.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/tables.html",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\tables.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\pages\\typography.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\pages\\typography.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/pages/typography.html",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\pages\\typography.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\README.md",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\README.md",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/README.md",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\admin\\TEMPLATE.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\admin\\TEMPLATE.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "admin/TEMPLATE.html",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\admin\\TEMPLATE.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "blogsimages/346a0d17-756a-4852-b6a3-6f24283c8959.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "blogsimages/76b2a05b-e11d-4baf-a740-cdb562750913.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "blogsimages/96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\96dcde21-64ee-4679-a7da-c59e0b2f8f0e.jfif"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "blogsimages/b11b01f7-2ed1-4337-a686-528225857a3b.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\b11b01f7-2ed1-4337-a686-528225857a3b.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "blogsimages/e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\errors.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\errors.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "errors.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\errors.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\favicon.ico",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\222x100.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\222x100.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/222x100.png",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\222x100.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\320x220.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\320x220.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/320x220.png",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\320x220.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\avatar.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\avatar.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/avatar.png",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\avatar.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\02.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\02.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/backgrounds/02.png",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\backgrounds\\02.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\03.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\03.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/backgrounds/03.png",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\backgrounds\\03.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\04.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\04.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/backgrounds/04.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\backgrounds\\04.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\05.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\05.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/backgrounds/05.png",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\backgrounds\\05.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/backgrounds/index.html",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\backgrounds\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\site.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\backgrounds\\site.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/backgrounds/site.png",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\backgrounds\\site.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\01.png",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\01.png",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/gallery/01.png",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\gallery\\01.png"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\gallery\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/gallery/index.html",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\gallery\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgl.gif",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgl.gif",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/imgl.gif",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\imgl.gif"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgr.gif",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\imgr.gif",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/imgr.gif",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\imgr.gif"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\demo\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/demo/index.html",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\demo\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\images\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\images\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/images/index.html",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\images\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/index.html",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/index.html",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/scripts/index.html",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\scripts\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.backtotop.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.backtotop.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/scripts/jquery.backtotop.js",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\scripts\\jquery.backtotop.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.flexslider-min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.flexslider-min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/scripts/jquery.flexslider-min.js",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\scripts\\jquery.flexslider-min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/scripts/jquery.min.js",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\scripts\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.mobilemenu.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\scripts\\jquery.mobilemenu.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/scripts/jquery.mobilemenu.js",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\scripts\\jquery.mobilemenu.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\custom.flexslider.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\custom.flexslider.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/custom.flexslider.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\custom.flexslider.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\font-awesome.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\font-awesome.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/font-awesome.min.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\FontAwesome.otf",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.eot",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.svg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\fonts\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/fonts/index.html",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\fonts\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\framework.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\framework.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/framework.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\framework.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/index.html",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\layout.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\layout\\styles\\layout.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/layout/styles/layout.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\layout\\styles\\layout.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\licence.txt",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\licence.txt",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/licence.txt",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\licence.txt"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\basic-grid.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\basic-grid.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/pages/basic-grid.html",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\pages\\basic-grid.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\full-width.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\full-width.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/pages/full-width.html",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\pages\\full-width.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\gallery.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\gallery.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/pages/gallery.html",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\pages\\gallery.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/pages/index.html",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\pages\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-left.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-left.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/pages/sidebar-left.html",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\pages\\sidebar-left.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-right.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\jeren\\pages\\sidebar-right.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "jeren/pages/sidebar-right.html",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\jeren\\pages\\sidebar-right.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\js\\site.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3095,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3133,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3152,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3171,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3190,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3228,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3266,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3285,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3304,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3323,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3342,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3361,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3380,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3399,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "LoginPage/dist/index.html",
       "AssetKind": "All",
@@ -3418,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\LoginPage\\dist\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\style.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\dist\\style.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "LoginPage/dist/style.css",
       "AssetKind": "All",
@@ -3437,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\LoginPage\\dist\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\license.txt",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\license.txt",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "LoginPage/license.txt",
       "AssetKind": "All",
@@ -3456,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\LoginPage\\license.txt"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\README.markdown",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\README.markdown",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "LoginPage/README.markdown",
       "AssetKind": "All",
@@ -3475,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\LoginPage\\README.markdown"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\index.html",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\index.html",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "LoginPage/src/index.html",
       "AssetKind": "All",
@@ -3494,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\LoginPage\\src\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\style.css",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\LoginPage\\src\\style.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "LoginPage/src/style.css",
       "AssetKind": "All",
@@ -3513,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\LoginPage\\src\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\mainblogimage\\booksbyte.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\booksbyte.jpg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "mainblogimage/booksbyte.jpg",
       "AssetKind": "All",
@@ -3532,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\mainblogimage\\booksbyte.jpg"
     },
     {
-      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\BugsByteLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
       "BasePath": "_content/BugsByteLibrary",
       "RelativePath": "mainblogimage/mainblogesimage.jpg",
       "AssetKind": "All",

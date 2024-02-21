@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    var count = 0;
+    
 }
 
 <div id="page-wrapper">
@@ -63,7 +63,7 @@
                                                 {
                                                     <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusTrue" asp-route-id="@item.Id" class="btn btn-warning">Askıdan Kaldır</a>
                                                 }
-                                                <a sp-area="Admin" asp-controller="AdminBlog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
+                                                <a asp-area="Admin" asp-controller="AdminBlog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
 
                                             </td>
                                         </tr>

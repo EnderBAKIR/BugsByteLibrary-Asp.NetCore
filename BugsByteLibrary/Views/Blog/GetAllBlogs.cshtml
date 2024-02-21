@@ -31,10 +31,11 @@
 
                         @foreach (var item in Model)
                         {
+                            @if (item.Status==true && item.InformationBlog==false && item.CodeBank==false)
+                            {
+                                <li class="one_quarter">
 
-                            <li class="one_quarter">
-                                
-                                
+
                                     <div class="card" style="width: 18rem;">
                                         <img src="/mainblogimage/mainblogesimage.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
@@ -43,8 +44,11 @@
                                             <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Id" class="btn btn-primary">Bakalım Neler Var</a>
                                         </div>
                                     </div>
-                                
-                            </li>
+
+                                </li>
+                            }
+
+                            
                         }
 
 
