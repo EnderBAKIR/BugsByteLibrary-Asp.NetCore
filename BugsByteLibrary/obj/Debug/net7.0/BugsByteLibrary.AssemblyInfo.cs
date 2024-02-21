@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BugsByteLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+838eb6d30f19d2abecd5df2915dfa910e7a08ece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be205ff2d6a015b0bd2ae94549806e128171bba4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BugsByteLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BugsByteLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
