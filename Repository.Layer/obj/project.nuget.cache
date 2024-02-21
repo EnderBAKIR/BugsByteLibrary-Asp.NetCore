@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJSBiwgZ1cmVVKfCnFfpeO1f6ui23WKozoCSpAcq+KWsoHVSQCDv3DkYLS6wqS0p4BJWHCvFsQB0whQj563gEg==",
+  "dgSpecHash": "UK3cwMA7zWmh+YqRitDqD0dnz9dCY59IZWwZgWJlGBaXnLD5FdnAp6YZ+uZACCaHrfjxdsWac75CQSQpHZmfgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\Repository.Layer\\Repository.Layer.csproj",
+  "projectFilePath": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Belgeler\\GitHub\\BugsByteLibrary-Asp.NetCore\\Repository.Layer\\Repository.Layer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ender\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Ender\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

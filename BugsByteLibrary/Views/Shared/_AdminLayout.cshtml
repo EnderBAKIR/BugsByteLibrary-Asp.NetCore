@@ -1,28 +1,34 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
+@* Head *@
+
+
 @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminHeadPartial.cshtml")
+@* Head *@
+
 <body>
-    @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminNavbarPartial.cshtml")
 
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Left Sidebar -->
-            
-            
-            <!-- Main Content -->
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                @RenderBody()
-            </main>
-        </div>
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminNavbarPartial.cshtml")
+        @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminLeftbarPartial.cshtml")
+        
+        <!-- /.sidebar -->
+
+       @RenderBody()
+        <!-- /#page-wrapper -->
+
     </div>
+@* Script *@
 
-    @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminFooterPartial.cshtml")
-   
+
+
     @await Html.PartialAsync("/Views/AdminLayoutPartial/_AdminScriptPartial.cshtml")
-    @RenderSection("Scripts", required: false)
+
+@* Script *@
+
 </body>
+
 </html>
-
-
-
-
