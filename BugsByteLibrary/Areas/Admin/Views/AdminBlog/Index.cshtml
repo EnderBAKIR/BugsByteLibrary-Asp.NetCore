@@ -1,0 +1,86 @@
+﻿@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var count = 0;
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Blog İşlemleri</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      Kullanıcıların  Blogları
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>BlogId</th>
+                                        <th>Blog İsmi</th>
+                                        <th>Blog Sahibi</th>
+                                        <th>Oluşturulma Tarihi</th>
+                                        <th>Kategorileri</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        
+
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.AppUser.UserName</td>
+                                            <td>@item.CreatedDate.ToShortDateString()</td>
+                                            <td>
+                                                <ul>
+                                                    @foreach (var category in item.BlogCategories)
+                                                    {
+                                                        <li>@category.Category.Name</li>
+                                                    }
+                                                </ul>
+
+                                            </td>
+
+
+                                            <td>
+                                                @if (item.Status==true)
+                                                {
+                                                    <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusFalse" asp-route-id="@item.Id" class="btn btn-warning">Askıya Al</a>
+                                                }
+                                                else
+                                                {
+                                                    <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusTrue" asp-route-id="@item.Id" class="btn btn-warning">Askıdan Kaldır</a>
+                                                }
+                                                <a sp-area="Admin" asp-controller="AdminBlog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
+
+                                            </td>
+                                        </tr>
+
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.table-responsive -->
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
