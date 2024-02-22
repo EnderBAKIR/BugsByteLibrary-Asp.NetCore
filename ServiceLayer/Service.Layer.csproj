@@ -14,8 +14,4 @@
     <ProjectReference Include="..\Repository.Layer\Repository.Layer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="FluentValidations\" />
-  </ItemGroup>
-
 </Project>

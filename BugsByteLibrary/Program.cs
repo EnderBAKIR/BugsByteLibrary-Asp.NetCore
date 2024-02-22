@@ -2,6 +2,7 @@ using Core.Layer.IRepositories;
 using Core.Layer.IService;
 using Core.Layer.IUnitOfWorks;
 using Core.Layer.Models;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Repository.Layer;
@@ -25,7 +26,10 @@ builder.Services.AddScoped<IBookRepository , BookRepository>();
 builder.Services.AddScoped<IBookService , BookService>();
 
 
-
+builder.Services.AddFluentValidation(fv =>
+{
+    fv.ValidatorOptions.LanguageManager.Culture = new System.Globalization.CultureInfo("tr");
+});
 
 
 builder.Services.AddHttpContextAccessor();

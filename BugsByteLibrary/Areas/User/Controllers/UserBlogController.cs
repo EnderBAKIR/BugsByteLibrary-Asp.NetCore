@@ -3,6 +3,9 @@ using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Service.Layer.FluentValidations;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BugsByteLibrary.Areas.User.Controllers
 {
@@ -41,7 +44,7 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> AddBlog()
+        public async Task<IActionResult> AddBlog(Blog blog)
         {
 
             ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
@@ -54,7 +57,7 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBlog(Blog blog, List<int> SelectedCategoryIds)
         {
-
+            ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
 
             if (blog.Image != null)
 
@@ -80,6 +83,19 @@ namespace BugsByteLibrary.Areas.User.Controllers
                 CategoryId = categoryId
             }).ToList();
 
+            var validator = new BlogValidator();
+            var validationResult = validator.Validate(blog);
+
+            if (!validationResult.IsValid)
+            {
+                
+                
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return View(blog);
+            }
 
 
             await _blogservice.AddBlogAsnyc(blog);
@@ -120,6 +136,24 @@ namespace BugsByteLibrary.Areas.User.Controllers
             {
                 CategoryId = categoryId
             }).ToList();
+
+            ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//Model state İsvalid değil ise viewbagi tekrar alabilmek için
+            var validator = new BlogValidator();
+            var validationResult = validator.Validate(blog);
+
+            if (!validationResult.IsValid)
+            {
+
+
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return View(blog);
+            }
+
+
+
 
             await _blogservice.UpdateBlogCategoriesAsync(blog);//sonra seçili kategorileri güncelle
 
