@@ -14,7 +14,7 @@
 
 
             <form method="post" asp-action="UpdateBlog" asp-controller="UserBlog" enctype="multipart/form-data">
-
+                <input type="hidden" asp-for="CreatedDate" />
                 <div class="form-group">
                     <label for="Name">Başlık:</label>
                     <input type="text" asp-for="Name" />
@@ -53,7 +53,7 @@
                             <br />
                         }
                     }
-
+                    <span asp-validation-for="BlogCategories"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Güncelle</button>
             </form>

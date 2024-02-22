@@ -2,6 +2,7 @@
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Service.Layer.FluentValidations;
 using Service.Layer.Services;
 
 namespace BugsByteLibrary.Areas.Admin.Controllers
@@ -71,6 +72,22 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
                 CategoryId = categoryId
             }).ToList();
 
+            ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
+
+            var validator = new BlogValidator();
+            var validationResult = validator.Validate(blog);
+
+            if (!validationResult.IsValid)
+            {
+
+
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return View(blog);
+            }
+
 
 
             await _blogservice.AddBlogAsnyc(blog);
@@ -109,6 +126,22 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
             {
                 CategoryId = categoryId
             }).ToList();
+
+            ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
+            var validator = new BlogValidator();
+            var validationResult = validator.Validate(blog);
+
+            if (!validationResult.IsValid)
+            {
+
+
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return View(blog);
+            }
+
 
             await _blogservice.UpdateBlogCategoriesAsync(blog);//sonra seçili kategorileri güncelle
 

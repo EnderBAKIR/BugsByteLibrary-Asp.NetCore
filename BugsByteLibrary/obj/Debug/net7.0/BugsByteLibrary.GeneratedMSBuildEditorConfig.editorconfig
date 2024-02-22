@@ -22,6 +22,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/AddBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db2RlQmFua0Jsb2dcQWRkQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db2RlQmFua0Jsb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/UpdateBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db2RlQmFua0Jsb2dcVXBkYXRlQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbmZvcm1hdGlvbkJsb2dcQWRkQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

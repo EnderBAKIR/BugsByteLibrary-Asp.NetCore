@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    
+
 }
 
 <div id="page-wrapper">
@@ -17,7 +17,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                      Kullanıcıların  Blogları
+                        Kullanıcıların  Blogları
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -29,6 +29,7 @@
                                         <th>Blog İsmi</th>
                                         <th>Blog Sahibi</th>
                                         <th>Oluşturulma Tarihi</th>
+                                        <th>Güncellenme Tarihi</th>
                                         <th>Kategorileri</th>
                                         <th>İşlemler</th>
                                     </tr>
@@ -36,37 +37,54 @@
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
-                                        
-
-                                        <tr>
-                                            <td>@item.Id</td>
-                                            <td>@item.Name</td>
-                                            <td>@item.AppUser.UserName</td>
-                                            <td>@item.CreatedDate.ToShortDateString()</td>
-                                            <td>
-                                                <ul>
-                                                    @foreach (var category in item.BlogCategories)
-                                                    {
-                                                        <li>@category.Category.Name</li>
-                                                    }
-                                                </ul>
-
-                                            </td>
-
-
-                                            <td>
-                                                @if (item.Status==true)
+                                        if (item.InformationBlog == false && item.CodeBank == false)
+                                        {
+                                            <tr>
+                                                <td>@item.Id</td>
+                                                <td>@item.Name</td>
+                                                @if (item.AppUser != null)
                                                 {
-                                                    <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusFalse" asp-route-id="@item.Id" class="btn btn-warning">Askıya Al</a>
+                                                    <td>@item.AppUser.UserName</td>
                                                 }
                                                 else
                                                 {
-                                                    <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusTrue" asp-route-id="@item.Id" class="btn btn-warning">Askıdan Kaldır</a>
+                                                    <td>kullanıcı bilgisi bulunamadı</td>
                                                 }
-                                                <a asp-area="Admin" asp-controller="AdminBlog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
+                                                <td>@item.CreatedDate.ToShortDateString()</td>
+                                                @if (item.UpdateDate != null)
+                                                {
+                                                    <td>@item.UpdateDate?.ToShortDateString()</td>
+                                                }
 
-                                            </td>
-                                        </tr>
+
+
+                                                <td>
+                                                    <ul>
+                                                        @foreach (var category in item.BlogCategories)
+                                                        {
+                                                            <li>@category.Category.Name</li>
+                                                        }
+                                                    </ul>
+
+                                                </td>
+
+
+                                                <td>
+                                                    @if (item.Status == true)
+                                                    {
+                                                        <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusFalse" asp-route-id="@item.Id" class="btn btn-warning">Askıya Al</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a asp-area="Admin" asp-controller="AdminBlog" asp-action="ChangeStatusTrue" asp-route-id="@item.Id" class="btn btn-warning">Askıdan Kaldır</a>
+                                                    }
+                                                    <a asp-area="Admin" asp-controller="AdminBlog" asp-action="DeleteBlog" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
+
+                                                </td>
+                                            </tr>
+                                        }
+
+
 
                                     }
 

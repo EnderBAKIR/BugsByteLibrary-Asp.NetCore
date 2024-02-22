@@ -2,51 +2,61 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    bool anyUserBlog = false;
 }
 
 
 
-    <h1>
 
-    <h2>@ViewBag.UserId</h2>
 
-    <table border="1">
+<h2>@ViewBag.UserId</h2>
+
+<table border="1">
+    <tr>
+        <th>Başlık</th>
+        <th>Açıklama</th>
+        <th>Yazar</th>
+        <th>Status</th>
+        <th>Categorileri</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+
+    @foreach (var blog in Model)
+    {
         <tr>
-            <th>Başlık</th>
-            <th>Açıklama</th>
-            <th>Yazar</th>
-            <th>Status</th>
-            <th>Categorileri</th>
-            <th>Güncelle</th>
-            <th>Sil</th>
-        </tr>
-      
-        @foreach (var blog in Model)
-        {
-            if (blog.InformationBlog == false)
-        {
-                <tr>
-                    <td>@blog.Name</td>
-                    <td>@blog.Description</td>
-                    <td>@blog.AppUser.Name</td>
-                    <td>@blog.Status</td>
-                    <td>@foreach (var item in blog.BlogCategories)
-                        {
-                            @item.Category.Name
-                        }
-                    </td>
-                    <td><a href="/User/UserBlog/UpdateBlog/@blog.Id">Güncelle</a></td>
-                    <td><a href="/User/UserBlog/DeleteBlog/@blog.Id">Sil</a></td>
-                </tr>
-            }
-            else
+            @if (blog.InformationBlog == false && blog.CodeBank == false)
             {
-             <p>blog yok</p>
-            }
-        }
-    </table>
 
-</h1>
+                <td>@blog.Name</td>
+                <td>@blog.Description</td>
+                <td>@blog.AppUser.Name</td>
+                <td>@blog.Status</td>
+                <td>
+                    @foreach (var item in blog.BlogCategories)
+                    {
+                        @item.Category.Name
+                    }
+                </td>
+                <td><a href="/User/UserBlog/UpdateBlog/@blog.Id">Güncelle</a></td>
+                <td><a href="/User/UserBlog/DeleteBlog/@blog.Id">Sil</a></td>
+                anyUserBlog = true; // blog yoksa blog yok yazısını sadece bir kere döndürmek için
+            }
+            
+            
+        </tr>
+       
+    }
+  
+
+</table>
+@if (!anyUserBlog)
+{
+    <tr>
+        <td colspan="7">Blog yok</td>
+    </tr>
+}
+
 <h2>
     <a href="/User/UserBlog/AddBlog">Blog ekle</a>
 </h2>

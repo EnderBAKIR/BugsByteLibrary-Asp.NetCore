@@ -147,7 +147,16 @@ namespace BugsByteLibrary.Controllers
 
 
 
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction(nameof(DefaultController.Index) , "Default"); // Çıkış yapıldıktan sonra yönlendirilecek sayfa
+        }
+
     }
+
+
+   
 
 }
 

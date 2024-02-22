@@ -35,10 +35,10 @@
         {
             <input type="checkbox" name="SelectedCategoryIds" value="@category.Id" />
             <label>@category.Name</label>
-            <span asp-validation-for="BlogCategories" class="text-danger"></span>
+            
             <br />
         }
-       
+        <span asp-validation-for="BlogCategories" class="text-danger"></span>
     </div>
     <button class="btn btn-primary">Ekle</button>
 </form>

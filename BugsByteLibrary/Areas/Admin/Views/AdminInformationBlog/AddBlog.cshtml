@@ -15,16 +15,19 @@
                 <div class="mb-3">
                     <label for="Name" class="form-label">Başlık:</label>
                     <input type="text" asp-for="Name" class="form-control col-4" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <hr />
                 <div class="mb-3">
                     <label for="Content" class="form-label">Blog İçeriği:</label>
                     <textarea asp-for="Content" class="form-control"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label for="Description" class="form-label">Kısa Açıklama:</label>
                     <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
@@ -40,8 +43,10 @@
                             <div class="form-check form-check-inline">
                                 <input type="checkbox" class="form-check-input" name="SelectedCategoryIds" value="@category.Id" />
                                 <label class="form-check-label">@category.Name</label>
+
                             </div>
                         }
+                        <span asp-validation-for="BlogCategories" class="text-danger"></span>
                     </div>
                 </div>
 

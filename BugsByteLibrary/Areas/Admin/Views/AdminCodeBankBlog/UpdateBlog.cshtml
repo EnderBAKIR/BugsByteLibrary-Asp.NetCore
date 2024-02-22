@@ -1,0 +1,72 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "UpdateBlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Blog Güncelleme</h1>
+            </div>
+
+
+
+            <form method="post" asp-action="UpdateBlog" asp-controller="AdminCodeBankBlog" enctype="multipart/form-data">
+
+                <input type="hidden" asp-for="CreatedDate" />
+
+                <div class="form-group">
+                    <label for="Name">Başlık:</label>
+                    <input type="text" asp-for="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Title"> Blog İçeriği:</label>
+                    <input type="text" asp-for="Content" />
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="Description" class="form-label">Kısa Açıklama</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Image">Resim:</label>
+                    <input type="file" asp-for="Image" />
+
+                </div>
+
+                <div class="form-group">
+                    <label>Kategoriler:</label>
+                    <br />
+                    @if (ViewBag.Categories != null)
+                    {
+                        List<int> selectedCategoryIds = Model.BlogCategories?.Select(c => c.CategoryId ?? 0).ToList() ?? new List<int>();
+
+                        foreach (var category in ViewBag.Categories)
+                        {
+                            <input type="checkbox" name="SelectedCategoryIds" value="@category.Id"
+                            @(selectedCategoryIds.Contains(category.Id) ? "checked" : "") />
+                            <label>@category.Name</label>
+                            <br />
+                        }
+                    }
+                    <span asp-validation-for="BlogCategories"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#Content'
+        });
+    </script>
+}
+
+

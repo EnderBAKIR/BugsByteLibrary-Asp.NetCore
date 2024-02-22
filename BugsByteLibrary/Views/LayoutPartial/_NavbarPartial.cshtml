@@ -61,7 +61,7 @@
                 </li>
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <li><a href="#">Çıkış Yap</a></li>
+                    <li><a asp-action="Logout" asp-controller="Account">Çıkış Yap</a></li>
                 }
                 else
                 {

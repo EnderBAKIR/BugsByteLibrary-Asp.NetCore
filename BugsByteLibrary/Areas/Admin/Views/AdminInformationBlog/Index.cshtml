@@ -32,16 +32,10 @@
                                         <th>BlogId</th>
                                         <th>Blog İsmi</th>
                                         <th>Oluşturulma Tarihi</th>
-                                        @foreach (var item in Model)
-                                        {
-                                            if (item.UpdateDate!=null)
-                                            {
-                                                <th>Güncellenme Tarihi</th>
-                                            }
-                                        }
+                                        <th>Güncellenme Tarihi</th>
                                         <th>Kategorileri</th>
                                         <th>İşlemler</th>
-                                        
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -54,12 +48,11 @@
                                                 <td>@item.Id</td>
                                                 <td>@item.Name</td>
                                                 <td>@item.CreatedDate.ToShortDateString()</td>
-                                                @if (item.UpdateDate!=null)
+                                                @if (item.UpdateDate != null)
                                                 {
-                                                   <td>@item.UpdateDate?.ToShortDateString()</td> 
+                                                    <td>@item.UpdateDate?.ToShortDateString()</td>
                                                 }
 
-                                                
                                                 <td>
                                                     <ul>
                                                         @foreach (var category in item.BlogCategories)
@@ -69,7 +62,6 @@
                                                     </ul>
 
                                                 </td>
-
 
                                                 <td>
                                                     @if (item.Status == true)
@@ -89,7 +81,7 @@
                                             </tr>
                                         }
 
-                                       
+
 
                                     }
 
