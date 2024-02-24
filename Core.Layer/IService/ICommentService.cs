@@ -12,6 +12,10 @@ namespace Core.Layer.IService
 
         //Commentler modelin kendisi üzerindne listelenecek => blogların içinde.
 
+
+        Task<IEnumerable<Comment>> GetAllComment();
+
+
         Task<Comment> AddCommentAsync(Comment comment);
 
 
@@ -20,5 +24,8 @@ namespace Core.Layer.IService
         Task<Comment> GetCommentByIdAsync(int id);
 
         Task UpdateComment(Comment comment);
+
+
+        Task DeleteComment(Comment comment);
     }
 }

@@ -21,6 +21,15 @@ namespace Repository.Layer.Repositories
             _commentSet = _appDbContext.Set<Comment>();
         }
 
+
+
+
+        public async Task<IEnumerable<Comment>> GetAllComment()
+        {
+            return await _commentSet.Include(x=>x.Appuser).Include(x=>x.Blog).ToListAsync();
+        }
+
+
         public async Task<Comment> AddCommentAsync(Comment comment)
         {
            await _commentSet.AddAsync(comment);
@@ -46,6 +55,15 @@ namespace Repository.Layer.Repositories
         public void UpdateComment(Comment comment)
         {
             _commentSet.Update(comment);
+        }
+
+
+        public void DeleteComment(Comment comment)
+        { 
+        
+            _commentSet.Remove(comment);
+        
+        
         }
     }
 }

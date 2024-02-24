@@ -9,6 +9,10 @@ namespace Core.Layer.IRepositories
 {
     public interface ICommentRepository
     {
+
+
+        Task<IEnumerable<Comment>> GetAllComment();
+
         Task<Comment> AddCommentAsync(Comment comment);
 
         Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId);
@@ -16,6 +20,8 @@ namespace Core.Layer.IRepositories
         Task<Comment> GetCommentByIdAsync(int id);
 
         void UpdateComment(Comment comment);
+
+        void DeleteComment(Comment comment);
 
     }
 }

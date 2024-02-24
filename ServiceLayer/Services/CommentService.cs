@@ -31,6 +31,17 @@ namespace Service.Layer.Services
             return comment;
         }
 
+        public async Task DeleteComment(Comment comment)
+        {
+             _commentRepository.DeleteComment(comment);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task<IEnumerable<Comment>> GetAllComment()
+        {
+            return await _commentRepository.GetAllComment();
+        }
+
         public async Task<Comment> GetCommentByIdAsync(int id)
         {
           return await _commentRepository.GetCommentByIdAsync(id);
