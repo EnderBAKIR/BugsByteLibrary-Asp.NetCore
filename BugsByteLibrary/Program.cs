@@ -14,16 +14,18 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ICommentRepository , CommentRepository>();
 builder.Services.AddScoped<ICommentService, CommentService>();
 builder.Services.AddScoped<IBlogRepository , BlogRepository>();
 builder.Services.AddScoped<IBlogService , BlogService>();
-builder.Services.AddScoped<IUnitOfWork , UnitOfWork>();
 builder.Services.AddScoped<ICategoryRepository , CategoryRepository>();
 builder.Services.AddScoped<ICategoryService , CategoryService>();
 builder.Services.AddScoped<IBookRepository , BookRepository>();
 builder.Services.AddScoped<IBookService , BookService>();
+builder.Services.AddScoped<IHiringRepository, HiringRepository>();
+builder.Services.AddScoped<IHiringService , HiringService>();
+
 
 
 builder.Services.AddFluentValidation(fv =>
