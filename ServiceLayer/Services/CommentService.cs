@@ -31,9 +31,21 @@ namespace Service.Layer.Services
             return comment;
         }
 
+        public async Task<Comment> GetCommentByIdAsync(int id)
+        {
+          return await _commentRepository.GetCommentByIdAsync(id);
+        }
+
         public Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId)
         {
             return _commentRepository.GetCommentsByUserIdAsync(userId);
+        }
+
+        public async Task UpdateComment(Comment comment)
+        {
+            _commentRepository.UpdateComment(comment);
+
+            await _unitOfWork.CommitAsync();
         }
     }
 }

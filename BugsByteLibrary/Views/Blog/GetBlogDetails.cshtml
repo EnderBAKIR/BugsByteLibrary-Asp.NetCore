@@ -13,21 +13,21 @@
 <div class="wrapper row3">
     <main class="hoc container clear">
         <div class="content three_quarter first">
-            
+
 
 
 
             <p> @Html.Raw(Model.Content)</p>
 
-            
+
             <div class="scrollable">
-                @if (Model.ImageUrl!=null)
+                @if (Model.ImageUrl != null)
                 {
                     <img src="/blogsimages/@Model.ImageUrl" />
                 }
                 else
                 {
-                  
+
                 }
             </div>
             <br />
@@ -37,28 +37,32 @@
                     <!-- Yorumlar buraya -->
                     @foreach (var item in Model.Comments)
                     {
-                        <li>
-                            <article>
-                                <header>
-                                    <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
-                                    <address>
-                                        @if (item.Appuser!=null)
-                                        {
-                                           <p>Tarafından</p>  <a href="#">@item.Appuser.UserName</a> 
-                                        }
-                                        else
-                                        {
-                                           <p>Kimlik bulunamadı</p>    
-                                        }
-                                       
-                                    </address>
-                                    <time datetime="">@item.CreateDate </time>
-                                </header>
-                                <div class="comcont">
-                                    <p>@item.CommentContent</p>
-                                </div>
-                            </article>
-                        </li>
+                        if (item.Status == true)
+                        {
+
+                            <li>
+                                <article>
+                                    <header>
+                                        <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
+                                        <address>
+                                            @if (item.Appuser != null)
+                                            {
+                                                <p>Tarafından</p>  <a href="#">@item.Appuser.UserName</a>
+                                            }
+                                            else
+                                            {
+                                                <p>Kimlik bulunamadı</p>
+                                            }
+
+                                        </address>
+                                        <time datetime="">@item.CreateDate </time>
+                                    </header>
+                                    <div class="comcont">
+                                        <p>@item.CommentContent</p>
+                                    </div>
+                                </article>
+                            </li>
+                        }
                     }
                 </ul>
 
@@ -77,7 +81,7 @@
                                 <label for="comment">Yorumunuz</label>
                                 <textarea name="CommentContent" id="comment" cols="25" rows="10"></textarea>
                             </div>
-                            <button  class="btn btn-outline-primary">Yorumu Kaydet</button>
+                            <button class="btn btn-outline-primary">Yorumu Kaydet</button>
                             <div>
                                 <input type="reset" name="reset" value="Yazıyı Sil">
                             </div>

@@ -16,5 +16,9 @@ namespace Core.Layer.IService
 
 
         Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId);
+
+        Task<Comment> GetCommentByIdAsync(int id);
+
+        Task UpdateComment(Comment comment);
     }
 }

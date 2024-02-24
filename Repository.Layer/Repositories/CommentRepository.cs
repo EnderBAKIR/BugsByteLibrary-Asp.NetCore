@@ -30,9 +30,22 @@ namespace Repository.Layer.Repositories
 
         public async Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId)
         {
-            var values = await _commentSet.Include(x=>x.Blog).Where(x=>x.AppUserId == userId).ToListAsync();
+            var values = await _commentSet.Include(x=>x.Blog).Include(x=>x.Appuser).Where(x=>x.AppUserId == userId).ToListAsync();
 
             return values;
+        }
+
+        public async Task<Comment> GetCommentByIdAsync(int id)
+        {
+           return await _commentSet.Include(x=>x.Appuser).Include(x=>x.Blog).FirstOrDefaultAsync(x=>x.Id == id);
+
+            
+        }
+
+
+        public void UpdateComment(Comment comment)
+        {
+            _commentSet.Update(comment);
         }
     }
 }

@@ -12,5 +12,10 @@ namespace Core.Layer.IRepositories
         Task<Comment> AddCommentAsync(Comment comment);
 
         Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId);
+
+        Task<Comment> GetCommentByIdAsync(int id);
+
+        void UpdateComment(Comment comment);
+
     }
 }
