@@ -23,6 +23,7 @@ namespace Service.Layer.Services
 
         public async Task<Hiring> AddHiringAsync(Hiring hiring)
         {
+            hiring.Id = Guid.NewGuid().ToString();
             hiring.CreatedTime = DateTime.Now;
             hiring.Status = true;
             await _hiringRepository.AddHiringAsync(hiring);

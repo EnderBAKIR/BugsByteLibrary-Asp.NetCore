@@ -1,0 +1,60 @@
+﻿@model Hiring
+@{
+    ViewData["Title"] = "AddHiring";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Blog İşlemleri</h1>
+            </div>
+
+            <form method="post" asp-action="AddHiring" asp-controller="AdminHiring">
+                <div class="mb-3">
+                    <label for="Name" class="form-label">Başlık:</label>
+                    <input type="text" asp-for="Name" class="form-control col-4" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <hr />
+
+
+                <div class="mb-3">
+                    <label for="Description" class="form-label">Kısa Açıklama:</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+
+
+
+                <div class="mb-3">
+                    <label for="Content" class="form-label">İş Başvuru Formu İçeriği:</label>
+                    <textarea asp-for="Content" class="form-control"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+
+                
+
+               
+
+                
+
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.7.0/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#Content'
+        });
+    </script>
+
+}

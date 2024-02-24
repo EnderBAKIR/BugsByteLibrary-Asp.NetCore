@@ -19,6 +19,7 @@ namespace Core.Layer.Models
         public bool Status { get; set; }
 
         public DateTime CreatedTime { get; set; }
+        public DateTime? UpdateDate { get; set; }
 
         public ICollection<OpenToWork> OpenToWorks { get; set; }
     }
