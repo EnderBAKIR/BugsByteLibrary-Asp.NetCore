@@ -15,6 +15,7 @@
 
             <form method="post" asp-action="UpdateBlog" asp-controller="UserBlog" enctype="multipart/form-data">
                 <input type="hidden" asp-for="CreatedDate" />
+                <input type="text" asp-for="AppUserId" value="@ViewBag.UserId" />
                 <div class="form-group">
                     <label for="Name">Başlık:</label>
                     <input type="text" asp-for="Name" />
@@ -35,9 +36,7 @@
                     <input type="file" asp-for="Image" />
 
                 </div>
-                <div class="form-group">
-                    <input type="text" asp-for="AppUserId" value="@ViewBag.UserId" placeholder="UserId" class="form-control" />
-                </div>
+                
                 <div class="form-group">
                     <label>Kategoriler:</label>
                     <br />

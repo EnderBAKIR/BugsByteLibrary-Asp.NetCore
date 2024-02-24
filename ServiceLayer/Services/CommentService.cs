@@ -30,5 +30,10 @@ namespace Service.Layer.Services
 
             return comment;
         }
+
+        public Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId)
+        {
+            return _commentRepository.GetCommentsByUserIdAsync(userId);
+        }
     }
 }

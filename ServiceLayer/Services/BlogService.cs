@@ -61,6 +61,11 @@ namespace Service.Layer.Services
            return await _blogRepository.GetBlogByIdAsync(id);
         }
 
+        public async Task<IEnumerable<Blog>> GetBlogsByUserIdAsync(int userId)
+        {
+            return await _blogRepository.GetBlogsByUserIdAsync(userId);
+        }
+
         public async Task UpdateBlog(Blog blog)
         {
            _blogRepository.UpdateBlog(blog);

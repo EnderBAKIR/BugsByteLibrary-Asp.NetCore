@@ -22,6 +22,8 @@ namespace Core.Layer.IRepositories
         Task UpdateBlogCategoriesAsync(Blog blog);
         Task DeleteBlogCategoriesAsync(Blog blog);
 
-        
+        Task<IEnumerable<Blog>> GetBlogsByUserIdAsync(int userId);
+
+
     }
 }

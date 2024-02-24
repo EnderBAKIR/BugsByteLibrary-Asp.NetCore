@@ -14,8 +14,8 @@
                 <li><a href="#">İletişim</a></li>
                 @if (!User.Identity.IsAuthenticated)
                 {
-                    <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
+                    <li><a  asp-controller="Account" asp-action="Login">Login</a></li>
+                <li><a  asp-action="Register" asp-controller="Account">Register</a></li>
                 }
                 
             </ul>

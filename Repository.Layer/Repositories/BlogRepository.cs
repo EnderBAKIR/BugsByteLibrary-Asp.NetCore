@@ -83,6 +83,12 @@ namespace Repository.Layer.Repositories
 
         }
 
+        public async Task<IEnumerable<Blog>> GetBlogsByUserIdAsync(int userId)
+        {
+          var values =   await _blogSet.Include(x => x.AppUser).Include(x => x.BlogCategories).ThenInclude(x => x.Category).Where(x=>x.AppUserId == userId).ToListAsync();
+
+            return values;
+        }
      
        
     }

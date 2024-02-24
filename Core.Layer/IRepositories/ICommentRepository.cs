@@ -10,5 +10,7 @@ namespace Core.Layer.IRepositories
     public interface ICommentRepository
     {
         Task<Comment> AddCommentAsync(Comment comment);
+
+        Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId);
     }
 }

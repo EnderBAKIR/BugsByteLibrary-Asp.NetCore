@@ -27,5 +27,12 @@ namespace Repository.Layer.Repositories
 
             return comment;
         }
+
+        public async Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId)
+        {
+            var values = await _commentSet.Include(x=>x.Blog).Where(x=>x.AppUserId == userId).ToListAsync();
+
+            return values;
+        }
     }
 }

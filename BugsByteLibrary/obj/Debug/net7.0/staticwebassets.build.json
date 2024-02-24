@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q+eIMK96XScDRylA0yuNHwKULrTBbaVY6frzta2dals=",
+  "Hash": "6Xml7fqD+Uokkj2QUyH7lQInurwdRSPClW806csccSE=",
   "Source": "BugsByteLibrary",
   "BasePath": "_content/BugsByteLibrary",
   "Mode": "Default",
@@ -1402,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\blogsimages\\346a0d17-756a-4852-b6a3-6f24283c8959.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\4e5e0a45-1f8c-4f95-8407-84231903ee94.jpg",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "blogsimages/4e5e0a45-1f8c-4f95-8407-84231903ee94.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blogsimages\\4e5e0a45-1f8c-4f95-8407-84231903ee94.jpg"
     },
     {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\76b2a05b-e11d-4baf-a740-cdb562750913.jpg",

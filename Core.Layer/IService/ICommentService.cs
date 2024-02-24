@@ -9,6 +9,12 @@ namespace Core.Layer.IService
 {
     public interface ICommentService
     {
+
+        //Commentler modelin kendisi üzerindne listelenecek => blogların içinde.
+
         Task<Comment> AddCommentAsync(Comment comment);
+
+
+        Task<IEnumerable<Comment>> GetCommentsByUserIdAsync(int userId);
     }
 }

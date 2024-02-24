@@ -27,17 +27,15 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var value = await _blogservice.GetAllBlogAsync();
 
-            if (User.Identity.IsAuthenticated)
-            {
-                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
-                ViewBag.UserId = user.Id;
-                return View(value);
-            }
 
-            return View();
+            var value = await _blogservice.GetBlogsByUserIdAsync(user.Id);
+
+            ViewBag.UserId = user.Id;
+
+            return View(value);
 
 
         }
@@ -88,8 +86,8 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
             if (!validationResult.IsValid)
             {
-                
-                
+
+
                 foreach (var error in validationResult.Errors)
                 {
                     ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
@@ -126,6 +124,9 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateBlog(Blog blog, List<int> SelectedCategoryIds)
         {
+
+            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            ViewBag.UserId = user.Id;
 
             blog.UpdateDate = DateTime.Now;
             blog.Status = true;
