@@ -19,7 +19,9 @@ namespace Repository.Layer.Configrutaions
             builder.Property(x => x.UserName).IsRequired().HasMaxLength(20);
             builder.Ignore(x => x.Image);
 
-            builder.HasMany(x => x.Blogs).WithOne(x => x.AppUser).HasForeignKey(x => x.AppUserId).OnDelete(DeleteBehavior.NoAction);//User silinsin ama ona ait bloglar silinmesin(sitenin veri bütünlüğün üsağlamak adına böyle bir karar alındı.)
+            builder.HasMany(x => x.Blogs).WithOne(x => x.AppUser).HasForeignKey(x => x.AppUserId).OnDelete(DeleteBehavior.NoAction);//User silinsin ama ona ait bloglar silinmesin(sitenin veri bütünlüğünü sağlamak adına böyle bir karar alındı.)
+
+            
            
 
 

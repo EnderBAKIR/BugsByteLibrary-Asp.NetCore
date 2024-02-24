@@ -20,8 +20,8 @@ namespace Core.Layer.Models
 
         public ICollection<Comment> Comments { get; set; } 
         public ICollection<Blog> Blogs { get; set; }
-       
 
+        public ICollection<OpenToWork> OpenToWorks { get; set; }
 
 
 

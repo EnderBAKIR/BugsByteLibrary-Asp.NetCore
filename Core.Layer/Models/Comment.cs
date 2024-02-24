@@ -24,10 +24,5 @@ namespace Core.Layer.Models
         public int? AppUserId { get; set; }
         public AppUser? Appuser { get; set; }
 
-
-
-
-
-
     }
 }

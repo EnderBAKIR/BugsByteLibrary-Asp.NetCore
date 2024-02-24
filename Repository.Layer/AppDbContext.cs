@@ -10,23 +10,27 @@ using System.Threading.Tasks;
 
 namespace Repository.Layer
 {
-    public class AppDbContext : IdentityDbContext<AppUser , AppRole , int>
+    public class AppDbContext : IdentityDbContext<AppUser, AppRole, int>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 
-        public DbSet<AppUser>AppUsers { get; set; }//veri tabanıyla entityi eşledik
+        public DbSet<AppUser> AppUsers { get; set; }//veri tabanıyla entityi eşledik
 
-        public DbSet<Blog>Blogs { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
 
-        public DbSet<Comment>Comments { get; set; }
-        
-        public DbSet<EBook>EBooks { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
-        public DbSet<Category>Categories { get; set; }
+        public DbSet<EBook> EBooks { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
 
         public DbSet<BlogCategory> BlogsCategories { get; set; }//bu bizim çoka çok ilişkimizi sağlıycak modelimiz.
+
+        public DbSet<Hiring> Hirings { get; set; }
+
+        public DbSet<OpenToWork> OpenToWorks { get; set; }
 
         //Configuration ile eklenen Assemblileri Efcore a bildirdik
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -34,7 +38,7 @@ namespace Repository.Layer
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
 
-        
+
         }
 
 
@@ -43,6 +47,6 @@ namespace Repository.Layer
 
     }
 
-    
-    
+
+
 }
