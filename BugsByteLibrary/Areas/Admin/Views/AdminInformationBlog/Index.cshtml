@@ -48,11 +48,7 @@
                                                 <td>@item.Id</td>
                                                 <td>@item.Name</td>
                                                 <td>@item.CreatedDate.ToShortDateString()</td>
-                                                @if (item.UpdateDate != null)
-                                                {
-                                                    <td>@item.UpdateDate?.ToShortDateString()</td>
-                                                }
-
+                                                <td>@item.UpdateDate?.ToShortDateString()</td>k
                                                 <td>
                                                     <ul>
                                                         @foreach (var category in item.BlogCategories)

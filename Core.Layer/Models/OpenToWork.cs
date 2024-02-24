@@ -12,6 +12,11 @@ namespace Core.Layer.Models
     {
         public string Id { get; set; }
 
+        public DateTime CreatedTime { get; set; }
+        public DateTime? UpdateTime { get; set; }
+
+        public bool Status { get; set; }
+
         public string ApplicantName { get; set; }
 
         public string ApplicantAddress { get; set; }
