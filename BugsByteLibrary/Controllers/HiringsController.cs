@@ -1,4 +1,5 @@
 ﻿using Core.Layer.IService;
+using Core.Layer.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BugsByteLibrary.Controllers
@@ -6,10 +7,12 @@ namespace BugsByteLibrary.Controllers
     public class HiringsController : Controller
     {
         private readonly IHiringService _hiringService;
+        private readonly IOpenToWorkService _openToWorkService;
 
-        public HiringsController(IHiringService hiringService)
+        public HiringsController(IHiringService hiringService, IOpenToWorkService openToWorkService)
         {
             _hiringService = hiringService;
+            _openToWorkService = openToWorkService;
         }
 
         public async Task<IActionResult> Index()
@@ -28,6 +31,13 @@ namespace BugsByteLibrary.Controllers
 
             return View(hiring);
 
+        }
+
+        public async Task<IActionResult> AddOpenToWork(OpenToWork openToWork)
+        {
+            await _openToWorkService.AddOpenToWorkAsync(openToWork);
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

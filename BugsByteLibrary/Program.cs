@@ -25,6 +25,9 @@ builder.Services.AddScoped<IBookRepository , BookRepository>();
 builder.Services.AddScoped<IBookService , BookService>();
 builder.Services.AddScoped<IHiringRepository, HiringRepository>();
 builder.Services.AddScoped<IHiringService , HiringService>();
+builder.Services.AddScoped<IOpentoWorkRepository , OpenToWorkRepository>();
+builder.Services.AddScoped<IOpenToWorkService , OpenToWorkService>();
+
 
 
 
@@ -38,7 +41,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
 //builder.Services.Configure<IdentityOptions>(opt => //eðer identity serverýn kendi email doðrulama sistemini kullanmak istiyorsak bu kod bloðunu kullanmalýyýz
-                                                        //Ama biz kendimiz bir mail doðrulama iþlemi gerçekleþtiricez kendi senaryomuz ve gereksinimlerimize göre yapýcaðýz
+                                                        //Ama biz kendimiz bir mail doðrulama iþlemi gerçekleþtiricez kendi senaryomuz ve gereksinimlerimize göre yapýcaðýz.
 //{
 //    opt.SignIn.RequireConfirmedEmail = true;
 //});
