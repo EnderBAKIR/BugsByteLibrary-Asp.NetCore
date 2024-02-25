@@ -1,0 +1,87 @@
+﻿@model List<CourseRequest>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+
+<div class="bgded overlay" style="background-image:url('/jeren/images/demo/backgrounds/02.png');">
+    <div id="breadcrumb" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <ul>
+            <li>Ekipten Biri Olmak İster Misiniz?</li>
+            <li> Öyleyse Hemen Aşağıdaki Başvurulardan Birine Gidin</li>
+
+        </ul>
+        <!-- ################################################################################################ -->
+    </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="content">
+            <!-- ################################################################################################ -->
+            <div id="gallery">
+                <figure>
+
+                    <ul class="nospace clear">
+
+                        @foreach (var item in Model)
+                        {
+                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                            var user = await UserManager.GetUserAsync(User);
+                            @if (item.Status == true)
+                            {
+                                <li class="one_quarter">
+
+
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="/mainblogimage/mainblogesimage.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@item.Name</h5>
+                                            <p class="card-text">@item.Description</p>
+
+                                            @if (item.CourseCodes.Any())
+                                            {
+                                                @foreach (var courseCode in item.CourseCodes)
+                                                {
+                                                    if (courseCode.AppUserId == user.Id)
+                                                    {
+                                                        <p> Kod İstediniz</p>
+                                                    }
+                                                  
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <form method="post" asp-action="WantCourseCode" asp-controller="CourseRequest">
+                                                    <input type="text" name="CourseId"  value="@item.Id"/>
+                                                    <button type="submit" class="btn btn-primary">Kod İste</button>
+                                                </form>
+                                            }
+                                           
+
+                                            
+                                        </div>
+                                    </div>
+
+                                </li>
+                            }
+
+
+                        }
+
+
+                    </ul>
+
+                </figure>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </main>
+</div>
+

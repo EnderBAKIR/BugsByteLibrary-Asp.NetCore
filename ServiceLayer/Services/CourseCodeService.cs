@@ -25,7 +25,7 @@ namespace Service.Layer.Services
         public async Task<CourseCode> AddCourseCodeAsync(CourseCode courseCode)
         {
             courseCode.Id = Guid.NewGuid().ToString();
-            courseCode.Status = true;
+            courseCode.Status = false;
             
             await _courseCodeRepository.AddCourseCodeAsync(courseCode);
             await _unitOfWork.CommitAsync();

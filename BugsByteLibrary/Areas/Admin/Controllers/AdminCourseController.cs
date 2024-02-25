@@ -12,9 +12,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         private readonly ICourseRequestService _courseService;
 
-        public AdminCourseController(ICourseRequestService courseService)
+        private readonly ICourseCodeService _courseCodeService;
+
+        public AdminCourseController(ICourseRequestService courseService, ICourseCodeService courseCodeService)
         {
             _courseService = courseService;
+            _courseCodeService = courseCodeService;
         }
 
         public async Task<IActionResult> Index()
@@ -22,6 +25,15 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
             var courses = await _courseService.GetAllCourseAsync();
 
             return View(courses);
+        }
+
+        public async Task<IActionResult>GetCourseDetails(string id)
+        {
+            var course = await _courseService.GetCourseByIdAsync(id);
+
+            TempData["courseId"] = course.Id;
+
+            return View(course);
         }
 
 
@@ -88,7 +100,16 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+        public async Task<IActionResult> AddCode(string id , CourseCode courseCode)
+        {
+            
+            
 
+            await _courseCodeService.UpdateCourseCodeAsync(courseCode);
+
+            return RedirectToAction(nameof(GetCourseDetails) , new {id = TempData["courseId"] });
+
+        }
 
     }
 }
