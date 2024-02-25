@@ -24,6 +24,8 @@ namespace Service.Layer.Services
 
         public async Task<CourseRequest> AddCourseAsync(CourseRequest courseRequest)
         {
+            courseRequest.Id = Guid.NewGuid().ToString();
+            courseRequest.Status = true;
             await _courseRepository.AddCourseAsync(courseRequest);
             await _unitOfWork.CommitAsync();
 
