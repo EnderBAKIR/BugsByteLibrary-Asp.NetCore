@@ -254,6 +254,59 @@ namespace Repository.Layer.Migrations
                     b.ToTable("Comments");
                 });
 
+            modelBuilder.Entity("Core.Layer.Models.CourseCode", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AppUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CourseId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("CourseId");
+
+                    b.ToTable("CourseCodes");
+                });
+
+            modelBuilder.Entity("Core.Layer.Models.CourseRequest", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CourseRequests");
+                });
+
             modelBuilder.Entity("Core.Layer.Models.EBook", b =>
                 {
                     b.Property<int>("Id")
@@ -512,6 +565,25 @@ namespace Repository.Layer.Migrations
                     b.Navigation("Blog");
                 });
 
+            modelBuilder.Entity("Core.Layer.Models.CourseCode", b =>
+                {
+                    b.HasOne("Core.Layer.Models.AppUser", "AppUser")
+                        .WithMany("CourseCodes")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Core.Layer.Models.CourseRequest", "CourseRequest")
+                        .WithMany("CourseCodes")
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("CourseRequest");
+                });
+
             modelBuilder.Entity("Core.Layer.Models.OpenToWork", b =>
                 {
                     b.HasOne("Core.Layer.Models.AppUser", "AppUser")
@@ -586,6 +658,8 @@ namespace Repository.Layer.Migrations
 
                     b.Navigation("Comments");
 
+                    b.Navigation("CourseCodes");
+
                     b.Navigation("OpenToWorks");
                 });
 
@@ -599,6 +673,11 @@ namespace Repository.Layer.Migrations
             modelBuilder.Entity("Core.Layer.Models.Category", b =>
                 {
                     b.Navigation("BlogCategories");
+                });
+
+            modelBuilder.Entity("Core.Layer.Models.CourseRequest", b =>
+                {
+                    b.Navigation("CourseCodes");
                 });
 
             modelBuilder.Entity("Core.Layer.Models.Hiring", b =>

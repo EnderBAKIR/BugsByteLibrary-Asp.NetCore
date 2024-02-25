@@ -22,6 +22,7 @@ namespace Core.Layer.Models
         public ICollection<Blog> Blogs { get; set; }
 
         public ICollection<OpenToWork> OpenToWorks { get; set; }
+        public ICollection<CourseCode> CourseCodes { get; set; }
 
 
 

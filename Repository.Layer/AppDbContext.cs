@@ -32,6 +32,12 @@ namespace Repository.Layer
 
         public DbSet<OpenToWork> OpenToWorks { get; set; }
 
+        public DbSet<CourseRequest> CourseRequests { get; set; }
+
+        public DbSet<CourseCode> CourseCodes { get; set; }
+
+        
+
         //Configuration ile eklenen Assemblileri Efcore a bildirdik
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
