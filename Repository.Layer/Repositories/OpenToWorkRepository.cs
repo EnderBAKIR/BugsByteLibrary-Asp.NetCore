@@ -1,4 +1,5 @@
-﻿using Core.Layer.Models;
+﻿using Core.Layer.IRepositories;
+using Core.Layer.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Layer.Repositories
 {
-    public class OpenToWorkRepository
+    public class OpenToWorkRepository : IOpentoWorkRepository
     {
         private readonly AppDbContext _appDbContext;
         private readonly DbSet<OpenToWork> _openToWorkSet;
@@ -28,6 +29,16 @@ namespace Repository.Layer.Repositories
             return openToWork;
 
         }
+
+        public async Task<OpenToWork> GetOpenToWorkByIdAsnc(string id)
+        {
+            var openToWork = await _openToWorkSet.Include(x=>x.AppUser).Include(x=>x.Hiring).Where(x=>x.Id == id).FirstOrDefaultAsync();
+
+            return openToWork;
+        }
+
+
+
         public async Task<IEnumerable<OpenToWork>> GetOpenWorksByUserIdAsync(int id)
         {
             var openToWork = await _openToWorkSet.Include(x => x.AppUser).Include(x=>x.Hiring).Where(x => x.AppUserId == id).ToListAsync();
