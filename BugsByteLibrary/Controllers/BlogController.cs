@@ -54,6 +54,8 @@ namespace BugsByteLibrary.Controllers
 
             var value = await _blogService.GetBlogByIdAsync(id);
 
+            TempData["blogId"] = value.Id;
+
             if (value == null)
             {
                 return NotFound();
@@ -74,6 +76,18 @@ namespace BugsByteLibrary.Controllers
 
             await _commentService.AddCommentAsync(comment);
             return RedirectToAction("GetBlogDetails", "Blog", new { id = blogId });
+        }
+
+        public async Task<IActionResult> ChangeCommentSolverTrue(Comment comment , int id)
+        {
+            comment = await _commentService.GetCommentByIdAsync(id);
+
+            comment.Status = true;
+            comment.SolverComment = true;
+
+            await _commentService.UpdateComment(comment);
+
+            return RedirectToAction(nameof(GetBlogDetails), new { id = TempData["blogId"] });
         }
     }
 }

@@ -37,7 +37,7 @@
                     <!-- Yorumlar buraya -->
                     @foreach (var item in Model.Comments)
                     {
-                        if (item.Status == true)
+                        if (item.Status == true && item.SolverComment == true)
                         {
 
                             <li>
@@ -47,7 +47,8 @@
                                         <address>
                                             @if (item.Appuser != null)
                                             {
-                                                <p>Tarafından</p>  <a href="#">@item.Appuser.UserName</a>
+                                               <a href="#">@item.Appuser.UserName</a ><p >Tarafından Çözüldü</p>
+                                                <p class="btn btn-outline-primary">Tebrikler Bu Yorum Bugları Def Etti</p>
                                             }
                                             else
                                             {
@@ -60,6 +61,52 @@
                                     <div class="comcont">
                                         <p>@item.CommentContent</p>
                                     </div>
+                                </article>
+                            </li>
+                        }
+                    }
+                </ul>
+                <hr />
+                <br />
+                <ul>
+                    <!-- Yorumlar buraya -->
+                    @foreach (var item in Model.Comments)
+                    {
+                        if (item.Status == true && item.SolverComment==false)
+                        {
+
+                            <li>
+                                <article>
+                                    <header>
+                                        <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
+                                        <address>
+                                            @if (item.Appuser != null)
+                                            {
+                                                <a href="#">@item.Appuser.UserName</a> <p>Tarafından</p>
+                                            }
+                                            else
+                                            {
+                                                <p>Kimlik bulunamadı</p>
+                                            }
+
+                                        </address>
+                                        <time datetime="">@item.CreateDate </time>
+                                    </header>
+                                    <div class="comcont">
+                                        <p>@item.CommentContent</p>
+                                    </div>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                                        var user = await UserManager.GetUserAsync(User);
+                                        if (user.Id == Model.AppUserId)
+                                        {
+                                            <div>
+                                                <a asp-action="ChangeCommentSolverTrue" asp-controller="Blog" asp-route-id="@item.Id"><button type="submit" class="btn btn-outline-success">  Bu Yorum Sorunumu Çözdü </button></a>
+                                            </div>
+                                        }
+                                    }
+                                   
                                 </article>
                             </li>
                         }

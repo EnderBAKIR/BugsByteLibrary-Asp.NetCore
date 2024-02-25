@@ -18,6 +18,8 @@ namespace Core.Layer.Models
 
         public bool Status { get; set; }
 
+        public bool SolverComment { get; set; }
+
         public int? BlogId { get; set; }
         public Blog? Blog { get; set; }
 

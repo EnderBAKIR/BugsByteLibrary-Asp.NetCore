@@ -23,6 +23,7 @@ namespace Service.Layer.Services
 
         public async Task<Comment> AddCommentAsync(Comment comment)
         {
+            comment.SolverComment = false;
             comment.CreateDate = DateTime.Now;
             comment.Status = true;
             await _commentRepository.AddCommentAsync(comment);
