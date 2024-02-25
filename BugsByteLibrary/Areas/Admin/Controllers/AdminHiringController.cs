@@ -9,10 +9,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
     public class AdminHiringController : Controller
     {
         private readonly IHiringService _hiringService;
+        private readonly IOpenToWorkService _openToWorkService;
 
-        public AdminHiringController(IHiringService hiringService)
+        public AdminHiringController(IHiringService hiringService, IOpenToWorkService openToWorkService)
         {
             _hiringService = hiringService;
+            _openToWorkService = openToWorkService;
         }
 
         public async Task<IActionResult> Index()
@@ -25,6 +27,8 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         public async Task<IActionResult> GetHiringDetails(string id)
         {
             var hiring = await _hiringService.GetHiringByIdAsync(id);
+
+            TempData["hiringId"] = hiring.Id;
 
             return View(hiring);
         }
@@ -89,6 +93,34 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
             await _hiringService.UpdateHiringAsync(hiring);
             return RedirectToAction(nameof(Index));
+
+        }
+
+        public async Task<IActionResult> ChangeOpenToWorkStatusFalse(string id)
+        {
+           
+
+            var openToWork = await _openToWorkService.GetOpenToWorkByIdAsnc(id);
+            openToWork.Status = false;
+            await _openToWorkService.UpdateOpenToWorkAsync(openToWork);
+
+
+
+            return RedirectToAction(nameof(GetHiringDetails), new { id = TempData["hiringId"] });
+
+
+        }
+
+        public async Task<IActionResult> ChangeOpenToWorkStatustrue(string id )
+        {
+            
+
+
+            var openToWork = await _openToWorkService.GetOpenToWorkByIdAsnc(id);
+            openToWork.Status = true;
+            await _openToWorkService.UpdateOpenToWorkAsync(openToWork);
+
+            return RedirectToAction(nameof(GetHiringDetails) , new {id = TempData["hiringId"] });
 
         }
 
