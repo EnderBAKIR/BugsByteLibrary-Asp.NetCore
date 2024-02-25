@@ -15,20 +15,30 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 builder.Services.AddScoped<ICommentRepository , CommentRepository>();
 builder.Services.AddScoped<ICommentService, CommentService>();
+
 builder.Services.AddScoped<IBlogRepository , BlogRepository>();
 builder.Services.AddScoped<IBlogService , BlogService>();
+
 builder.Services.AddScoped<ICategoryRepository , CategoryRepository>();
 builder.Services.AddScoped<ICategoryService , CategoryService>();
+
 builder.Services.AddScoped<IBookRepository , BookRepository>();
 builder.Services.AddScoped<IBookService , BookService>();
+
 builder.Services.AddScoped<IHiringRepository, HiringRepository>();
 builder.Services.AddScoped<IHiringService , HiringService>();
+
 builder.Services.AddScoped<IOpentoWorkRepository , OpenToWorkRepository>();
 builder.Services.AddScoped<IOpenToWorkService , OpenToWorkService>();
+
 builder.Services.AddScoped<ICourseRequestRepository , CourseRequestRepository>();
 builder.Services.AddScoped<ICourseRequestService , CourseRequestService>();
+
+builder.Services.AddScoped<ICourseCodeRepository, CourseCodeRepository>();
+builder.Services.AddScoped<ICourseCodeService , CourseCodeService>();
 
 
 

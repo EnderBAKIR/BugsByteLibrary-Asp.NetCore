@@ -9,7 +9,7 @@ namespace Core.Layer.Models
     public class CourseCode
     {
         public string Id { get; set; }
-        public string Status { get; set; }
+        public bool Status { get; set; }
 
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
