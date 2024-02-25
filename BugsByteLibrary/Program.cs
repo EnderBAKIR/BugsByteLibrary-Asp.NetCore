@@ -27,6 +27,9 @@ builder.Services.AddScoped<IHiringRepository, HiringRepository>();
 builder.Services.AddScoped<IHiringService , HiringService>();
 builder.Services.AddScoped<IOpentoWorkRepository , OpenToWorkRepository>();
 builder.Services.AddScoped<IOpenToWorkService , OpenToWorkService>();
+builder.Services.AddScoped<ICourseRequestRepository , CourseRequestRepository>();
+builder.Services.AddScoped<ICourseRequestService , CourseRequestService>();
+
 
 
 
