@@ -1,10 +1,79 @@
-﻿
+﻿@model UserEditViewModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 
-<h1>Index</h1>
-<div class="content text-center col-md-12 align-items-md-baseline" >
-    <div class="row-cols-4"></div>
+
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <br />
+            <hr />
+            <br />
+            <hr />
+            <br />
+
+
+
+            <p class="alert-success">Avatarınız | <img src="~/userimages/@ViewBag.ImageUrl" class="rounded-avatar" /></p>
+
+            <style>
+                .rounded-avatar {
+                    border-radius: 50%;
+                    max-width: 250px; /* İstediğiniz maksimum genişliği ayarlayabilirsiniz */
+                }
+            </style>
+            <h1>Profil Bilgileriniz</h1>
+            <form role="form" method="post" asp-action="Index" asp-controller="UserProfile" enctype="multipart/form-data">
+               
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Kullanıcı Adınız</span>
+                    <input type="text" asp-for="UserName" class="form-control" placeholder="Username" readonly>
+                    <span asp-validation-for="UserName"></span>
+                </div>
+
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Adnınız</span>
+                    <input type="text" asp-for="Name"  class="form-control">
+                    <span asp-validation-for="Name"></span>
+                </div>
+
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Soyadınız</span>
+                    <input type="text" asp-for="Surname" class="form-control">
+                    <span asp-validation-for="Surname"></span>
+                </div>
+
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Mailiniz</span>
+                    <input type="email" asp-for="Email" class="form-control" readonly>
+                    <span asp-validation-for="Email"></span>
+
+                </div>
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Avatar Yükleyin</span>
+                    <input type="file" asp-for="Image" class="form-control" >
+
+                </div>
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Yeni Şifre</span>
+                    <input type="password" asp-for="Password" class="form-control" >
+                    <span asp-validation-for="Password"></span>
+
+                </div>
+                <div class="form-group input-group">
+                    <span class="input-group-addon">Şifre Tekrar</span>
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" >
+                    <span asp-validation-for="ConfirmPassword"></span>
+
+                </div>
+
+                <button type="submit" class="btn btn-outline-success">Profili Kaydet</button>
+            </form>
+
+
+        </div>
+    </div>
 </div>

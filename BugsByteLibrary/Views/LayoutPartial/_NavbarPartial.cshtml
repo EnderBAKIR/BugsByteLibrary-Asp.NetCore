@@ -1,29 +1,4 @@
-﻿<div class="wrapper row0">
-    <div id="topbar" class="hoc clear">
-
-        <div class="fl_left">
-            <ul class="nospace">
-                <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-                <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-            </ul>
-        </div>
-        <div class="fl_right">
-            <ul class="nospace">
-                <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
-                <li><a href="#">Hakkında</a></li>
-                <li><a href="#">İletişim</a></li>
-                @if (!User.Identity.IsAuthenticated)
-                {
-                    <li><a  asp-controller="Account" asp-action="Login">Login</a></li>
-                <li><a  asp-action="Register" asp-controller="Account">Register</a></li>
-                }
-                
-            </ul>
-        </div>
-
-
-    </div>
-</div>
+﻿
 
 <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -37,31 +12,29 @@
                 <li>
                     <a class="drop" href="#">Sayfalar</a>
                     <ul>
-                        <li><a asp-controller="Blog" asp-action="Index">Bloglar</a></li>
-                        <li><a asp-controller="Bookses" asp-action="Index">Kitaplar</a></li>
-                        <li><a href="/Jeren/pages/sidebar-left.html">Sidebar Left</a></li>
-                        <li><a href="/Jeren/pages/sidebar-right.html">Sidebar Right</a></li>
-                        <li><a href="/Jeren/pages/basic-grid.html">Basic Grid</a></li>
+                        <li><a asp-controller="Blog" asp-action="Index">Bug Blogları</a></li>
+                        
+                        <li><a asp-action="GetAllInformationBlogCategory" asp-controller="Blog">Bilgilendirici Bloglar</a></li>
+                        <li><a asp-action="GetAllCodeBankBlogCategory" asp-controller="Blog">Kod Bankaları</a></li>
+                        
+                        
                     </ul>
                 </li>
                 <li>
-                    <a class="drop" href="#">Dropdown</a>
+                    <a class="drop" href="#">BİZDEN SİZLERE</a>
                     <ul>
-                        <li><a href="#">Level 2</a></li>
-                        <li>
-                            <a class="drop" href="#">Level 2 + Drop</a>
-                            <ul>
-                                <li><a href="#">Level 3</a></li>
-                                <li><a href="#">Level 3</a></li>
-                                <li><a href="#">Level 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                    </ul>
+                        <li><a asp-controller="Hirings" asp-action="Index">İş İlanları</a></li>
+                       
+                        <li>  <a  href="#">Kurslar</a></li>
+
                 </li>
+                <li><a asp-action="Index" asp-controller="Bookses">Kitaplar</a></li>
+                    </ul>
+                
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li><a asp-action="Logout" asp-controller="Account">Çıkış Yap</a></li>
+                <li><a asp-area="User" asp-action="Index" asp-controller="UserProfile">PROFİL</a></li>
                 }
                 else
                 {

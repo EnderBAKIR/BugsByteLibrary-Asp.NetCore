@@ -757,6 +757,22 @@
       "PackagePath": "staticwebassets\\mainblogimage\\mainblogesimage.jpg"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\b8f791e8-efe0-4ba0-b5eb-26db05bedd85.jpg",
+      "PackagePath": "staticwebassets\\userimages\\b8f791e8-efe0-4ba0-b5eb-26db05bedd85.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\d45257c1-3f9f-47cf-b195-39d8e4c3b251.jpg",
+      "PackagePath": "staticwebassets\\userimages\\d45257c1-3f9f-47cf-b195-39d8e4c3b251.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\ed9a64ca-4936-4686-8fd2-40848a076d15.jpg",
+      "PackagePath": "staticwebassets\\userimages\\ed9a64ca-4936-4686-8fd2-40848a076d15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\f3c89e0a-0ee4-4bdd-a05d-27086c89bbe1.jpg",
+      "PackagePath": "staticwebassets\\userimages\\f3c89e0a-0ee4-4bdd-a05d-27086c89bbe1.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BugsByteLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -3,6 +3,7 @@ using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using Org.BouncyCastle.Bcpg;
 
 namespace BugsByteLibrary.Controllers
@@ -24,11 +25,13 @@ namespace BugsByteLibrary.Controllers
             _userManager = userManager;
             _commentService = commentService;
         }
+
+
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var value = await _categoryService.GetAllCategoryAsync();
-            return View(value);
+            var categories = await _categoryService.GetAllCategoryAsync();
+            return View(categories);
         }
 
         //Bloglar Categorilere göre listelenecek
@@ -45,8 +48,6 @@ namespace BugsByteLibrary.Controllers
         {
            return View(await _blogService.GetAllBlogAsync());
         }
-
-
 
         [HttpGet]
         public async Task<IActionResult> GetBlogDetails(int id)
@@ -65,7 +66,60 @@ namespace BugsByteLibrary.Controllers
             return View(value);
         }
 
-        
+
+
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllInformationBlogCategory()
+        {
+            var categories = await _categoryService.GetAllCategoryAsync();
+           return View(categories); 
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetInformationBlogByCategory(int id)
+        {
+            var category = await _categoryService.GetByCategoryIdAsync(id);
+            return View(category);
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetInformationBlogDetails(int id)
+        {
+            var blog = await _blogService.GetBlogByIdAsync(id);
+
+
+            return View(blog);
+
+
+        }
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllCodeBankBlogCategory()
+        {
+            var categories = await _categoryService.GetAllCategoryAsync();
+            return View(categories);
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetCodeBankBlogsByCategory(int id)
+        {
+            var category = await _categoryService.GetByCategoryIdAsync(id);
+            return View(category);
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetCodeBankBlogDetails(int id)
+        {
+            var blog = await _blogService.GetBlogByIdAsync(id);
+
+
+            return View(blog);
+
+
+        }
+
+
 
 
 
@@ -77,6 +131,19 @@ namespace BugsByteLibrary.Controllers
             await _commentService.AddCommentAsync(comment);
             return RedirectToAction("GetBlogDetails", "Blog", new { id = blogId });
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AddCommentCodeBank(int blogId, Comment comment)
+        {
+
+            await _commentService.AddCommentAsync(comment);
+            return RedirectToAction("GetCodeBankBlogDetails", "Blog", new { id = blogId });
+        }
+
+
+
+
 
         public async Task<IActionResult> ChangeCommentSolverTrue(Comment comment , int id)
         {

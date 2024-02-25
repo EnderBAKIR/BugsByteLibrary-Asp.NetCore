@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "GetHiringDetails";
     Layout = "~/Views/Shared/_UILayout.cshtml";
+    bool status = true; //bu flag nesnemiz
 }
 
 <div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
@@ -37,9 +38,13 @@
                     if (user.Id == item.AppUserId)
                     {
                         <p class="btn btn-success">Başvurunuz Alındı</p>
+                        status = false;
                     }
-                    else
+                    if (status == true)
                     {
+
+
+
                         if (user.EmailConfirmed == true)
                         {
 
@@ -67,14 +72,18 @@
                                     <input type="reset" name="reset" value="Yazıyı Sil">
                                 </div>
                             </form>
+
+
                         }
                         else
                         {
                             <h2>İş Başvurusu Yapabilmek için mailinizi doğrulamanız gerekmektedir <a href="/MailConfirm/Index">Mailinizi Doğrulamak için tıklayınız</a></h2>
                         }
                     }
+
                 }
             }
+
 
             else
             {

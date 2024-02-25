@@ -1,0 +1,65 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "GetInformationBlogByCategory";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+    <div id="breadcrumb" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <ul>
+            <li>Bugları çözmek bir tık uzağınızda</li>
+
+        </ul>
+        <!-- ################################################################################################ -->
+    </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="content">
+            <!-- ################################################################################################ -->
+            <div id="gallery">
+                <figure>
+
+                    <ul class="nospace clear">
+
+                        @foreach (var item in Model.BlogCategories)
+                        {
+                            if (item.Blog.Status == true && item.Blog.InformationBlog == true && item.Blog.CodeBank == false)
+                            {
+                                <li class="one_quarter">
+
+
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="/mainblogimage/mainblogesimage.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@item.Blog.Name</h5>
+                                            <p class="card-text">@item.Blog.Description</p>
+                                            <a asp-controller="Blog" asp-action="GetInformationBlogDetails" asp-route-id="@item.Blog.Id" class="btn btn-primary">Bakalım Neler Var</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            }
+
+
+
+
+
+                        }
+
+
+                    </ul>
+
+                </figure>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </main>
+</div>
+

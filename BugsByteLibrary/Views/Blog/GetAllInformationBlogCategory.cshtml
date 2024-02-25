@@ -1,0 +1,67 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "GetAllInformationBlogCategory";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<style>
+    .category-box {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+    }
+
+    .category-image img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+</style>
+<div class="bgded overlay" style="background-image:url('/jeren/images/demo/backgrounds/01.png');">
+    <div id="breadcrumb" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <ul>
+            <li>İLGİLENDİĞİN KATEGORİYİ SEÇ VE SENİN İÇİN OLUŞTURDUĞUMUZ BİLGİ SAÇAN BLOGLARI OKUMAYA BAŞLA</li>
+            <br />
+            
+
+        </ul>
+        <!-- ################################################################################################ -->
+    </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="content">
+            <!-- ################################################################################################ -->
+            <div id="gallery">
+                <figure>
+
+                    <ul class="nospace clear">
+                        @foreach (var item in Model)
+                        {
+                            <li class="one_quarter category-box">
+                                <a asp-controller="Blog" asp-action="GetInformationBlogByCategory" asp-route-id="@item.Id">
+                                    <div class="category-image">
+                                        <!-- İsterseniz buraya kategoriye özel bir resim ekleyebilirsiniz -->
+                                        <!-- <img src="/mainblogimage/category.jpg" alt=""> -->
+                                    </div>
+                                    <div class="category-name">@item.Name</div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+
+                </figure>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </main>
+</div>
+

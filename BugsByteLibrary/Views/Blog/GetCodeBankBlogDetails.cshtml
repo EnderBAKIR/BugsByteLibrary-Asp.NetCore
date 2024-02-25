@@ -1,0 +1,156 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "GetCodeBankBlogDetails";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<style>
+    .avatar {
+        width: 75px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+        height: 75px; /* İstediğiniz yüksekliği ayarlayabilirsiniz */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .avatar-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+</style>
+
+<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+    <div id="breadcrumb" class="hoc clear">
+        <p>BugsByteLibrary Bankası</p><h1>@Model.Name || Oluşturulma Tarihi : @Model.CreatedDate.ToShortDateString()</h1>
+    </div>
+</div>
+
+<div class="wrapper row3">
+    <main class="hoc container clear">
+        <div class="content three_quarter first">
+
+
+
+
+            <p> @Html.Raw(Model.Content)</p>
+
+
+            <div class="scrollable">
+                @if (Model.ImageUrl != null)
+                {
+                    <img src="/blogsimages/@Model.ImageUrl" />
+                }
+                else
+                {
+
+                }
+            </div>
+            <br />
+            <div id="comments">
+                <h2>Yorumlar</h2>
+           
+                <ul>
+                    <!-- Yorumlar buraya -->
+                    @foreach (var item in Model.Comments)
+                    {
+                        if (item.Status == true)
+                        {
+
+                            <li>
+                                <article>
+                                    <header>
+                                        @if (item.Appuser != null)
+                                        {
+                                            @if (item.Appuser.ImageUrl != null)
+                                            {
+                                                <figure class="avatar "><img src="~/userimages/@item.Appuser.ImageUrl" alt="" class="avatar-img"></figure>
+                                            }else
+                                            {
+                                                <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt="" class="avatar-img"></figure>
+                                            }
+                                            
+                                        }else
+                                        {
+                                            <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt="" class="avatar-img"></figure>
+                                        }
+                                       
+                                        <address>
+                                            @if (item.Appuser != null)
+                                            {
+                                                <a href="#">@item.Appuser.UserName</a> <p>Tarafından</p>
+                                            }
+                                            else
+                                            {
+                                                <p>Kimlik bulunamadı</p>
+                                            }
+
+                                        </address>
+                                        <time datetime="">@item.CreateDate </time>
+                                    </header>
+                                    <div class="comcont">
+                                        <p>@item.CommentContent</p>
+                                    </div>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                            @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                                        var user = await UserManager.GetUserAsync(User);
+                                        if (user.Id == Model.AppUserId)
+                                        {
+                                            <div>
+                                                <a asp-action="ChangeCommentSolverTrue" asp-controller="Blog" asp-route-id="@item.Id"><button type="submit" class="btn btn-outline-success">  Bu Yorum Sorunumu Çözdü </button></a>
+                                            </div>
+                                        }
+                                    }
+
+                                </article>
+                            </li>
+                        }
+                    }
+                </ul>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                    var user = await UserManager.GetUserAsync(User);
+
+                    if (user.EmailConfirmed == true)
+                    {
+                        <h2>Bir Yorum Bırakın (Yorum yaparken etik kurallara uyunuz)</h2>
+                        <form method="post" asp-controller="Blog" asp-action="AddCommentCodeBank">
+                            <input type="hidden" name="BlogId" value="@Model.Id" />
+                            <input type="hidden" name="AppUserId" value="@UserManager.GetUserId(User)" />
+                            <div class="block clear">
+                                <label for="comment">Yorumunuz</label>
+                                <textarea name="CommentContent" id="comment" cols="25" rows="10"></textarea>
+                            </div>
+                            <button class="btn btn-outline-primary">Yorumu Kaydet</button>
+                            <div>
+                                <input type="reset" name="reset" value="Yazıyı Sil">
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <h2>Yorum Yapabilmek için mailinizi doğrulamanız gerekmektedir <a href="/MailConfirm/Index">Mailinizi Doğrulamak için tıklayınız</a></h2>
+                    }
+                }
+                else
+                {
+                    <h2>Yorum Yapabilmek İçin Lütfen <a href="/Account/Login">Giriş</a> Yapınız</h2>
+                }
+            </div>
+        </div>
+
+        <div class="sidebar one_quarter">
+            <h6>Lorem ipsum dolor</h6>
+            <nav class="sdb_holder">
+                <ul>
+                    <li><a href="#">Navigation - Level 1</a></li>
+                    <!-- Diğer menü öğeleri -->
+                </ul>
+            </nav>
+            <!-- Diğer sidebar içeriği -->
+        </div>
+    </main>
+</div>
+
+

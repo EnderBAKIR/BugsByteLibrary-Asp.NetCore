@@ -3,6 +3,19 @@
     ViewData["Title"] = "GetBlogDetails";
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
+<style>
+    .avatar {
+        width: 75px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+        height: 75px; /* İstediğiniz yüksekliği ayarlayabilirsiniz */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .avatar-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+</style>
 
 <div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
     <div id="breadcrumb" class="hoc clear">
@@ -43,11 +56,29 @@
                             <li>
                                 <article>
                                     <header>
-                                        <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
+                                        @if (item.Appuser != null)
+                                        {
+
+                                            @if (item.Appuser.ImageUrl != null)
+                                            {
+                                                <figure class="avatar"><img src="~/userimages/@item.Appuser.ImageUrl" alt="" class="avatar-img"></figure>
+                                            }
+                                            else
+                                            {
+                                                <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt="" class="avatar-img"></figure>
+                                            }
+
+                                        }
+                                        else
+                                        {
+                                            <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt="" class="avatar-img"></figure>
+                                        }
                                         <address>
                                             @if (item.Appuser != null)
                                             {
-                                               <a href="#">@item.Appuser.UserName</a ><p >Tarafından Çözüldü</p>
+                                                <a href="#">@item.Appuser.UserName  Tarafından Çözüldü </a>
+
+                                                
                                                 <p class="btn btn-outline-primary">Tebrikler Bu Yorum Bugları Def Etti</p>
                                             }
                                             else
@@ -72,17 +103,32 @@
                     <!-- Yorumlar buraya -->
                     @foreach (var item in Model.Comments)
                     {
-                        if (item.Status == true && item.SolverComment==false)
+                        if (item.Status == true && item.SolverComment == false)
                         {
 
                             <li>
                                 <article>
                                     <header>
-                                        <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt=""></figure>
+                                        @if (item.Appuser != null)
+                                        {
+                                            @if (item.Appuser.ImageUrl != null)
+                                            {
+                                                <figure class="avatar"><img src="~/userimages/@item.Appuser.ImageUrl" alt="" class="avatar-img"></figure>
+                                            }
+                                            else
+                                            {
+                                                <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt="" class="avatar-img"></figure>
+                                            }
+
+                                        }
+                                        else
+                                        {
+                                            <figure class="avatar"><img src="/Jeren/images/demo/avatar.png" alt="" class="avatar-img"></figure>
+                                        }
                                         <address>
                                             @if (item.Appuser != null)
                                             {
-                                                <a href="#">@item.Appuser.UserName</a> <p>Tarafından</p>
+                                                <a href="#">@item.Appuser.UserName Tarafından  @item.CreateDate.ToShortDateString()</a>
                                             }
                                             else
                                             {
@@ -90,7 +136,7 @@
                                             }
 
                                         </address>
-                                        <time datetime="">@item.CreateDate </time>
+                                        
                                     </header>
                                     <div class="comcont">
                                         <p>@item.CommentContent</p>
@@ -106,7 +152,7 @@
                                             </div>
                                         }
                                     }
-                                   
+
                                 </article>
                             </li>
                         }
