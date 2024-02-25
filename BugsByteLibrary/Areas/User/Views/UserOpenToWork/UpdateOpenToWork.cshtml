@@ -1,0 +1,45 @@
+﻿@model OpenToWork
+@{
+    ViewData["Title"] = "UpdateOpenToWork";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Başvuru Güncelleme</h1>
+            </div>
+
+            <form method="post" asp-area="User" asp-controller="UserOpenToWork" asp-action="UpdateOpenToWork">
+                <input type="text" asp-for="CreatedTime" />
+                <input type="text" asp-for="AppUserId" />
+                <input type="text" asp-for="HiringId" />
+
+                <div class="block clear">
+                    <label for="comment">Açıklama</label>
+                    <textarea asp-for="Description"></textarea>
+                </div>
+                <div class="block clear">
+                    <label for="comment">Tam İsminiz</label>
+                    <input type="text" asp-for="ApplicantName" />
+                </div>
+                <div class="block clear">
+                    <label for="comment">Adresiniz</label>
+                    <input type="text" asp-for="ApplicantAddress" />
+                </div>
+                <div class="block clear">
+                    <label for="comment">Tel No</label>
+                    <input type="number" asp-for="ApplicantPhone">
+                </div>
+                <button class="btn btn-outline-primary">Başvuruyu Güncelle</button>
+                <div>
+                    <input type="reset" name="reset" value="Yazıyı Sil">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
