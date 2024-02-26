@@ -9,8 +9,8 @@
     <div id="breadcrumb" class="hoc clear">
         <!-- ################################################################################################ -->
         <ul>
-            <li>Ekipten Biri Olmak İster Misiniz?</li>
-            <li> Öyleyse Hemen Aşağıdaki Başvurulardan Birine Gidin</li>
+            <li>ONLİNE KURS PLATFROMLARINDA Kİ EĞİTİMLERİMİZDEN FAYDALANMAK İÇİN KUPON İSTEĞİNDE BULUNABİLİRSİNİZ.</li>
+            <li> E TABİ ÖNCESİNDE BİRAZ DA BUGLARLA İLGİLENMEK İYİ BİR FİKİR OLABAİLİR <a asp-action="Index" asp-controller="Blog">Buglarla Mücadele İçin Tıklayın</a></li>
 
         </ul>
         <!-- ################################################################################################ -->
@@ -32,10 +32,10 @@
 
                         @foreach (var item in Model)
                         {
-                        @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
-                            var user = await UserManager.GetUserAsync(User);
+
                             @if (item.Status == true)
                             {
+
                                 <li class="one_quarter">
 
 
@@ -45,32 +45,59 @@
                                             <h5 class="card-title">@item.Name</h5>
                                             <p class="card-text">@item.Description</p>
 
-                                            @if (item.CourseCodes.Any())
+
+                                            @if (User.Identity.IsAuthenticated)
                                             {
-                                                @foreach (var courseCode in item.CourseCodes)
+                                    @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
+                                                var user = await UserManager.GetUserAsync(User);
+                                                var userAppliedJobIds = user.CourseCodes?.Select(x => x.CourseId).ToList() ?? new List<string>(); // bayrak nesnemiz
+
+                                                @if (!userAppliedJobIds.Contains(item.Id))
                                                 {
-                                                    if (courseCode.AppUserId == user.Id)
+                                                    if (ViewBag.CommentCount != null)
                                                     {
-                                                        <p> Kod İstediniz</p>
+                                                        if (ViewBag.CommentCount > item.Price)
+                                                        {
+                                                            <form method="post" asp-action="WantCourseCode" asp-controller="CourseRequest">
+                                                                <input type="hidden" name="CourseId" value="@item.Id" />
+                                                                <button type="submit" class="btn btn-primary">Kod İste</button>
+                                                            </form>
+                                                        }else
+                                                        {
+                                                            <button type="submit" class="btn btn-primary">Malesef Yeterli Yorumunuz Yok</button>
+                                                        }
+
+
+
+                                                    }else
+                                                    {
+                                                        <button type="submit" class="btn btn-primary">Malesef Yeterli Yorumunuz Yok</button>
                                                     }
-                                                  
                                                 }
+
+
+                                                else
+                                                {
+                                                    <p class="btn btn-outline-success">Kod İstediniz</p>
+                                                }
+
                                             }
                                             else
                                             {
-                                                <form method="post" asp-action="WantCourseCode" asp-controller="CourseRequest">
-                                                    <input type="text" name="CourseId"  value="@item.Id"/>
-                                                    <button type="submit" class="btn btn-primary">Kod İste</button>
-                                                </form>
+                                                <a asp-action="Login" asp-controller="Account" class="btn btn-outline-success">Lütfen Giriş Yapınız</a>
                                             }
-                                           
 
-                                            
+
+
+
+
                                         </div>
                                     </div>
 
                                 </li>
                             }
+
+
 
 
                         }

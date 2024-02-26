@@ -13,7 +13,7 @@
         <!-- ################################################################################################ -->
         <ul>
             <li>BURADAN YORUM SINIRININ YETTİĞİ KİTAPLARI İNDİRİP OKUYABİLİRSİN</li>
-            <li><a href="/Blog/Index">BLOGLARA GİTMEK İÇİN TIKLAYINIZ</a></li>
+            <li><a asp-action="Index" asp-controller="Blog">BLOGLARA GİTMEK İÇİN TIKLAYINIZ</a></li>
 
         </ul>
         <!-- ################################################################################################ -->
@@ -68,6 +68,9 @@
                                                     <a class="btn btn-primary">Malesef bu kitabı indirmek için yeterli yorumunuz yok</a>
                                                 }
 
+                                            }else
+                                            {
+                                                <button type="submit" class="btn btn-primary">Malesef Yeterli Yorumunuz Yok</button>
                                             }
 
 

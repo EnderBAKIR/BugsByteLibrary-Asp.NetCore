@@ -2,6 +2,7 @@
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BugsByteLibrary.Controllers
 {
@@ -21,6 +22,17 @@ namespace BugsByteLibrary.Controllers
 
         public async Task<IActionResult> Index()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                var user = await _userManager.Users.Include(x => x.Comments).FirstOrDefaultAsync(x => x.UserName == User.Identity.Name);
+                if (user.Comments != null)
+                {
+                    ViewBag.CommentCount = user.Comments.Count();//Burada giriş yapan kullanıcının kaç yorumu var onu alıyoruz ona göre kitaplara erişip erişemiyceği belirlenecek.
+                }
+
+
+            }
+
 
             var courseRequests = await _courseRequestService.GetAllCourseAsync();
 
