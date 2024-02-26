@@ -25,7 +25,7 @@
 
                         <thead>
                             <tr>
-                                <th>#</th>
+                                <th>Id</th>
                                 <th>Kullanıcı Adı</th>
                                 <th>Rol Ver</th>
 
@@ -43,8 +43,8 @@
                                     count++;
 
                                     <tr>
-                                        <td>@count</td>
-                                        <td>@item.Name</td>
+                                        <td>@item.Id</td>
+                                        <td>@item.UserName</td>
                                         <td><a class="btn btn-outline-primary" href="/Admin/Role/GiveRole/@item.Id">Rol Ver Veya Güncelle</a></td>
                                     </tr>
 

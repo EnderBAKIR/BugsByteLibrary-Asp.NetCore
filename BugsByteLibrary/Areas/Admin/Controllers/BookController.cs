@@ -45,5 +45,15 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> DeleteBook(int id , EBook book) 
+        {
+             book = await _bookService.GetBookByIdAsync(id);
+
+             _bookService.DeleteBookAsync(book);
+
+            return RedirectToAction(nameof(Index));
+
+        }
     }
 }

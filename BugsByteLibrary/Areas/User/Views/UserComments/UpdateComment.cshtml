@@ -8,20 +8,20 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Blog Güncelleme</h1>
+                <h1 class="page-header">Yorum Güncelleme</h1>
             </div>
 
 
             <form method="post" asp-action="UpdateComment" asp-controller="UserComments">
-                <input type="text" asp-for="CreateDate" />
-                <input type="text" asp-for="BlogId" />
-                <input type="text" asp-for="AppUserId" value="@ViewBag.UserId" />
+                <input type="hidden" asp-for="CreateDate" />
+                <input type="hidden" asp-for="BlogId" />
+                <input type="hidden" asp-for="AppUserId" value="@ViewBag.UserId" />
                 <div class="form-group">
                     <label for="Name">Yorumunuz:</label>
                     <textarea type="text" asp-for="CommentContent" ></textarea>
                     <span asp-validation-for="CommentContent" class="text-danger"></span>
                 </div>
-                <button type="submit" class="btn btn-outline-primary">Güncelle</button>
+                <button type="submit" class="btn btn-success">Güncelle</button>
             </form>
 
         </div>

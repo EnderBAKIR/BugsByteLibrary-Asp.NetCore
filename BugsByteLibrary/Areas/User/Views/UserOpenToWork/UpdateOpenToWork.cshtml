@@ -12,7 +12,7 @@
                 <h1 class="page-header">Başvuru Güncelleme</h1>
             </div>
 
-            <form method="post" asp-area="User" asp-controller="UserOpenToWork" asp-action="UpdateOpenToWork">
+            <form method="post" asp-area="User" asp-controller="UserOpenToWork" asp-action="UpdateOpenToWork"> @* Bu sayfa site yapısına göre aktif edilebilir  *@
                 <input type="text" asp-for="CreatedTime" />
                 <input type="text" asp-for="AppUserId" />
                 <input type="text" asp-for="HiringId" />
