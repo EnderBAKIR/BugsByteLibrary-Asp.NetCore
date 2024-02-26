@@ -1,0 +1,19 @@
+﻿@model List<Blog>
+
+@foreach (var item in Model)
+{
+    if (item.InformationBlog == true && item.Status == true)
+    {
+        <li>
+            <article>
+                <a href="#"><i class="icon fa fa-bank"></i></a>
+                <h6 class="heading">@item.Name</h6>
+                <p>@item.Description&hellip;</p>
+                <footer><a asp-area="" asp-action="GetInformationBlogDetails" asp-controller="Blog" asp-route-id="@item.Id">Bloğa Git &raquo;</a></footer>
+            </article>
+        </li>
+
+    }
+   
+}
+

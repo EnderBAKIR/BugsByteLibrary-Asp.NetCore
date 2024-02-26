@@ -89,7 +89,10 @@ namespace Repository.Layer.Repositories
 
             return values;
         }
-     
-       
+
+        public async Task<IEnumerable<Blog>> GetLastSixBlogAsync(int id)//son eklenen 4 blogun listelenmesi için
+        {
+            return await _blogSet.OrderByDescending(b => b.Id).Take(6).ToListAsync();
+        }
     }
 }

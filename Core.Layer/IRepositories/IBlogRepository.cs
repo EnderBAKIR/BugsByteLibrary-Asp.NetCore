@@ -25,5 +25,8 @@ namespace Core.Layer.IRepositories
         Task<IEnumerable<Blog>> GetBlogsByUserIdAsync(int userId);
 
 
+        Task<IEnumerable<Blog>> GetLastSixBlogAsync(int id);
+
+
     }
 }

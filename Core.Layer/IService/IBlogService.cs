@@ -24,5 +24,7 @@ namespace Core.Layer.IService
 
         Task<IEnumerable<Blog>> GetBlogsByUserIdAsync(int userId);
 
+        Task<IEnumerable<Blog>> GetLastSixBlogAsync(int id);
+
     }
 }

@@ -72,54 +72,11 @@
             <p>Onlardan Sadece Bir Kaçı Umarım İlgini Çekerler Ve Sana Faydalı Olurlar.</p>
         </div>
         <ul class="nospace group services">
-            <li class="one_third first">
-                <article>
-                    <a href="#"><i class="icon fa fa-camera"></i></a>
-                    <h6 class="heading">Hendrerit bibendum</h6>
-                    <p>Id erat etiam molestie mi et tincidunt facilisis nulla urna viverra nibh in ullamcorper&hellip;</p>
-                    <footer><a href="#">Read More &raquo;</a></footer>
-                </article>
-            </li>
-            <li class="one_third">
-                <article>
-                    <a href="#"><i class="icon fa fa-bank"></i></a>
-                    <h6 class="heading">Vestibulum suscipit</h6>
-                    <p>Enim nullam tincidunt tortor eget amet dui duis sed vestibulum velit praesent blandit lorem viverra&hellip;</p>
-                    <footer><a href="#">Read More &raquo;</a></footer>
-                </article>
-            </li>
-            <li class="one_third">
-                <article>
-                    <a href="#"><i class="icon fa fa-cny"></i></a>
-                    <h6 class="heading">Velit eu maximus massa</h6>
-                    <p>Turpis vel egestas ante etiam maximus placerat placerat aliquam in lectus ut lectus&hellip;</p>
-                    <footer><a href="#">Read More &raquo;</a></footer>
-                </article>
-            </li>
-            <li class="one_third first">
-                <article>
-                    <a href="#"><i class="icon fa fa-coffee"></i></a>
-                    <h6 class="heading">Dignissim id maecenas</h6>
-                    <p>Scelerisque sollicitudin aenean efficitur magna non aliquet convallis phasellus ut rutrum&hellip;</p>
-                    <footer><a href="#">Read More &raquo;</a></footer>
-                </article>
-            </li>
-            <li class="one_third">
-                <article>
-                    <a href="#"><i class="icon fa fa-flask"></i></a>
-                    <h6 class="heading">Tempus odio a ipsum</h6>
-                    <p>Neque vivamus eu arcu enim phasellus efficitur euismod augue sed bibendum ipsum sodales&hellip;</p>
-                    <footer><a href="#">Read More &raquo;</a></footer>
-                </article>
-            </li>
-            <li class="one_third">
-                <article>
-                    <a href="#"><i class="icon fa fa-legal"></i></a>
-                    <h6 class="heading">Consequat scelerisque</h6>
-                    <p>Eget aenean tellus leo consequat sit amet quam ut interdum commodo nunc nunc ipsum lacus&hellip;</p>
-                    <footer><a href="#">Read More &raquo;</a></footer>
-                </article>
-            </li>
+
+            @await Component.InvokeAsync("_LastSixInformationBlogs")
+           
+          
+          
         </ul>
         <!-- ################################################################################################ -->
         <div class="clear"></div>
