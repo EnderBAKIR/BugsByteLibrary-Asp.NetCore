@@ -35,6 +35,19 @@ namespace BugsByteLibrary.Controllers
 
         public async Task<IActionResult> AddOpenToWork(OpenToWork openToWork)
         {
+
+            if (openToWork.CVPdf != null && openToWork.CVPdf.Length > 0)
+            {
+                var pdfExtension = Path.GetExtension(openToWork.CVPdf.FileName);
+                var pdfName = Guid.NewGuid().ToString() + pdfExtension;
+                var pdfFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "cvpdf", pdfName);
+                using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
+                {
+                    await openToWork.CVPdf.CopyToAsync(pdfStream);
+                }
+                openToWork.CVPdfUrl = pdfName;
+            }
+
             await _openToWorkService.AddOpenToWorkAsync(openToWork);
 
             return RedirectToAction(nameof(Index));

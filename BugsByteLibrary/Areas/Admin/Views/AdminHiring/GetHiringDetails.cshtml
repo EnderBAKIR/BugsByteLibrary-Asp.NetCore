@@ -57,8 +57,11 @@
                                                 {
                                                     <a class="btn btn-primary" asp-area="Admin" asp-controller="AdminHiring" asp-action="ChangeOpenToWorkStatusTrue" asp-route-id="@item.Id">Askıdan Kaldır </a>
                                                 }
+                                                @if (item.CVPdfUrl !=null && item.CVPdfUrl.Length>0)
+                                                {
+                                                    <a href="@Url.Action("DownloadPdf", "AdminHiring", new { pdfName = item.CVPdfUrl })" class="btn btn-success">Cvyi İndir</a>
+                                                }
                                                 
-
 
 
                                             </td>

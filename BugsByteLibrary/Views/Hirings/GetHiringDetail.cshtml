@@ -2,7 +2,6 @@
 @{
     ViewData["Title"] = "GetHiringDetails";
     Layout = "~/Views/Shared/_UILayout.cshtml";
-    bool status = true; //bu flag nesnemiz
 }
 
 <div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
@@ -14,99 +13,79 @@
 <div class="wrapper row3">
     <main class="hoc container clear">
         <div class="content three_quarter first">
-
-
-
-
             <p> @Html.Raw(Model.Content)</p>
-
-
-
             <br />
             <hr />
-
-
-
 
             @if (User.Identity.IsAuthenticated)
             {
             @inject Microsoft.AspNetCore.Identity.UserManager<AppUser> UserManager
                 var user = await UserManager.GetUserAsync(User);
 
-                @foreach (var item in Model.OpenToWorks)
+                // Kullanıcının başvurmuş olduğu işlerin Id'lerini bir listeye alalım
+                var userAppliedJobIds = user.OpenToWorks?.Select(work => work.HiringId).ToList() ?? new List<string>();
+
+                if (!userAppliedJobIds.Contains(Model.Id))
                 {
-                    if (user.Id == item.AppUserId)
+                    if (user.EmailConfirmed)
                     {
-                        <p class="btn btn-success">Başvurunuz Alındı</p>
-                        status = false;
+                        <form method="post" asp-controller="Hirings" asp-action="AddOpenToWork" enctype="multipart/form-data">
+                            <input type="text" name="HiringId" value="@Model.Id" />
+                            <input type="text" name="AppUserId" value="@UserManager.GetUserId(User)" />
+
+                            <div class="block clear">
+                                <label for="comment">Açıklama</label>
+                                <textarea name="Description" id="comment" cols="25" rows="10"></textarea>
+                            </div>
+
+                            <div class="block clear">
+                                <label for="comment">Tam İsminiz</label>
+                                <input type="text" name="ApplicantName" id="comment" cols="25" rows="10" />
+                            </div>
+
+                            <div class="block clear">
+                                <label for="comment">Adresiniz</label>
+                                <input type="text" name="ApplicantAddress" id="comment" cols="25" rows="10" />
+                            </div>
+
+                            <div class="block clear">
+                                <label for="comment">Tel No</label>
+                                <input type="number" name="ApplicantPhone" id="comment" cols="25" rows="10">
+                            </div>
+
+                            <div class="block clear">
+                                <label for="comment">CVNİZ</label>
+                                <input type="file" name="CVPdf" id="comment" cols="25" rows="10">
+                            </div>
+
+                            <button class="btn btn-outline-primary">Başvuruyu Kaydet</button>
+
+                            <div>
+                                <input type="reset" name="reset" value="Yazıyı Sil">
+                            </div>
+                        </form>
                     }
-                    if (status == true)
+                    else
                     {
-
-
-
-                        if (user.EmailConfirmed == true)
-                        {
-
-                            <form method="post" asp-controller="Hirings" asp-action="AddOpenToWork">
-                                <input type="text" name="HiringId" value="@Model.Id" />
-                                <input type="text" name="AppUserId" value="@UserManager.GetUserId(User)" />
-                                <div class="block clear">
-                                    <label for="comment">Açıklama</label>
-                                    <textarea name="Description" id="comment" cols="25" rows="10"></textarea>
-                                </div>
-                                <div class="block clear">
-                                    <label for="comment">Tam İsminiz</label>
-                                    <input type="text" name="ApplicantName" id="comment" cols="25" rows="10" />
-                                </div>
-                                <div class="block clear">
-                                    <label for="comment">Adresiniz</label>
-                                    <input type="text" name="ApplicantAddress" id="comment" cols="25" rows="10" />
-                                </div>
-                                <div class="block clear">
-                                    <label for="comment">Tel No</label>
-                                    <input type="number" name="ApplicantPhone" id="comment" cols="25" rows="10">
-                                </div>
-                                <button class="btn btn-outline-primary">Başvuruyu Kaydet</button>
-                                <div>
-                                    <input type="reset" name="reset" value="Yazıyı Sil">
-                                </div>
-                            </form>
-
-
-                        }
-                        else
-                        {
-                            <h2>İş Başvurusu Yapabilmek için mailinizi doğrulamanız gerekmektedir <a href="/MailConfirm/Index">Mailinizi Doğrulamak için tıklayınız</a></h2>
-                        }
+                        <h2>İş Başvurusu Yapabilmek için mailinizi doğrulamanız gerekmektedir <a href="/MailConfirm/Index">Mailinizi Doğrulamak için tıklayınız</a></h2>
                     }
-
+                }
+                else
+                {
+                    <p class="btn btn-outline-success">Başvurunuz Alındı</p>
                 }
             }
-
-
-            else
-            {
-                <h2>İş Başvurusu Yapabilmek İçin <a href="/Account/Login">Giriş</a> Yapınız</h2>
-            }
-
-
-
         </div>
+
+        <div class="sidebar one_quarter">
+            <h6>Lorem ipsum dolor</h6>
+            <nav class="sdb_holder">
+                <ul>
+                    <li><a href="#">Navigation - Level 1</a></li>
+                    <!-- Diğer menü öğeleri -->
+                </ul>
+            </nav>
+            <!-- Diğer sidebar içeriği -->
+        </div>
+    </main>
 </div>
-
-<div class="sidebar one_quarter">
-    <h6>Lorem ipsum dolor</h6>
-    <nav class="sdb_holder">
-        <ul>
-            <li><a href="#">Navigation - Level 1</a></li>
-            <!-- Diğer menü öğeleri -->
-        </ul>
-    </nav>
-    <!-- Diğer sidebar içeriği -->
-</div>
-</main>
-
-
-
-

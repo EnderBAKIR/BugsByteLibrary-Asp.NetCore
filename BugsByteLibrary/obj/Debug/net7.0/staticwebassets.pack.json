@@ -345,6 +345,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\d7410325-0da5-4801-a9a3-b7ad0d683c01.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\d7410325-0da5-4801-a9a3-b7ad0d683c01.pdf"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\errors.png",
       "PackagePath": "staticwebassets\\errors.png"
     },

@@ -123,6 +123,23 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
             return RedirectToAction(nameof(GetHiringDetails) , new {id = TempData["hiringId"] });
 
         }
+        public IActionResult DownloadPdf(string pdfName)
+        {
+            
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "cvpdf", pdfName);
+
+            
+            if (System.IO.File.Exists(filePath))
+            {
+                var fileBytes = System.IO.File.ReadAllBytes(filePath);
+                return File(fileBytes, "application/pdf", pdfName);
+            }
+            else
+            {
+               
+                return NotFound();
+            }
+        }
 
     }
 }

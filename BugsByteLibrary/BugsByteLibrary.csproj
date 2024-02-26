@@ -14,6 +14,7 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\User\Data\" />
     <Folder Include="wwwroot\blogsimages\" />
+    <Folder Include="wwwroot\cvpdf\" />
     <Folder Include="wwwroot\userimages\" />
     <Folder Include="wwwroot\smartEDU\uploads\" />
   </ItemGroup>
