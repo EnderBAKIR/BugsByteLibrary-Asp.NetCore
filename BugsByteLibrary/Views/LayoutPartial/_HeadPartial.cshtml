@@ -3,4 +3,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="/Jeren/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+    <style>
+        .blog-list {
+            padding-left: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .blog-item {
+            flex: 0 0 calc(25% - 15px); /* Dört sütunlu grid için hesaplama */
+            margin-bottom: 20px;
+        }
+    </style>
 </head>

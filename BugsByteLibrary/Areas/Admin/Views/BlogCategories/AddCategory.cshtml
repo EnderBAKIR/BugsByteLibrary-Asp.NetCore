@@ -1,19 +1,27 @@
 ﻿@model Category
 @{
     ViewData["Title"] = "AddCategoryAsync";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Kategori Ekleme</h1>
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Kategori İşlemleri</h1>
+            </div>
 
 
-<form method="post" asp-action="AddCategory" asp-controller="BlogCategories" >
-   
-    <div class="form-group">
-        <input type="text" asp-for="Name" placeholder="Kategori İsmi" />
+            <form method="post" asp-action="AddCategory" asp-controller="BlogCategories">
+
+                <div class="form-group">
+                    <input type="text" asp-for="Name" placeholder="Kategori İsmi" />
+                </div>
+
+
+                <button class="btn btn-primary">Yeni Kategori Ekle</button>
+            </form>
+        </div>
     </div>
-   
-    
-    <button class="btn btn-primary">Yeni Kategori Ekle</button>
-</form>
+</div>
 

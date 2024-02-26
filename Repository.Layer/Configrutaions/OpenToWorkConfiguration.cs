@@ -17,7 +17,7 @@ namespace Repository.Layer.Configrutaions
             
 
 
-            builder.HasOne(x => x.AppUser).WithMany(x => x.OpenToWorks).HasForeignKey(x => x.AppUserId).OnDelete(DeleteBehavior.NoAction);//User silinsin ama ona ait İş Başvuruları(OpenToWork.cs)  ileriye dönük işçi arama işlemleri için böyle bir karar alındı.
+            builder.HasOne(x => x.AppUser).WithMany(x => x.OpenToWorks).HasForeignKey(x => x.AppUserId).OnDelete(DeleteBehavior.NoAction);//User silinsin ama ona ait İş Başvuruları(OpenToWork.cs) silinmesin ileriye dönük işçi arama işlemleri için böyle bir karar alındı.
         }
     }
 }

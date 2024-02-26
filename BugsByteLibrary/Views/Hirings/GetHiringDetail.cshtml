@@ -30,8 +30,8 @@
                     if (user.EmailConfirmed)
                     {
                         <form method="post" asp-controller="Hirings" asp-action="AddOpenToWork" enctype="multipart/form-data">
-                            <input type="text" name="HiringId" value="@Model.Id" />
-                            <input type="text" name="AppUserId" value="@UserManager.GetUserId(User)" />
+                            <input type="hidden" name="HiringId" value="@Model.Id" />
+                            <input type="hidden" name="AppUserId" value="@UserManager.GetUserId(User)" />
 
                             <div class="block clear">
                                 <label for="comment">Açıklama</label>

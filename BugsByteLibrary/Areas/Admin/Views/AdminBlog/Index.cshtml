@@ -37,7 +37,7 @@
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
-                                        if (item.InformationBlog == false && item.CodeBank == false)
+                                        if (item.InformationBlog == false && item.CodeBank == false && item.Status == true)
                                         {
                                             <tr>
                                                 <td>@item.Id</td>

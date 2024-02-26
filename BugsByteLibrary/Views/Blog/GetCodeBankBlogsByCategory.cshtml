@@ -26,16 +26,16 @@
             <div id="gallery">
                 <figure>
 
-                    <ul class="nospace clear">
+                    <ul class="blog-list">
 
                         @foreach (var item in Model.BlogCategories)
                         {
                             if (item.Blog.Status == true && item.Blog.InformationBlog == false && item.Blog.CodeBank == true)
                             {
-                                <li class="one_quarter">
+                                <li class="blog-item">
 
 
-                                    <div class="card" style="width: 18rem;">
+                                    <div class="card" style="width: 18rem; margin-bottom: 30px;">
                                         <img src="/mainblogimage/kodbankasi.jpg" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">@item.Blog.Name</h5>

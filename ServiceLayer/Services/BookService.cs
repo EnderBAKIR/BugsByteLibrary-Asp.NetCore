@@ -32,10 +32,10 @@ namespace Service.Layer.Services
             return book;
         }
 
-        public async void DeleteBookAsync(EBook book)
+        public void DeleteBookAsync(EBook book)
         {
             _bookRepository.DeleteBookAsync(book);
-            await _unitOfWork.CommitAsync();
+             _unitOfWork.Commit();
 
         }
 
@@ -49,10 +49,10 @@ namespace Service.Layer.Services
             return await _bookRepository.GetBookByIdAsync(id);
         }
 
-        public async void UpdateBookAsync(EBook book)
+        public  void UpdateBookAsync(EBook book)
         {
             _bookRepository.UpdateBookAsync(book);
-            await _unitOfWork.CommitAsync();
+             _unitOfWork.Commit();
         }
     }
 }

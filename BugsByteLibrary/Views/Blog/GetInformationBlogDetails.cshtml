@@ -32,6 +32,21 @@
                 }
             </div>
         </div>
+
+        <div class="sidebar one_quarter">
+            <h6>Son Bloglar</h6>
+            <nav class="sdb_holder">
+                <ul>
+
+                     @await Component.InvokeAsync("_LastSixInformationBlogs")
+                    <!-- Diğer menü öğeleri -->
+                </ul>
+            </nav>
+            <!-- Diğer sidebar içeriği -->
+        </div>
+
+
+
     </main>
 </div>
 

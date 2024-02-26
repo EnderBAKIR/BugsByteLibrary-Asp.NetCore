@@ -132,7 +132,7 @@ namespace BugsByteLibrary.Controllers
             return RedirectToAction("GetBlogDetails", "Blog", new { id = blogId });
         }
 
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddCommentCodeBank(int blogId, Comment comment)
         {

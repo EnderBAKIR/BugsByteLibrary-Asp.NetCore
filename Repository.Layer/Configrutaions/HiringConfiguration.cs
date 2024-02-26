@@ -17,7 +17,7 @@ namespace Repository.Layer.Configrutaions
             
 
 
-            builder.HasMany(x => x.OpenToWorks).WithOne(x => x.Hiring).HasForeignKey(x => x.HiringId).OnDelete(DeleteBehavior.NoAction);//Hiring silinsin fakat ona ait yapılan başvurular(OpenToWork.cs) silinmesin , ileriye dönük işçi aramak için.
+            builder.HasMany(x => x.OpenToWorks).WithOne(x => x.Hiring).HasForeignKey(x => x.HiringId).OnDelete(DeleteBehavior.NoAction);//Hiring silinsin fakat ona ait yapılan başvurular(OpenToWork.cs) silinmesin , ileriye dönük iş ağı oluşturmak için.
 
         }
     }

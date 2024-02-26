@@ -49,7 +49,7 @@ namespace Repository.Layer.Repositories
 
         public async Task<Blog> GetBlogByIdAsync(int id)
         {
-            return await _blogSet.Include(x => x.AppUser).Include(x => x.Comments).FirstOrDefaultAsync(x=>x.Id==id);
+            return await _blogSet.Include(x => x.AppUser).Include(x => x.Comments).ThenInclude(x=>x.Appuser).FirstOrDefaultAsync(x=>x.Id==id);
             
         }
 
@@ -92,7 +92,7 @@ namespace Repository.Layer.Repositories
 
         public async Task<IEnumerable<Blog>> GetLastSixBlogAsync(int id)//son eklenen 4 blogun listelenmesi için
         {
-            return await _blogSet.OrderByDescending(b => b.Id).Take(3).ToListAsync();
+            return await _blogSet.OrderByDescending(b => b.Id == id).Take(3).ToListAsync();
         }
     }
 }

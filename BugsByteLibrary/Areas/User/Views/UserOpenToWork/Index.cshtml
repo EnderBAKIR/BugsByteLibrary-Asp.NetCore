@@ -33,38 +33,42 @@
 
                                 @foreach (var item in Model)
                                 {
-                                    <tr>
-                                        <td>@item.Id</td>
-                                        <td>@item.Hiring.Name</td>
-                                        <td>
-                                            @if (item.Status == true)
-                                            {
-                                                <p>Beklemede</p>
-                                            }
-                                            else
-                                            {
-                                                <p>Red Edildi</p>
-                                            }
-                                        </td>
+                                    if (item.Hiring!=null)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.Hiring.Name</td>
+                                            <td>
+                                                @if (item.Status == true)
+                                                {
+                                                    <p>Beklemede</p>
+                                                }
+                                                else
+                                                {
+                                                    <p>Red Edildi</p>
+                                                }
+                                            </td>
 
-                                        <td>
-                                            @if (item.Status == true)
-                                            {
-                                                
-                                            }
-                                            else
-                                            {
-                                                <a class="btn btn-success" asp-area="" asp-controller="Hirings" asp-action="Index">Yeni İşlere Göz Atın</a>
-                                            }
+                                            <td>
+                                                @if (item.Status == true)
+                                                {
 
-
-                                        </td>
-
+                                                }
+                                                else
+                                                {
+                                                    <a class="btn btn-success" asp-area="" asp-controller="Hirings" asp-action="Index">Yeni İşlere Göz Atın</a>
+                                                }
 
 
+                                            </td>
 
-                                    </tr>
 
+
+
+                                        </tr>
+
+                                    }
+                                   
                                 }
 
 

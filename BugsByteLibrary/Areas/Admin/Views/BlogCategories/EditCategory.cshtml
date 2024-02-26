@@ -4,11 +4,19 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Kategoriyi Güncelle</h1>
-<form method="post" asp-controller="BlogCategories">
-    <div class="form-group">
-        <input type="text" asp-for="Name"  class="form-control" />
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Kategori Güncelle</h1>
+            </div>
+            <form method="post" asp-controller="BlogCategories">
+                <div class="form-group">
+                    <input type="text" asp-for="Name" class="form-control" />
+                </div>
+                <button class="btn btn-primary">Güncelle</button>
+            </form>
+        </div>
     </div>
-    <button class="btn btn-primary">Ekle</button>
-</form>
+</div>
 
