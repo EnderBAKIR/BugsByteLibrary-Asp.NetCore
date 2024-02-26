@@ -1,13 +1,22 @@
 ﻿@model EditRoleViewModel
 @{
     ViewData["Title"] = "EditRole";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Rolü Güncelle</h1>
-<form method="post"  asp-controller="Role" asp-action="EditRole">
-    <input type="hidden" asp-for="RoleId"/>
-    <label asp-for="RoleName"></label>
-    <input type="text" asp-for="RoleName" />
-    <button class="btn btn-outline-success">Rolü Güncelle</button>
-</form>
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Rolü Güncelle</h1>
+            </div>
+
+            <form method="post" asp-controller="Role" asp-action="EditRole">
+                <input type="hidden" asp-for="RoleId" />
+                <label asp-for="RoleName">Rol Adı</label>
+                <input type="text" asp-for="RoleName" />
+                <button class="btn btn-outline-success">Rolü Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>

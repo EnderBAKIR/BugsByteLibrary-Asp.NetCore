@@ -1,14 +1,22 @@
 ﻿@model CreateRoleViewModel
 @{
     ViewData["Title"] = "AddRole";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Yeni Rol Ekle</h1>
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Yeni Rol Ekle</h1>
+            </div>
 
-<form method="post" asp-action="AddRole" asp-controller="Role">
-    <label asp-for="RoleName" ></label>
-    <input type="text" asp-for="RoleName" />
-    <button class="btn btn-outline-success">Rolü Ekle</button>
-</form>
+            <form method="post" asp-action="AddRole" asp-controller="Role">
+                <label asp-for="RoleName">Rol Adı</label>
+                <input type="text" asp-for="RoleName" />
+                <button class="btn btn-outline-success">Rolü Ekle</button>
+            </form>
 
+        </div>
+    </div>
+</div>

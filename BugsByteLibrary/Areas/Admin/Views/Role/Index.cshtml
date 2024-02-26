@@ -1,49 +1,68 @@
 ﻿@model List<AppRole>
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
     int count = 0;
 }
 
-<h1>Rol listesi</h1>
 
-<table class="table table-bordered">
-
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Rol</th>
-            <th>Sil</th>
-            <th>Güncelle</th>
-
-        </tr>
-    </thead>
-    <tbody>
-        @if (Model.Count > 0)
-        {
-
-
-            @foreach (var item in Model)
-            {
-                count++;
-
-                <tr>
-                    <td>@count</td>
-                    <td>@item.Name</td>
-                    <td><a class="btn btn-outline-danger" href="/Admin/Role/DeleteRole/@item.Id">Sil</a></td>
-                    <td><a class="btn btn-outline-primary" href="/Admin/Role/EditRole/@item.Id">Güncelle</a></td>
-                </tr>
-
-
-            }
-        }
-        else
-        {
-            <div>
-                <span class="alert-danger"> Herhangi bir rol bilgisine ulaşılamadı </span>
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Rol İşlemleri</h1>
             </div>
-        }
+            <!-- /.col-lg-12 -->
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Roller
+                    </div>
 
-    </tbody>
-</table>
-<h2><a class="btn btn-outline-primary" href="/Admin/Role/AddRole">Yeni Rol Ekle</a></h2>
+                    <table class="table table-bordered">
+
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Rol</th>
+                                <th>Sil</th>
+                                <th>Güncelle</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.Count > 0)
+                            {
+
+
+                                @foreach (var item in Model)
+                                {
+                                    count++;
+
+                                    <tr>
+                                        <td>@count</td>
+                                        <td>@item.Name</td>
+                                        <td><a class="btn btn-outline-danger" href="/Admin/Role/DeleteRole/@item.Id">Sil</a></td>
+                                        <td><a class="btn btn-outline-primary" href="/Admin/Role/EditRole/@item.Id">Güncelle</a></td>
+                                    </tr>
+
+
+                                }
+                            }
+                            else
+                            {
+                                <div>
+                                    <span class="alert-danger"> Herhangi bir rol bilgisine ulaşılamadı </span>
+                                </div>
+                            }
+
+                        </tbody>
+                    </table>
+                    <h2><a class="btn btn-outline-primary" href="/Admin/Role/AddRole">Yeni Rol Ekle</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
