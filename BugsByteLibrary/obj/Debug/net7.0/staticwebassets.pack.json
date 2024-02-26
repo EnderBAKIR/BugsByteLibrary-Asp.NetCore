@@ -761,8 +761,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\Hiring.jpg",
+      "PackagePath": "staticwebassets\\mainblogimage\\Hiring.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\booksbyte.jpg",
       "PackagePath": "staticwebassets\\mainblogimage\\booksbyte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\kodbankasi.jpg",
+      "PackagePath": "staticwebassets\\mainblogimage\\kodbankasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\kurslar.jpg",
+      "PackagePath": "staticwebassets\\mainblogimage\\kurslar.jpg"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
