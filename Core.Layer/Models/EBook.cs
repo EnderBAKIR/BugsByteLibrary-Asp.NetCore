@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
@@ -20,8 +22,10 @@ namespace Core.Layer.Models
         public DateTime CreatedDate { get; set; }
 
         public DateTime? UpdateDate { get; set; }
+        public string? PdfUrl { get; set; }
 
-      
+        [NotMapped]
+        public IFormFile? Pdf { get; set; }
 
 
     }

@@ -50,10 +50,18 @@
 
                                             if (ViewBag.CommentCount != null)
                                             {
-                                            if (ViewBag.CommentCount > item.Price)
-                                            {
-                                                <a asp-controller="Blog" asp-action="GetBlogDetails" asp-route-id="@item.Id" class="btn btn-primary">Bakalım Neler Var</a>
-                                            }
+                                                if (ViewBag.CommentCount > item.Price)
+                                                {
+                                                    if (item.PdfUrl != null && item.PdfUrl.Length > 0)
+                                                    {
+                                                        <a href="@Url.Action("DownloadPdf", "Bookses", new { pdfName = item.PdfUrl })" class="btn btn-success">Kitabı İndir</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p class ="btn btn-success">Çok yakında </p>
+                                                    }
+
+                                                }
 
                                                 else
                                                 {
@@ -61,15 +69,15 @@
                                                 }
 
                                             }
-                                            
+
 
 
                                         }
 
-                                        
+
                                         else
                                         {
-                                        <p><a asp-action="Login" asp-controller="Account">Lütfen Önce Giriş Yapınız</a></p>
+                                            <p><a asp-action="Login" asp-controller="Account">Lütfen Önce Giriş Yapınız</a></p>
                                         }
 
 

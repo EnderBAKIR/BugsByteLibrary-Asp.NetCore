@@ -341,8 +341,16 @@
       "PackagePath": "staticwebassets\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\c4a9aac5-70bb-4ccd-917f-5afc0cf34d3b.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\c4a9aac5-70bb-4ccd-917f-5afc0cf34d3b.pdf"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\958574f2-256b-4b72-868b-dd6aece83e5d.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\958574f2-256b-4b72-868b-dd6aece83e5d.pdf"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\d7410325-0da5-4801-a9a3-b7ad0d683c01.pdf",

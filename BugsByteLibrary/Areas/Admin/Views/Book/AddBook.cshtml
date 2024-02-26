@@ -4,32 +4,41 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<div class="row">
-    <div class="col-md-offset-md-5">
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Kitap EKleme</h1>
+            </div>
 
 
-        <div class="card-body">
+            <div class="card-body">
 
 
-            <form method="post"  asp-action="AddBook" asp-controller="Book" enctype="multipart/form-data">
-                
-                <div class="form-group">
-                    <label for="Name"> Kitap Adı:</label>
-                    <input type="text" asp-for="Name" />
-                </div>
-                <div>
-                    <label for="Name"> Kitabın Kısa Açıklaması:</label>
-                    <input type="text" asp-for="Description" class="form-control"/>
-                </div>
+                <form method="post" asp-action="AddBook" asp-controller="Book" enctype="multipart/form-data">
 
-                <div class="form-group">
-                    <label for="Title"> Kitaba Erişmek İçin Yorum Sınırı</label>
-                    <input type="number" asp-for="Price" />
-                </div>
-                <button type="submit" class="btn btn-primary">Ekle</button>
-            </form>
+                    <div class="form-group">
+                        <label for="Name"> Kitap Adı:</label>
+                        <input type="text" asp-for="Name" />
+                    </div>
+                    <div>
+                        <label for="Name"> Kitabın Kısa Açıklaması:</label>
+                        <input type="text" asp-for="Description" class="form-control" />
+                    </div>
+                    <div>
+                        <label for="Name"> Kitabın Pdf Belgesini YÜkleyiniz:</label>
+                        <input type="file" asp-for="Pdf" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Title"> Kitaba Erişmek İçin Yorum Sınırı</label>
+                        <input type="number" asp-for="Price" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ekle</button>
+                </form>
 
+            </div>
         </div>
     </div>
 </div>
+    
 

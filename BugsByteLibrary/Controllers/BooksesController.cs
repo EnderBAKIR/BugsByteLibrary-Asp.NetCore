@@ -30,11 +30,28 @@ namespace BugsByteLibrary.Controllers
                 
             }
 
-            
-
             var values= await _bookService.GetAllBookAsync();
 
             return View(values);
+        }
+
+
+        public IActionResult DownloadPdf(string pdfName)
+        {
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "bookspdf", pdfName);
+
+
+            if (System.IO.File.Exists(filePath))
+            {
+                var fileBytes = System.IO.File.ReadAllBytes(filePath);
+                return File(fileBytes, "application/pdf", pdfName);
+            }
+            else
+            {
+
+                return NotFound();
+            }
         }
     }
 }

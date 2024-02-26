@@ -27,6 +27,20 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBook(EBook book)
         {
+
+
+            if (book.Pdf != null && book.Pdf.Length > 0)
+            {
+                var pdfExtension = Path.GetExtension(book.Pdf.FileName);
+                var pdfName = Guid.NewGuid().ToString() + pdfExtension;
+                var pdfFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "bookspdf", pdfName);
+                using (var pdfStream = new FileStream(pdfFilePath, FileMode.Create))
+                {
+                    await book.Pdf.CopyToAsync(pdfStream);
+                }
+                book.PdfUrl = pdfName;
+            }
+
             await _bookService.AddBookAsync(book);
 
             return RedirectToAction(nameof(Index));

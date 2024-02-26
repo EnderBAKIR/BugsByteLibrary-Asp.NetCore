@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pxNFPS6Yt0GAaua9vwwEm0cv5XwZdtmk0a63smbr8r4=",
+  "Hash": "qQxNU0A+AxJjiZuMH9oTC0tdxmHDUA1QrE4jE0HYsCM=",
   "Source": "BugsByteLibrary",
   "BasePath": "_content/BugsByteLibrary",
   "Mode": "Default",
@@ -1537,6 +1537,25 @@
       "OriginalItemSpec": "wwwroot\\blogsimages\\e1241b7f-fc1f-4151-9c9b-c6ccfb50a339.jpg"
     },
     {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\c4a9aac5-70bb-4ccd-917f-5afc0cf34d3b.pdf",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "bookspdf/c4a9aac5-70bb-4ccd-917f-5afc0cf34d3b.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bookspdf\\c4a9aac5-70bb-4ccd-917f-5afc0cf34d3b.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
@@ -1554,6 +1573,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\958574f2-256b-4b72-868b-dd6aece83e5d.pdf",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "cvpdf/958574f2-256b-4b72-868b-dd6aece83e5d.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvpdf\\958574f2-256b-4b72-868b-dd6aece83e5d.pdf"
     },
     {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\d7410325-0da5-4801-a9a3-b7ad0d683c01.pdf",
