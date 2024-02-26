@@ -75,7 +75,7 @@ oluşturmak adına bu verilerin veritabanında saklanması tercih edildi.
 ### • Çerçeve Ve Mimari
 1. Asp.Net Core MVC
 2. Katmanlı Mimari
-• ORM Araçları
+### • ORM Araçları
 1. Entity Framework Core 
 2. Entity Framework Core SqlServer
 3. Entity Framework Core Tools
