@@ -35,6 +35,10 @@
                 {
                     <li><a asp-action="Logout" asp-controller="Account">Çıkış Yap</a></li>
                 <li><a asp-area="User" asp-action="Index" asp-controller="UserProfile">PROFİL</a></li>
+                if (User.IsInRole("Admin"))
+                {
+                    <li><a asp-area="Admin" asp-action="Index" asp-controller="AdminDefault">Admin</a></li>
+                }
                 }
                 else
                 {

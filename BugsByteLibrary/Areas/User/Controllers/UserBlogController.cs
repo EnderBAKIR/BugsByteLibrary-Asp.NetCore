@@ -1,4 +1,5 @@
-﻿using Core.Layer.IService;
+﻿using BugsByteLibrary.Controllers;
+using Core.Layer.IService;
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -27,6 +28,13 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index) , "MailConfirm");
+            }
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
@@ -45,6 +53,17 @@ namespace BugsByteLibrary.Areas.User.Controllers
         public async Task<IActionResult> AddBlog(Blog blog)
         {
 
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
+
             ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
 
 
@@ -55,6 +74,19 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBlog(Blog blog, List<int> SelectedCategoryIds)
         {
+
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
+
             ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
 
             if (blog.Image != null)
@@ -109,6 +141,17 @@ namespace BugsByteLibrary.Areas.User.Controllers
         public async Task<IActionResult> UpdateBlog(int id)
         {
 
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
             var blog = await _blogservice.GetBlogByIdAsync(id);
 
             ViewBag.Categories = await _categoryService.GetAllCategoryAsync();//categorileri bir checkbox nesnesine atayabilmek için
@@ -124,6 +167,17 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateBlog(Blog blog, List<int> SelectedCategoryIds)
         {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
 
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.UserId = user.Id;
@@ -166,6 +220,16 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         public async Task<IActionResult> DeleteBlog(int id)
         {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
 
             var blog = await _blogservice.GetBlogByIdAsync(id);
             await _blogservice.DeleteBlog(blog);

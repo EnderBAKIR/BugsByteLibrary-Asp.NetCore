@@ -1,4 +1,5 @@
-﻿using Core.Layer.IService;
+﻿using BugsByteLibrary.Controllers;
+using Core.Layer.IService;
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -22,6 +23,16 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         public async Task<IActionResult> Index()
         {
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
             var comments = await _commentService.GetCommentsByUserIdAsync(user.Id);
@@ -32,6 +43,17 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         public async Task<IActionResult> DeleteComment(Comment comment , int commentId)//burada aslında gerçekte kullanıcı yorumunu silemiycek sadece statusunu false yapıcak. Güvenlik amacı ile yorumların silinmesi engellendi.
         {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
             comment = await _commentService.GetCommentByIdAsync(comment.Id);
 
             comment.Status = false;
@@ -45,6 +67,16 @@ namespace BugsByteLibrary.Areas.User.Controllers
         public async Task<IActionResult> UpdateComment(int id)
         {
 
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
             ViewBag.userId = user.Id;
@@ -56,6 +88,17 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateComment( Comment comment)
         {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
+
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
             ViewBag.userId = user.Id;

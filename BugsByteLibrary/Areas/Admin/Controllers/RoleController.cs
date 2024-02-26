@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BugsByteLibrary.Areas.Admin.Controllers
 {
-    
+    [Authorize]
     [Area("Admin")]
     public class RoleController : Controller
     {

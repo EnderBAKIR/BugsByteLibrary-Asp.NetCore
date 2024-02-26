@@ -1,10 +1,12 @@
 ﻿using Core.Layer.IRepositories;
 using Core.Layer.IService;
 using Core.Layer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BugsByteLibrary.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class AdminBlogController : Controller
     {
@@ -18,6 +20,11 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
             var values =await _blogService.GetAllBlogAsync();
                 
 
@@ -26,6 +33,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> ChangeStatusFalse(Blog blog , int id)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
             blog = await _blogService.GetBlogByIdAsync(id);
 
             blog.Status = false;
@@ -37,6 +50,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> ChangeStatusTrue(Blog blog, int id)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
             blog = await _blogService.GetBlogByIdAsync(id);
 
             blog.Status = true;
@@ -49,6 +68,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> DeleteBlog(Blog blog , int id)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
             blog = await _blogService.GetBlogByIdAsync(id);
 
             await _blogService.DeleteBlog(blog);

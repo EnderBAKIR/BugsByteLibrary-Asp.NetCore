@@ -1,11 +1,13 @@
 ﻿using Core.Layer.IService;
 using Core.Layer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.Layer.Services;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BugsByteLibrary.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class AdminCourseController : Controller
     {
@@ -22,6 +24,13 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
             var courses = await _courseService.GetAllCourseAsync();
 
             return View(courses);
@@ -29,6 +38,13 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult>GetCourseDetails(string id)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
             var course = await _courseService.GetCourseByIdAsync(id);
 
             TempData["courseId"] = course.Id;
@@ -47,6 +63,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCourse(CourseRequest course)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
             await _courseService.AddCourseAsync(course);
 
             return RedirectToAction(nameof(Index));
@@ -55,6 +77,13 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> UpdateCourse(string id)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
             var course = await _courseService.GetCourseByIdAsync(id);
 
             return View(course);
@@ -63,7 +92,12 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateCourse(CourseRequest course, string id)
         {
-            
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
 
             course.Status = true;
             await _courseService.UpdateCourseAsync(course);
@@ -74,6 +108,14 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> DeleteCourse(CourseRequest course , string id)
         {
+
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
             course = await _courseService.GetCourseByIdAsync(id);
 
             await _courseService.DeleteCourseAsync(course);
@@ -83,6 +125,14 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> ChangeStatusFalse(CourseRequest course, string id)
         {
+
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
             course = await _courseService.GetCourseByIdAsync(id);
             course.Status = false;
 
@@ -93,6 +143,14 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
 
         public async Task<IActionResult> ChangeStatusTrue(CourseRequest course, string id)
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
+
             course = await _courseService.GetCourseByIdAsync(id);
             course.Status = true;
 
@@ -102,8 +160,11 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
         }
         public async Task<IActionResult> AddCode(string id , CourseCode courseCode)
         {
-            
-            
+
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
 
             await _courseCodeService.UpdateCourseCodeAsync(courseCode);
 

@@ -1,4 +1,5 @@
-﻿using Core.Layer.IService;
+﻿using BugsByteLibrary.Controllers;
+using Core.Layer.IService;
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -23,6 +24,16 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         public async Task<IActionResult> Index()
         {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
 
             var openToWorks = await _openToWorkService.GetOpenWorksByUserIdAsync(user.Id);
@@ -35,6 +46,16 @@ namespace BugsByteLibrary.Areas.User.Controllers
         [HttpGet]
         public async Task<IActionResult> UpdateOpenToWork(string id)
         {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
             var openToWork = await _openToWorkService.GetOpenToWorkByIdAsnc(id);
 
             return View(openToWork);
@@ -42,7 +63,17 @@ namespace BugsByteLibrary.Areas.User.Controllers
 
         [HttpPost]
         public async Task<IActionResult> UpdateOpenToWork(OpenToWork openToWork)
-        {   
+        {
+
+            var userMail = await _userManager.FindByNameAsync(User.Identity.Name);
+
+            // Eğer kullanıcı e-posta doğrulaması yapmamışsa, kullanıcıyı mail doğrulama işlemine atıcak
+            if (!userMail.EmailConfirmed)
+            {
+                return RedirectToAction(nameof(MailConfirmController.Index), "MailConfirm");
+            }
+
+
             openToWork.Status = true;
             openToWork.UpdateTime= DateTime.Now;
 
