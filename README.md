@@ -1,6 +1,21 @@
 # Ender Bakır ASP.Net Core Mvc Bitirme Projesi
 ## Projenin Adı : “BugsByteLibrary”
 ### Projenin Amacı
+BugsByteLibrary'nin amacı, yazılımda açık kaynak yardımlaşmayı arttırmak, 
+desteklemek ve bunu keyifli bir hale getirmektir.
+BugsByteLibrary'de kullanıcılar, kod yazarken karşılarına çıkan engelleri, onları artık 
+bunaltıcı seviyeye getiren problemleri ve aldıkları hataları diğer kullanıcılar ile paylaşıp 
+bu derdine bir çözüm bulabiliyor. Aynı sıkıntıları yaşayan diğer kullanıcılar ise bu yapıdan 
+yararlanabiliyorlar.
+Sitede kullanıcıların gezinmesi ve yeni bir şeyler öğrenmesi için yapıcı seçenekler mevcut. 
+Bunlardan kısaca bahsetmek gerekirse, e-kitaplar, bilgilendirici bloglar ve en önemlisi 
+kod bankası blogları ile kurslardır.
+Kullanıcılar, diğer kişilerin bloglarına yorum yaparak, kod bankalarında belirlenen 
+modeller için kodlar yazarak yorum sayılarını arttırıyor ve yaptıkları yorumlara göre ekitaplara, kurslara erişim sağlayabiliyorlar. Bu sayede kullanıcıyı site içerisinde daha çok 
+tutmaya, diğer insanlara yardımcı olmaya istekli hale getirmiş oluyoruz.
+Sitenin doğası gereği yazılımcıları içerisine çektiği için istihdam alanları da bulunuyor. 
+Site yönetimi tarafından açılan iş ilanlarına kullanıcılar başvuru yapabiliyor, bu sayede 
+sadece bir forum sitesi olmaktan çıkıp farklı bir sektöre de hitap eden bir yapıya bürünmüş oluyor.
 
 ------------
 
