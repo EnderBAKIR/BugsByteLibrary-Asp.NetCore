@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LrBgjygtK0141hYptHTPs9WwoDmZu8/KtlDNjxcUXfE=",
+  "Hash": "Du+Ln6BuX2YbYCWx17jKzUry0R20/6mj1/FYNjK4dik=",
   "Source": "BugsByteLibrary",
   "BasePath": "_content/BugsByteLibrary",
   "Mode": "Default",
@@ -1746,6 +1746,25 @@
       "OriginalItemSpec": "wwwroot\\cvpdf\\1552c76d-11dc-49dd-a733-a6502e64567d.pdf"
     },
     {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\6c004520-e91f-4dce-8ccb-2246ea2d2720.pdf",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "cvpdf/6c004520-e91f-4dce-8ccb-2246ea2d2720.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvpdf\\6c004520-e91f-4dce-8ccb-2246ea2d2720.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\868a1e16-d39b-4b3e-8250-52f292b40834.pdf",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
@@ -1839,6 +1858,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\cvpdf\\93709ff0-33ff-4d4a-8b31-ec98384f3a3a.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\e053fb61-c7d4-4b51-ba28-ce00e8328292.pdf",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "cvpdf/e053fb61-c7d4-4b51-ba28-ce00e8328292.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cvpdf\\e053fb61-c7d4-4b51-ba28-ce00e8328292.pdf"
     },
     {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\fc5fb348-27e8-4876-8d2c-603b81f8ccaf.pdf",
@@ -4007,6 +4045,25 @@
       "OriginalItemSpec": "wwwroot\\userimages\\5de40a98-843b-439b-a5c5-229f993c2d5d.jfif"
     },
     {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\628b0437-067e-4604-b59d-db8ed795c7da.jpg",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "userimages/628b0437-067e-4604-b59d-db8ed795c7da.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\628b0437-067e-4604-b59d-db8ed795c7da.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\64ac8f23-f33a-4a0a-9d16-c6a5a2a54a85.jfif",
       "SourceId": "BugsByteLibrary",
       "SourceType": "Discovered",
@@ -4100,6 +4157,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\userimages\\ed9a64ca-4936-4686-8fd2-40848a076d15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\ee9bf28b-8ad5-45fe-adaa-9fc0451cc26d.jfif",
+      "SourceId": "BugsByteLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\",
+      "BasePath": "_content/BugsByteLibrary",
+      "RelativePath": "userimages/ee9bf28b-8ad5-45fe-adaa-9fc0451cc26d.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\ee9bf28b-8ad5-45fe-adaa-9fc0451cc26d.jfif"
     },
     {
       "Identity": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\f3c89e0a-0ee4-4bdd-a05d-27086c89bbe1.jpg",

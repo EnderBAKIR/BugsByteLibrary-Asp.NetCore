@@ -52,20 +52,20 @@ namespace BugsByteLibrary.Controllers
                     {
                         MimeMessage mimeMessage = new MimeMessage();
 
-                        MailboxAddress mailboxAddressFrom = new MailboxAddress("BugsByteLibrary'den", "ender.bkrr@gmail.com");
+                        MailboxAddress mailboxAddressFrom = new MailboxAddress("BugsByteLibrary'den", "bugsbytelibrary@gmail.com");
                         MailboxAddress mailboxAddressTo = new MailboxAddress("User", appUser.Email);
                         mimeMessage.From.Add(mailboxAddressFrom);
                         mimeMessage.To.Add(mailboxAddressTo);
 
                         var bodyBuilder = new BodyBuilder();
-                        bodyBuilder.TextBody = "Kayıt işlmini gerçekleştirmek için onay kodunuz:" + mailConfirmCode;
+                        bodyBuilder.TextBody = "Kayıt işlemini gerçekleştirmek için onay kodunuz:" + mailConfirmCode;
                         mimeMessage.Body = bodyBuilder.ToMessageBody();
 
                         mimeMessage.Subject = "BugsBytes demeniz bir kod uzakda , mail doğrulama işlemi için kodunuz";
 
                         SmtpClient client = new SmtpClient();
                         client.Connect("smtp.gmail.com", 587, false);
-                        client.Authenticate("ender.bkrr@gmail.com", "hlah hbdm uekk nuas");
+                        client.Authenticate("bugsbytelibrary@gmail.com", "wrua bfde bcrj jrxi");
                         client.Send(mimeMessage);
                         client.Disconnect(true);
 
