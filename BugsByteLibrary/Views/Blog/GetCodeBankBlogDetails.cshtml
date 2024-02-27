@@ -109,8 +109,8 @@
                     {
                         <h2>Bir Yorum Bırakın (Yorum yaparken etik kurallara uyunuz)</h2>
                         <form method="post" asp-controller="Blog" asp-action="AddCommentCodeBank">
-                            <input type="text" name="BlogId" value="@Model.Id" />
-                            <input type="text" name="AppUserId" value="@UserManager.GetUserId(User)" />
+                            <input type="hidden" name="BlogId" value="@Model.Id" />
+                            <input type="hidden" name="AppUserId" value="@UserManager.GetUserId(User)" />
                             <div class="block clear">
                                 <label for="comment">Yorumunuz</label>
                                 <textarea name="CommentContent" id="comment" cols="25" rows="10"></textarea>
@@ -134,10 +134,10 @@
         </div>
 
         <div class="sidebar one_quarter">
-            <h6>Lorem ipsum dolor</h6>
+            <h6>Son Eklen Bloglar</h6>
             <nav class="sdb_holder">
                 <ul>
-                    <li><a href="#">Navigation - Level 1</a></li>
+                    @await Component.InvokeAsync("_LastSixInformationBlogs")
                     <!-- Diğer menü öğeleri -->
                 </ul>
             </nav>

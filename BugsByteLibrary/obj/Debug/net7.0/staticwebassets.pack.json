@@ -305,8 +305,108 @@
       "PackagePath": "staticwebassets\\admin\\pages\\typography.html"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\1206fd91-5957-4edc-bbaf-19c89febb135.png",
+      "PackagePath": "staticwebassets\\blogsimages\\1206fd91-5957-4edc-bbaf-19c89febb135.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\1c3bea2e-d713-441f-a5ec-b89410f10d5d.png",
+      "PackagePath": "staticwebassets\\blogsimages\\1c3bea2e-d713-441f-a5ec-b89410f10d5d.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\2a8e67f8-361e-413a-84e8-f7abc31469aa.png",
+      "PackagePath": "staticwebassets\\blogsimages\\2a8e67f8-361e-413a-84e8-f7abc31469aa.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\343206f5-2f14-4acc-8d5a-08e27a2877d6.png",
+      "PackagePath": "staticwebassets\\blogsimages\\343206f5-2f14-4acc-8d5a-08e27a2877d6.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\6385c513-afda-4d85-9519-ac215cf3d89f.png",
+      "PackagePath": "staticwebassets\\blogsimages\\6385c513-afda-4d85-9519-ac215cf3d89f.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\6e361696-d078-42f6-be33-94f9520ba831.png",
+      "PackagePath": "staticwebassets\\blogsimages\\6e361696-d078-42f6-be33-94f9520ba831.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\799b149a-7b7d-4193-8931-7dd58438bdd7.png",
+      "PackagePath": "staticwebassets\\blogsimages\\799b149a-7b7d-4193-8931-7dd58438bdd7.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\7a3182af-3af0-4059-9357-5338a4ce9e03.png",
+      "PackagePath": "staticwebassets\\blogsimages\\7a3182af-3af0-4059-9357-5338a4ce9e03.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\acee5100-4d3d-4303-a90b-e970de7343a8.png",
+      "PackagePath": "staticwebassets\\blogsimages\\acee5100-4d3d-4303-a90b-e970de7343a8.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\b3371b7b-8e30-4d7f-b135-6ce9aeaf7386.png",
+      "PackagePath": "staticwebassets\\blogsimages\\b3371b7b-8e30-4d7f-b135-6ce9aeaf7386.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\fb25b1e1-677e-4b8b-8539-d98f261267d1.png",
+      "PackagePath": "staticwebassets\\blogsimages\\fb25b1e1-677e-4b8b-8539-d98f261267d1.png"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\11e1ba9d-4b21-4b79-85f5-0f5b7993089e.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\11e1ba9d-4b21-4b79-85f5-0f5b7993089e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\81fe9a34-58dc-4619-bc68-258aac067e91.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\81fe9a34-58dc-4619-bc68-258aac067e91.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\b6cb89f7-cade-42ac-b766-983ac3a70af8.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\b6cb89f7-cade-42ac-b766-983ac3a70af8.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\c685a262-988e-451c-a99d-4fcc69cb8707.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\c685a262-988e-451c-a99d-4fcc69cb8707.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\ecc3cbcb-cabe-4666-a59a-a272a81e703a.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\ecc3cbcb-cabe-4666-a59a-a272a81e703a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\bookspdf\\f7c36bb5-32ed-4e80-bbe2-0798e11d0553.pdf",
+      "PackagePath": "staticwebassets\\bookspdf\\f7c36bb5-32ed-4e80-bbe2-0798e11d0553.pdf"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\12095d25-d19c-4523-9047-7449ada9c399.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\12095d25-d19c-4523-9047-7449ada9c399.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\1552c76d-11dc-49dd-a733-a6502e64567d.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\1552c76d-11dc-49dd-a733-a6502e64567d.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\868a1e16-d39b-4b3e-8250-52f292b40834.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\868a1e16-d39b-4b3e-8250-52f292b40834.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\88b2d8f2-c15e-4cd6-bb9f-e722e2ae6fe6.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\88b2d8f2-c15e-4cd6-bb9f-e722e2ae6fe6.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\891510d7-1ca0-4199-97e7-3985a8163343.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\891510d7-1ca0-4199-97e7-3985a8163343.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\8b554937-b268-4a85-8b87-3da080b4d7ae.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\8b554937-b268-4a85-8b87-3da080b4d7ae.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\93709ff0-33ff-4d4a-8b31-ec98384f3a3a.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\93709ff0-33ff-4d4a-8b31-ec98384f3a3a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\fc5fb348-27e8-4876-8d2c-603b81f8ccaf.pdf",
+      "PackagePath": "staticwebassets\\cvpdf\\fc5fb348-27e8-4876-8d2c-603b81f8ccaf.pdf"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\errors.png",
@@ -731,6 +831,18 @@
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\mainblogimage\\mainblogesimage.jpg",
       "PackagePath": "staticwebassets\\mainblogimage\\mainblogesimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\5de40a98-843b-439b-a5c5-229f993c2d5d.jfif",
+      "PackagePath": "staticwebassets\\userimages\\5de40a98-843b-439b-a5c5-229f993c2d5d.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\64ac8f23-f33a-4a0a-9d16-c6a5a2a54a85.jfif",
+      "PackagePath": "staticwebassets\\userimages\\64ac8f23-f33a-4a0a-9d16-c6a5a2a54a85.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\a17b30b2-35f5-4e88-be45-e334bff1166c.jfif",
+      "PackagePath": "staticwebassets\\userimages\\a17b30b2-35f5-4e88-be45-e334bff1166c.jfif"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\b8f791e8-efe0-4ba0-b5eb-26db05bedd85.jpg",

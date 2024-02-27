@@ -37,7 +37,7 @@
                                 <tbody>
                                     @foreach (var item in Model)
                                     {
-                                        if (item.InformationBlog == false && item.CodeBank == false && item.Status == true)
+                                        if (item.InformationBlog == false && item.CodeBank == false)
                                         {
                                             <tr>
                                                 <td>@item.Id</td>
@@ -51,10 +51,10 @@
                                                     <td>kullanıcı bilgisi bulunamadı</td>
                                                 }
                                                 <td>@item.CreatedDate.ToShortDateString()</td>
-                                                @if (item.UpdateDate != null)
-                                                {
-                                                    <td>@item.UpdateDate?.ToShortDateString()</td>
-                                                }
+
+
+                                                <td>@item.UpdateDate?.ToShortDateString()</td>
+
 
 
 
