@@ -116,3 +116,69 @@ doğrulama işlemini yapmak zorundalar. Maili doğrulanmayan kullanıcılar içi
 kütüphanesinin “MailConfirmed” özelliği değil projemizin gereksinimlerini karşılayan
 doğrulama işlemleri yapıldı. Maili doğrulanmamış kullanıcılar sitede sadece “okuma” 
 işlemlerini gerçekleştirebiliyor ama “Post” istekleri ile alakalı işlemleri kesinlikle yapamıyorlar.
+## Projeye Ait Ekran Görüntüleri
+### Ana Sayfa
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/home.PNG)
+### Blog Kategorileri
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/bugsblog.PNG)
+### Kategoriye Göre Bug Blogları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/categorybugsblog.PNG)
+### Bug Bloğu Detayları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/blogdetails.PNG)
+### Çözüm Yorumu
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/solvercomment.PNG)
+### Bilgilendirici Bloglar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/%C4%B1nformationblog.PNG)
+### Bilgilendirici Blog Detayları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/%C4%B1nformationblogdetails.PNG)
+### Kategorisine Göre Kod Bankaları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/codebankbycategory.PNG)
+### Kod Bankası Bloğu Detayları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/codebankdetails.PNG)
+### Kod Bankası Bloğu Yorumları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/codebankcomments.PNG)
+### Kurslar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/courses.PNG)
+### Kitaplar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/books.PNG)
+### İş İlanları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/hiring.PNG)
+### İş İlanı Detay Ve Başvuru
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/already.PNG)
+## Kullanıcı Tarafı
+### Kullanıcı Profili
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/profil.PNG)
+### Kullanıcıya Ait Bloglar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/bloglar%C4%B1n%C4%B1z.PNG)
+### Kullanıcıya Ait Yorumlar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/yorumlar%C4%B1n%C4%B1z.PNG)
+### Kullanıcının İstediği Kurs Kodları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/kurslar%C4%B1n%C4%B1z.PNG)
+### Kullanıcının İş Başvuruları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/isbasvurlar%C4%B1n%C4%B1z.PNG)
+## Admin Tarafı
+### Kategoriler
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminkategori.PNG)
+### Kullanıcıların Bug Blogları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminuserblog.PNG)
+### Bilgilendirici Bloglar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/admin%C4%B1nformationblogs.PNG)
+### Kod Bankaları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/admincodebanks.PNG)
+### Kullanıcı Yorumları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/admincomments.PNG)
+### Kullanıcı Listesi
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminuserlist.PNG)
+### Roller
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminroles.PNG)
+### Kitaplar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminbooks.PNG)
+### Kurslar
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/admincourselist.PNG)
+### Kursa Ait İstekler
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/admincoursedetails1.PNG)
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/admincoursedetails2.PNG)
+### İş İlanları
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminhirings.PNG)
+### İlana Yapılan Başvurular
+![](https://github.com/EnderBAKIR/BugsByteLibrary-Asp.NetCore/blob/main/BugsByteLibraryScreenShots/adminhiringdetails.PNG)
