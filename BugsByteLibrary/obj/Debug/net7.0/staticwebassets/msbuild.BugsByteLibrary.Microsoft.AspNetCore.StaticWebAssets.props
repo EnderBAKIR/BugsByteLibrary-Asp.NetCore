@@ -1168,6 +1168,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\343206f5-2f14-4acc-8d5a-08e27a2877d6.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\5c34f47c-51fb-4525-bc81-71f74bdf969d.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugsByteLibrary</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugsByteLibrary</BasePath>
+      <RelativePath>blogsimages/5c34f47c-51fb-4525-bc81-71f74bdf969d.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\5c34f47c-51fb-4525-bc81-71f74bdf969d.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\blogsimages\6385c513-afda-4d85-9519-ac215cf3d89f.png))">
       <SourceType>Package</SourceType>
       <SourceId>BugsByteLibrary</SourceId>
@@ -1535,6 +1551,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\cvpdf\93709ff0-33ff-4d4a-8b31-ec98384f3a3a.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\cvpdf\accc2738-ab52-472d-aa36-67c92e12b0b8.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugsByteLibrary</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugsByteLibrary</BasePath>
+      <RelativePath>cvpdf/accc2738-ab52-472d-aa36-67c92e12b0b8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\cvpdf\accc2738-ab52-472d-aa36-67c92e12b0b8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\cvpdf\e053fb61-c7d4-4b51-ba28-ce00e8328292.pdf))">
       <SourceType>Package</SourceType>
@@ -3439,6 +3471,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\b8f791e8-efe0-4ba0-b5eb-26db05bedd85.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\c4f41cfe-2f63-4628-a515-b754f68c9618.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugsByteLibrary</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugsByteLibrary</BasePath>
+      <RelativePath>userimages/c4f41cfe-2f63-4628-a515-b754f68c9618.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\c4f41cfe-2f63-4628-a515-b754f68c9618.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\cdae45a3-5f87-46be-840f-30a9d867d2ec.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>BugsByteLibrary</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BugsByteLibrary</BasePath>
+      <RelativePath>userimages/cdae45a3-5f87-46be-840f-30a9d867d2ec.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\cdae45a3-5f87-46be-840f-30a9d867d2ec.jfif))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\d45257c1-3f9f-47cf-b195-39d8e4c3b251.jpg))">
       <SourceType>Package</SourceType>

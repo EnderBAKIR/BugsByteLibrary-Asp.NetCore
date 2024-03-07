@@ -27,6 +27,8 @@ namespace Core.Layer.Models
 
         public string? CVPdfUrl { get; set; }
 
+        public bool IsConfirmed { get; set; } = false;
+
         [NotMapped]
         public IFormFile? CVPdf { get; set; }
 

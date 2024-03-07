@@ -41,11 +41,18 @@
                                             <td>
                                                 @if (item.Status == true)
                                                 {
-                                                    <p>Beklemede</p>
+                                                    
+                                                    @if (item.IsConfirmed == true)
+                                                    {
+                                                        <p class="text-success">Onaylandı Mailinize Göz Atın</p>
+                                                    }else
+                                                    {
+                                                        <p class="text-warning">Beklemede</p>
+                                                    }
                                                 }
                                                 else
                                                 {
-                                                    <p>Red Edildi</p>
+                                                    <p class="text-danger">Red Edildi</p>
                                                 }
                                             </td>
 

@@ -9,343 +9,343 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BugsByteLibrary
 build_property.RootNamespace = BugsByteLibrary
-build_property.ProjectDir = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary\
+build_property.ProjectDir = C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\BugsByteLibrary-Asp.NetCore\BugsByteLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ender\OneDrive\Masaüstü\Masaüstü\BugsByteLibrary\BugsByteLibrary
+build_property.MSBuildProjectDirectory = C:\Users\Ender\OneDrive\Masaüstü\Belgeler\GitHub\BugsByteLibrary-Asp.NetCore\BugsByteLibrary
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminBlog/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminBlog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/AddBlog.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db2RlQmFua0Jsb2dcQWRkQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db2RlQmFua0Jsb2dcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/UpdateBlog.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCodeBankBlog/UpdateBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db2RlQmFua0Jsb2dcVXBkYXRlQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminComments/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminComments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db21tZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCourse/AddCourse.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCourse/AddCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db3Vyc2VcQWRkQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCourse/GetCourseDetails.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCourse/GetCourseDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db3Vyc2VcR2V0Q291cnNlRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCourse/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCourse/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db3Vyc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminCourse/UpdateCourse.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminCourse/UpdateCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db3Vyc2VcVXBkYXRlQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminDefault/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminDefault/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5EZWZhdWx0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminHiring/AddHiring.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminHiring/AddHiring.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXJpbmdcQWRkSGlyaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminHiring/GetHiringDetails.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminHiring/GetHiringDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXJpbmdcR2V0SGlyaW5nRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminHiring/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminHiring/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXJpbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminHiring/UpdateHiring.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminHiring/UpdateHiring.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5IaXJpbmdcVXBkYXRlSGlyaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/AddBlog.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbmZvcm1hdGlvbkJsb2dcQWRkQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbmZvcm1hdGlvbkJsb2dcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/UpdateBlog.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/AdminInformationBlog/UpdateBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5JbmZvcm1hdGlvbkJsb2dcVXBkYXRlQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/BlogCategories/AddCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/BlogCategories/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3JpZXNcQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/BlogCategories/EditCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/BlogCategories/EditCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3JpZXNcRWRpdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/BlogCategories/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/BlogCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ0NhdGVnb3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Book/AddBook.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Book/AddBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va1xBZGRCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Book/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/AddRole.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Role/AddRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxBZGRSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/EditRole.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Role/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxFZGl0Um9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/GiveRole.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Role/GiveRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxHaXZlUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/Role/UserList.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/Role/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZVxVc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserBlog/AddBlog.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserBlog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQmxvZ1xBZGRCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserBlog/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserBlog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserBlog/UpdateBlog.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserBlog/UpdateBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQmxvZ1xVcGRhdGVCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserComments/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserComments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQ29tbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserComments/UpdateComment.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserComments/UpdateComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQ29tbWVudHNcVXBkYXRlQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserCourseCode/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserCourseCode/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyQ291cnNlQ29kZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserOpenToWork/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserOpenToWork/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyT3BlblRvV29ya1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserOpenToWork/UpdateOpenToWork.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserOpenToWork/UpdateOpenToWork.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyT3BlblRvV29ya1xVcGRhdGVPcGVuVG9Xb3JrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/UserProfile/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/UserProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/_ViewImports.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Areas/User/Views/_ViewStart.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Areas/User/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Account/Login.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Account/Register.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/AdminLayoutPartial/_AdminHeadPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/AdminLayoutPartial/_AdminHeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsXF9BZG1pbkhlYWRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/AdminLayoutPartial/_AdminLeftbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/AdminLayoutPartial/_AdminLeftbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsXF9BZG1pbkxlZnRiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/AdminLayoutPartial/_AdminNavbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/AdminLayoutPartial/_AdminNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsXF9BZG1pbk5hdmJhclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/AdminLayoutPartial/_AdminScriptPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/AdminLayoutPartial/_AdminScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsXF9BZG1pblNjcmlwdFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetAllBlogs.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetAllBlogs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRBbGxCbG9ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetAllCodeBankBlogCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetAllCodeBankBlogCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRBbGxDb2RlQmFua0Jsb2dDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetAllInformationBlogCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetAllInformationBlogCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRBbGxJbmZvcm1hdGlvbkJsb2dDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetBlogDetails.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetBlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRCbG9nRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetBlogsByCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetBlogsByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRCbG9nc0J5Q2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetCodeBankBlogDetails.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetCodeBankBlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRDb2RlQmFua0Jsb2dEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetCodeBankBlogsByCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetCodeBankBlogsByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRDb2RlQmFua0Jsb2dzQnlDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetInformationBlogByCategory.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetInformationBlogByCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRJbmZvcm1hdGlvbkJsb2dCeUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/GetInformationBlogDetails.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/GetInformationBlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xHZXRJbmZvcm1hdGlvbkJsb2dEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Blog/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Bookses/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Bookses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3Nlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/CourseRequest/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/CourseRequest/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlUmVxdWVzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Default/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Hirings/GetHiringDetail.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Hirings/GetHiringDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyaW5nc1xHZXRIaXJpbmdEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Hirings/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Hirings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlyaW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Home/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Home/Privacy.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfRm9vdGVyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/LayoutPartial/_HeadPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/LayoutPartial/_HeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfSGVhZFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/LayoutPartial/_NavbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/LayoutPartial/_NavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfTmF2YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/LayoutPartial/_ScriptPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/LayoutPartial/_ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxfU2NyaXB0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/MailConfirm/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/MailConfirm/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbENvbmZpcm1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/Components/_LastSixInformationBlogs/Default.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/Components/_LastSixInformationBlogs/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3RTaXhJbmZvcm1hdGlvbkJsb2dzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/Components/_LastThreeBlogs/Default.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/Components/_LastThreeBlogs/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xhc3RUaHJlZUJsb2dzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/Error.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/_UILayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/_UILayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VSUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/_UserLayout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/_UserLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/UserLayoutPartial/_UserHeadPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/UserLayoutPartial/_UserHeadPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFBhcnRpYWxcX1VzZXJIZWFkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/UserLayoutPartial/_UserLeftbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/UserLayoutPartial/_UserLeftbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFBhcnRpYWxcX1VzZXJMZWZ0YmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/UserLayoutPartial/_UserNavbarPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/UserLayoutPartial/_UserNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFBhcnRpYWxcX1VzZXJOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/UserLayoutPartial/_UserScriptPartial.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/UserLayoutPartial/_UserScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxheW91dFBhcnRpYWxcX1VzZXJTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/User/Index.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/_ViewImports.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/_ViewStart.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ender/OneDrive/Masaüstü/Masaüstü/BugsByteLibrary/BugsByteLibrary/Views/Shared/_Layout.cshtml]
+[C:/Users/Ender/OneDrive/Masaüstü/Belgeler/GitHub/BugsByteLibrary-Asp.NetCore/BugsByteLibrary/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a7nw2wi8tv

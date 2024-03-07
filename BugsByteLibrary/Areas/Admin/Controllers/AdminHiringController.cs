@@ -176,6 +176,25 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
             return RedirectToAction(nameof(GetHiringDetails) , new {id = TempData["hiringId"] });
 
         }
+
+
+        public async Task<IActionResult> ChangeOpenToWorkIsConfirmtrue(string id)
+        {
+            if (!User.IsInRole("Admin"))
+            {
+                return NotFound();
+            }
+
+
+            var openToWork = await _openToWorkService.GetOpenToWorkByIdAsnc(id);
+            openToWork.Status = true;
+            openToWork.IsConfirmed = true;
+            await _openToWorkService.UpdateOpenToWorkAsync(openToWork);
+
+            return RedirectToAction(nameof(GetHiringDetails), new { id = TempData["hiringId"] });
+
+        }
+
         public IActionResult DownloadPdf(string pdfName)
         {
 

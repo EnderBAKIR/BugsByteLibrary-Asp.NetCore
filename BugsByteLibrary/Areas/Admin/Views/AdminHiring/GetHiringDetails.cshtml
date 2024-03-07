@@ -51,11 +51,21 @@
                                             <td>
                                                 @if (item.Status == true)
                                                 {
-                                                    <a asp-area="Admin" asp-controller="AdminHiring" asp-action="ChangeOpenToWorkStatusFalse" asp-route-id="@item.Id" class="btn btn-warning"> Askıya Al </a>
+                                                    if (item.IsConfirmed == true)
+                                                    {
+                                                        <p class="text-success">Başvuru Onaylandı</p>
+                                                    }else
+                                                    {
+                                                        <a asp-area="Admin" asp-controller="AdminHiring" asp-action="ChangeOpenToWorkStatusFalse" asp-route-id="@item.Id" class="btn btn-warning">Askıya Al</a>
+                                                        <a asp-area="Admin" asp-controller="AdminHiring" asp-action="ChangeOpenToWorkIsConfirmtrue" asp-route-id="@item.Id" class="btn btn-warning">BAşvuruyu Onayla</a>
+                                                    }
+                                                    
+                                                    
                                                 }
                                                 else
                                                 {
                                                     <a class="btn btn-primary" asp-area="Admin" asp-controller="AdminHiring" asp-action="ChangeOpenToWorkStatusTrue" asp-route-id="@item.Id">Askıdan Kaldır </a>
+                                                    
                                                 }
                                                 @if (item.CVPdfUrl !=null && item.CVPdfUrl.Length>0)
                                                 {

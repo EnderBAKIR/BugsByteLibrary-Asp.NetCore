@@ -406,6 +406,9 @@ namespace Repository.Layer.Migrations
                     b.Property<string>("HiringId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<bool>("IsConfirmed")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 

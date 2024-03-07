@@ -321,6 +321,10 @@
       "PackagePath": "staticwebassets\\blogsimages\\343206f5-2f14-4acc-8d5a-08e27a2877d6.png"
     },
     {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\5c34f47c-51fb-4525-bc81-71f74bdf969d.jfif",
+      "PackagePath": "staticwebassets\\blogsimages\\5c34f47c-51fb-4525-bc81-71f74bdf969d.jfif"
+    },
+    {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\blogsimages\\6385c513-afda-4d85-9519-ac215cf3d89f.png",
       "PackagePath": "staticwebassets\\blogsimages\\6385c513-afda-4d85-9519-ac215cf3d89f.png"
     },
@@ -407,6 +411,10 @@
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\93709ff0-33ff-4d4a-8b31-ec98384f3a3a.pdf",
       "PackagePath": "staticwebassets\\cvpdf\\93709ff0-33ff-4d4a-8b31-ec98384f3a3a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\accc2738-ab52-472d-aa36-67c92e12b0b8.jpg",
+      "PackagePath": "staticwebassets\\cvpdf\\accc2738-ab52-472d-aa36-67c92e12b0b8.jpg"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\cvpdf\\e053fb61-c7d4-4b51-ba28-ce00e8328292.pdf",
@@ -859,6 +867,14 @@
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\b8f791e8-efe0-4ba0-b5eb-26db05bedd85.jpg",
       "PackagePath": "staticwebassets\\userimages\\b8f791e8-efe0-4ba0-b5eb-26db05bedd85.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\c4f41cfe-2f63-4628-a515-b754f68c9618.jfif",
+      "PackagePath": "staticwebassets\\userimages\\c4f41cfe-2f63-4628-a515-b754f68c9618.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\cdae45a3-5f87-46be-840f-30a9d867d2ec.jfif",
+      "PackagePath": "staticwebassets\\userimages\\cdae45a3-5f87-46be-840f-30a9d867d2ec.jfif"
     },
     {
       "Id": "C:\\Users\\Ender\\OneDrive\\Masaüstü\\Masaüstü\\BugsByteLibrary\\BugsByteLibrary\\wwwroot\\userimages\\d45257c1-3f9f-47cf-b195-39d8e4c3b251.jpg",
