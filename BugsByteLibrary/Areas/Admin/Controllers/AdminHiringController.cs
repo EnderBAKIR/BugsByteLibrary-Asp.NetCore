@@ -2,7 +2,9 @@
 using Core.Layer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Service.Layer.FluentValidations;
 using Service.Layer.Services;
+using System.Reflection.Metadata;
 
 namespace BugsByteLibrary.Areas.Admin.Controllers
 {
@@ -60,7 +62,19 @@ namespace BugsByteLibrary.Areas.Admin.Controllers
             {
                 return NotFound();
             }
+            var validator = new HiringValidator();
+            var validationResult = validator.Validate(hiring);
 
+            if (!validationResult.IsValid)
+            {
+
+
+                foreach (var error in validationResult.Errors)
+                {
+                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                }
+                return View(hiring);
+            }
             await _hiringService.AddHiringAsync(hiring);
 
             return RedirectToAction(nameof(Index));
